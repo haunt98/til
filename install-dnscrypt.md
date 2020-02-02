@@ -41,11 +41,11 @@ options edns0 single-request-reopen
 Edit `/etc/dnsmasq.conf`:
 
 ```txt
-cache-size=1000
 no-resolv
 server=::1#53000
 server=127.0.0.1#53000
 listen-address=::1,127.0.0.1
+cache-size=1000
 ```
 
 Edit `/etc/NetworkManager/conf.d/dns.conf` to prevent NetworkManager change `/etc/resolv.conf`:
