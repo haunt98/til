@@ -94,7 +94,7 @@ Final step is to read [List of applications](https://wiki.archlinux.org/index.ph
 **Office** - install [LibreOffice](https://wiki.archlinux.org/index.php/LibreOffice).
 
 **Taskbars** - install [Plank](https://wiki.archlinux.org/index.php/Plank).
-Remove plank line across screen in Xfce: Settings Manager > Window Manager Tweaks > Compositor > Uncheck Show shadows under dock windows.
+Remove plank line across screen in Xfce: Settings Manager > Window Manager Tweaks > Compositor > **Uncheck** Show shadows under dock windows.
 
 ---
 
