@@ -94,8 +94,15 @@ Final step is to read [List of applications](https://wiki.archlinux.org/index.ph
 **Office** - install [LibreOffice](https://wiki.archlinux.org/index.php/LibreOffice).
 
 **Taskbars** - install [Plank](https://wiki.archlinux.org/index.php/Plank).
-Remove plank line across screen in Xfce: Settings Manager > Window Manager Tweaks > Compositor > **Uncheck** Show shadows under dock windows.
+
+---
+
+Remove line across screen when using Plank in Xfce: Settings Manager > Window Manager Tweaks > Compositor > **Uncheck** Show shadows under dock windows.
+
+Center windows in Xfce: Settings Manager > Window Manager Tweaks > Placement > Move slider to full large and **Check** At the center of the screen.
 
 ---
 
 This is the end. Future update is coming if I feel something need to be changed or I get boring and change my taste :)
+
+**2020-02-04** Add how to center windows in Xfce.
