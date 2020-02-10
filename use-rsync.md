@@ -9,3 +9,5 @@ rsync -vah src dest
 `--ignore-existing`: Ignore updating existing files in dest.
 
 `--exclude-from=FILE`: Exclude pattern files in FILE.
+
+`-n`: Trial run.
