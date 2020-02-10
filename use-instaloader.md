@@ -6,7 +6,7 @@
 
 Install Instaloader with Python venv.
 
-Create `argx.txt` file with content, remember to change `username` with your real username:
+Create `args.txt` file with content, remember to change `username` with your real username:
 
 ```txt
 --no-video-thumbnails
