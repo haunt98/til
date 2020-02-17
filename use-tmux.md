@@ -4,7 +4,7 @@ Imagine you want to run a long task in terminal, but you don't want to keep term
 
 Run the task in tmux then detach session, after some time attach that session.
 
-Show list of tmux sessions
+Show list of tmux sessions:
 
 ```sh
 tmux ls
