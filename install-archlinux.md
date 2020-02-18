@@ -33,8 +33,8 @@ Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups) t
 
 In step **Graphical user interface**.
 Display server - install [Xorg](https://wiki.archlinux.org/index.php/Xorg).
-Desktop environments - install [Xfce](https://wiki.archlinux.org/index.php/Xfce).
-Display manager - install [LightDM](https://wiki.archlinux.org/index.php/LightDM).
+Desktop environments - install [Xfce](https://wiki.archlinux.org/index.php/Xfce) or [MATE](https://wiki.archlinux.org/index.php/MATE).
+Display manager - install [LightDM](https://wiki.archlinux.org/index.php/LightDM) or [xinit](https://wiki.archlinux.org/index.php/Xinit).
 User directories - install [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
 Read [File manager functionality](https://wiki.archlinux.org/index.php/File_manager_functionality).
 
@@ -106,3 +106,5 @@ Center windows in Xfce: Settings Manager > Window Manager Tweaks > Placement > M
 This is the end. Future update is coming if I feel something need to be changed or I get boring and change my taste :)
 
 **2020-02-04** Add how to center windows in Xfce.
+
+**2020-02-18** Add MATE and xinit.
