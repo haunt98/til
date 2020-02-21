@@ -41,3 +41,9 @@ Update submodules:
 ```sh
 git submodule update --recursive --remote
 ```
+
+Save usernames and passwords in `~/.git-credentials`:
+
+```sh
+git config --global credential.helper store
+```
