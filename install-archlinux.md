@@ -21,8 +21,7 @@ Use `UEFI` if possible, and mount point `/mnt/efi` with `512 MiB`.
 Skip swap because use swap file later.
 
 In step **Boot loader**.
-Use GRUB with [UEFI systems](https://wiki.archlinux.org/index.php/GRUB#UEFI_systems).
-Because strange things will likely happen, use `grub-install` with `--removable`, and remove `--bootloader-id`.
+Use [GRUB with UEFI systems](https://wiki.archlinux.org/index.php/GRUB#UEFI_systems).
 
 ---
 
