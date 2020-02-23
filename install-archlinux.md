@@ -27,8 +27,14 @@ Use [GRUB with UEFI systems](https://wiki.archlinux.org/index.php/GRUB#UEFI_syst
 
 After finish **Installation guide**, don't rush to restart, read [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations) to continue.
 
+Always remember to check dependencies when install packages.
+
 In step **System administration**.
-Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups) to add new user, include [Sudo](https://wiki.archlinux.org/index.php/Sudo) and [Zsh](https://wiki.archlinux.org/index.php/Zsh).
+Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups):
+
+- Add user with [Zsh](https://wiki.archlinux.org/index.php/Zsh) shell.
+- Set password.
+- Enable [Sudo](https://wiki.archlinux.org/index.php/Sudo#Using_visudo) access.
 
 In step **Graphical user interface**.
 Display server - install [Xorg](https://wiki.archlinux.org/index.php/Xorg).
