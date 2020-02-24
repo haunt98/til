@@ -4,6 +4,8 @@ Install Archlinux is thing I always want to do for my laptop/PC since I had my l
 
 This is not a guide for everyone, this is just save for myself in a future and for anyone who want to taste a bit.
 
+Assume your laptop/PC is UEFI-capable.
+
 ---
 
 First thing as breathe air is to read [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide). Read through the guide slowly and carefully.
@@ -13,11 +15,11 @@ After that, get an USB and follow [USB flash installation media](https://wiki.ar
 When booting Archlinux ISO, follow **Installation guide**, step by step.
 
 In step **Connect to the internet**.
-I mainly use Wifi with `wifi-menu`.
+Enable wifi with `wifi-menu`.
 
 In step **Partition the disks**.
 Use `cfdisk`.
-Use `UEFI` if possible, and mount point `/mnt/efi` with `512 MiB`.
+Mount point `/mnt/efi` with `512 MiB`.
 Skip swap because use swap file later.
 
 In step **Boot loader**.
@@ -80,25 +82,7 @@ sudo pacman -Syu && sudo pacman -Rns $(pacman -Qtdq) || true
 
 ---
 
-Final step is to read [List of applications](https://wiki.archlinux.org/index.php/List_of_applications). Be careful cause it's a long list.
-
-**Web browsers** - install [Chromium](https://wiki.archlinux.org/index.php/Chromium), [Firefox](https://wiki.archlinux.org/index.php/Firefox).
-
-**BitTorrent clients** - install [qBittorrent](https://www.archlinux.org/packages/community/x86_64/qbittorrent/).
-
-**Image organizers** - install [Shotwell](https://www.archlinux.org/packages/community/x86_64/shotwell/).
-
-**Screencast** - install [OBS](https://www.archlinux.org/packages/community/x86_64/obs-studio/).
-
-**Text input** - install [Fcitx](https://wiki.archlinux.org/index.php/Fcitx).
-
-**Color management** - install [Redshift](https://wiki.archlinux.org/index.php/Redshift).
-
-**Bluetooth management** - install [Blueman](https://wiki.archlinux.org/index.php/Blueman).
-
-**Office** - install [LibreOffice](https://wiki.archlinux.org/index.php/LibreOffice).
-
-**Taskbars** - install [Plank](https://wiki.archlinux.org/index.php/Plank).
+Final step is to read [List of applications](https://wiki.archlinux.org/index.php/List_of_applications). Only read section you need.
 
 ---
 
