@@ -47,3 +47,9 @@ Save usernames and passwords in `~/.git-credentials`:
 ```sh
 git config --global credential.helper store
 ```
+
+Use `vim` when commit:
+
+```sh
+git config --global core.editor vim
+```
