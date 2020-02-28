@@ -53,3 +53,9 @@ Use `vim` when commit:
 ```sh
 git config --global core.editor vim
 ```
+
+Clean up untracked:
+
+```sh
+git clean -df
+```
