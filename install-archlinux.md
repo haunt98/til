@@ -80,6 +80,16 @@ Read [Silent boot](https://wiki.archlinux.org/index.php/Silent_boot).
 sudo pacman -Syu && sudo pacman -Rns $(pacman -Qtdq) || true
 ```
 
+Install [Reflector](https://wiki.archlinux.org/index.php/Reflector) to generate mirror list:
+
+```sh
+sudo reflector --verbose \
+    --country Singapore \
+    --country "Hong Kong" \
+    --age 12 --protocol https --sort rate \
+    --save /etc/pacman.d/mirrorlist
+```
+
 ---
 
 Final step is to read [List of applications](https://wiki.archlinux.org/index.php/List_of_applications). Only read section you need.
@@ -97,3 +107,5 @@ This is the end. Future update is coming if I feel something need to be changed 
 **2020-02-04** Add how to center windows in Xfce.
 
 **2020-02-18** Add MATE and xinit.
+
+**2020-03-02** Add Reflector.
