@@ -23,7 +23,7 @@ Mount point `/mnt/efi` with `512 MiB`.
 Skip swap because use swap file later.
 
 In step **Boot loader**.
-Use [GRUB with UEFI systems](https://wiki.archlinux.org/index.php/GRUB#UEFI_systems).
+Use [GRUB: UEFI systems](https://wiki.archlinux.org/index.php/GRUB#UEFI_systems).
 
 ---
 
