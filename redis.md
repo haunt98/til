@@ -4,7 +4,13 @@ Assume you use Archlinux.
 
 Read [Redis](https://wiki.archlinux.org/index.php/Redis).
 
-Use docker:
+Start service:
+
+```sh
+systemctl start redis.service
+```
+
+Otherwise use docker:
 
 ```sh
 docker run -d -p 6379:6379 --name redis redis:alpine
