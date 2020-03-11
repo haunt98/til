@@ -4,7 +4,7 @@ Assume you use Archlinux.
 
 Read [Redis](https://wiki.archlinux.org/index.php/Redis).
 
-Start service:
+After install `redis`, start service:
 
 ```sh
 systemctl start redis.service
