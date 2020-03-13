@@ -28,9 +28,6 @@ Partition:
 cfdisk
 ```
 
-- Mount point `/mnt/boot` with `1 GiB`.
-- Skip swap because use swap file later.
-
 | Mount point | Partition type                                                                    | Suggested size |
 | ----------- | --------------------------------------------------------------------------------- | -------------- |
 | /mnt/boot   | [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition) | 1 GiB          |
@@ -101,7 +98,9 @@ Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
 
 ### Misc
 
-Swap file: [systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap).
+[systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap)
+
+[systemd/Journal](https://wiki.archlinux.org/index.php/Systemd/Journal)
 
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
 
