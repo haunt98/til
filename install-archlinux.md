@@ -6,8 +6,6 @@ This is not a guide for everyone, this is just save for myself in a future and f
 
 Assume your laptop/PC is UEFI-capable.
 
----
-
 ## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
 
 First [USB flash installation media](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
