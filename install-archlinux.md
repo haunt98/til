@@ -8,64 +8,105 @@ Assume your laptop/PC is UEFI-capable.
 
 ---
 
-First thing as breathe air is to read [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide). Read through the guide **slowly** and **carefully**.
+## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
 
-After that, get an USB and follow [USB flash installation media](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
+First [USB flash installation media](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
 
-When booting Archlinux ISO, follow **Installation guide**, **step** by **step**.
+### Connect to the internet
 
-In step **Connect to the internet**.
 Enable wifi with `wifi-menu`.
 
-In step **Partition the disks**.
-Use `cfdisk`.
-Mount point `/mnt/efi` (Use with GRUB) or `/mnt/boot` (Use with systemd-boot) with `512 MiB`.
-Skip swap because use swap file later.
+### Partition the disks
 
-In step **Boot loader**.
-Use [GRUB: UEFI systems](https://wiki.archlinux.org/index.php/GRUB#UEFI_systems) or [systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot).
+Identify:
 
----
+```sh
+lsblk
+```
 
-After finish **Installation guide**, don't rush to restart, read [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations) to continue.
+Partition:
+
+```sh
+cfdisk
+```
+
+- Mount point `/mnt/boot` with `1 GiB`.
+- Skip swap because use swap file later.
+
+| Mount point | Partition type                                                                    | Suggested size |
+| ----------- | --------------------------------------------------------------------------------- | -------------- |
+| /mnt/boot   | [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition) | 1 GiB          |
+| /mnt        | Linux                                                                             |                |
+| /mnt/home   | Linux                                                                             |
+
+### Boot loader
+
+[systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot)
+
+## [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations)
 
 Always remember to check dependencies when install packages.
 
-In step **System administration**.
+### System administration
+
 Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups):
 
 - Add user with [Zsh](https://wiki.archlinux.org/index.php/Zsh) shell.
 - Set password.
 - Enable [Sudo](https://wiki.archlinux.org/index.php/Sudo#Using_visudo) access.
 
-In step **Graphical user interface**.
-Display server - install [Xorg](https://wiki.archlinux.org/index.php/Xorg).
-Desktop environments - install [GNOME](https://wiki.archlinux.org/index.php/GNOME).
-Display manager - install [GDM](https://wiki.archlinux.org/index.php/GDM).
+### Graphical user interface
 
-In step **Networking**.
-Network configuration - install [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager).
-Clock synchronization - install [systemd-timesyncd](https://wiki.archlinux.org/index.php/Systemd-timesyncd).
-In step **Optimization**.
+Display server: [Xorg](https://wiki.archlinux.org/index.php/Xorg).
+
+Desktop environments: [GNOME](https://wiki.archlinux.org/index.php/GNOME).
+
+Display manager: [GDM](https://wiki.archlinux.org/index.php/GDM), start/enable service:
+
+```sh
+systemctl start gdm.service
+
+systemctl enable gdm.service
+```
+
+### Networking
+
+Network configuration: [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager), start/enable service:
+
+```sh
+systemctl start NetworkManager.service
+
+systemctl enable NetworkManager.service
+```
+
+Clock synchronization: [systemd-timesyncd](https://wiki.archlinux.org/index.php/Systemd-timesyncd):
+
+```sh
+timedatectl set-ntp true
+```
+
+### Optimization
+
 Read [Solid state drive](https://wiki.archlinux.org/index.php/Solid_state_drive).
 
-In step **Appearance**.
-Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
-
-Use swap file - install [systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap).
-
----
-
-[Improving performance](https://wiki.archlinux.org/index.php/Improving_performance) is small step inside **Optimization**, but it's big to me.
+Read [Improving performance](https://wiki.archlinux.org/index.php/Improving_performance).
 
 Read [Watchdogs](https://wiki.archlinux.org/index.php/Improving_performance#Watchdogs).
+
 Read [Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up).
+
 Read [Silent boot](https://wiki.archlinux.org/index.php/Silent_boot).
 
----
+### Appearance
 
-Final step is to read [List of applications](https://wiki.archlinux.org/index.php/List_of_applications). Only read section you need.
+Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
 
----
+### Misc
 
-This is the end. Future update is coming if I feel something need to be changed or I get boring and change my taste :)
+Swap file: [systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap).
+
+## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
+
+## In the end
+
+This is it. Future update is coming if I feel something need to be changed or I get boring and change my taste :)
