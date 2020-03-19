@@ -9,13 +9,13 @@ git pull --rebase
 Clean outdated branches:
 
 ```sh
-git fetch --prune origin
+git fetch --prune
 ```
 
 Push force safely:
 
 ```sh
-git push --force-with-lease origin master
+git push --force-with-lease
 ```
 
 Shallow clone:
@@ -54,8 +54,8 @@ Use `vim` when commit:
 git config --global core.editor vim
 ```
 
-Clean up untracked:
+Rewrite history:
 
 ```sh
-git clean -df
+git rebase -i HEAD~x
 ```
