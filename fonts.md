@@ -1,0 +1,11 @@
+# Fonts
+
+Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
+
+[Preview programming fonts](https://app.programmingfonts.org/)
+
+Fonts I use currently:
+
+[Google Noto Fonts](https://www.google.com/get/noto/)
+
+[JetBrains Mono](https://www.jetbrains.com/lp/mono/)
