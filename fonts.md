@@ -14,6 +14,10 @@ Fonts I use currently:
 
 [Fira Code](https://github.com/tonsky/FiraCode)
 
+Honorable mention:
+
+[Iosevka](https://github.com/be5invis/Iosevka)
+
 How to see font name:
 
 ```sh
