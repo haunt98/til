@@ -18,30 +18,6 @@ Push force safely:
 git push --force-with-lease
 ```
 
-Shallow clone:
-
-```sh
-git clone --depth 1 ...
-```
-
-Add submodule:
-
-```sh
-git submodule add --depth 1 ...
-```
-
-First time pull repo with submodules:
-
-```sh
-git submodule update --init --recursive
-```
-
-Update submodules:
-
-```sh
-git submodule update --recursive --remote
-```
-
 Save usernames and passwords in `~/.git-credentials`:
 
 ```sh
@@ -54,7 +30,7 @@ Use `vim` when commit:
 git config --global core.editor vim
 ```
 
-Rewrite history:
+Rewrite history by changing last `x` commits :
 
 ```sh
 git rebase -i HEAD~x
