@@ -12,7 +12,11 @@ First [USB flash installation media](https://wiki.archlinux.org/index.php/USB_fl
 
 ### Connect to the internet
 
-Enable wifi with `wifi-menu`.
+Enable wifi:
+
+```sh
+wifi-menu
+```
 
 ### Partition the disks
 
@@ -28,11 +32,13 @@ Partition:
 cfdisk
 ```
 
-| Mount point | Partition type                                                                    | Suggested size |
-| ----------- | --------------------------------------------------------------------------------- | -------------- |
-| /mnt/boot   | [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition) | 1 GiB          |
-| /mnt        | Linux                                                                             |                |
-| /mnt/home   | Linux                                                                             |
+| Mount point | Partition type       | Suggested size |
+| ----------- | -------------------- | -------------- |
+| /mnt/boot   | EFI system partition | 1 GiB          |
+| /mnt        | Linux                |                |
+| /mnt/home   | Linux                |                |
+
+Read [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition)
 
 ### Boot loader
 
@@ -40,15 +46,24 @@ cfdisk
 
 ## [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations)
 
-Always remember to check dependencies when install packages.
+Always remember to check **dependencies** when install packages.
 
 ### System administration
 
-Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups):
+Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups).
 
-- Add user with [Zsh](https://wiki.archlinux.org/index.php/Zsh) shell.
-- Set password.
-- Enable [Sudo](https://wiki.archlinux.org/index.php/Sudo#Using_visudo) access.
+Read [fish](https://wiki.archlinux.org/index.php/fish).
+
+Read [Sudo/Using visudo](https://wiki.archlinux.org/index.php/Sudo#Using_visudo).
+
+```sh
+useradd -m -G additional_groups -s login_shell username
+```
+
+| abstract            | implement       |
+| ------------------- | --------------- |
+| `additional_groups` | `wheel`         |
+| `login_shell`       | `/usr/bin/fish` |
 
 ### Graphical user interface
 
@@ -84,11 +99,9 @@ timedatectl set-ntp true
 
 Read [Solid state drive](https://wiki.archlinux.org/index.php/Solid_state_drive).
 
-Read [Improving performance](https://wiki.archlinux.org/index.php/Improving_performance).
+Read [Improving performance/Watchdogs](https://wiki.archlinux.org/index.php/Improving_performance#Watchdogs).
 
-Read [Watchdogs](https://wiki.archlinux.org/index.php/Improving_performance#Watchdogs).
-
-Read [Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up).
+Read [Improving performance/Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up).
 
 Read [Silent boot](https://wiki.archlinux.org/index.php/Silent_boot).
 
@@ -98,7 +111,7 @@ Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
 
 ### Misc
 
-[systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap)
+[Swap/systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap)
 
 [systemd/Journal](https://wiki.archlinux.org/index.php/Systemd/Journal)
 
@@ -106,4 +119,4 @@ Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
 
 ## In the end
 
-This is it. Future update is coming if I feel something need to be changed or I get boring and change my taste :)
+This guide is updated regularly I promise.
