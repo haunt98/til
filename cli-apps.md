@@ -11,3 +11,5 @@
 [HTTPie](https://httpie.org/): call API in terminal.
 
 [Rclone](https://rclone.org/): `rsync` for cloud storage.
+
+[bucklespring](https://github.com/zevv/bucklespring): keyboard sound.
