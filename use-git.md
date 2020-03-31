@@ -24,10 +24,10 @@ Save usernames and passwords in `~/.git-credentials`:
 git config --global credential.helper store
 ```
 
-Use `vim` when commit:
+Use neovim when commit:
 
 ```sh
-git config --global core.editor vim
+git config --global core.editor nvim
 ```
 
 Rewrite history by changing last `x` commits :
