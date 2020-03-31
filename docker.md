@@ -23,3 +23,20 @@ Delete all images, containers, volumes, and networks that are not associated wit
 ```sh
 docker system prune
 ```
+
+Read [docker run](https://docs.docker.com/engine/reference/commandline/run/).
+
+| option   | example         | explain                                   |
+| -------- | --------------- | ----------------------------------------- |
+| `-i`     |                 | Keep STDIN open even if not attached      |
+| `--name` |                 |                                           |
+| `-p`     | `-p 8080:80`    | Publish container port : host port        |
+| `--rm`   |                 |                                           |
+| `-t`     |                 | Allocate a pseudo-TTY                     |
+| `-v`     | `-v ~/abc:/abc` | Bind host directory : container directory |
+
+Run `ubuntu` image:
+
+```sh
+docker run --rm -it ubuntu
+```
