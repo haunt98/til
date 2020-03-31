@@ -4,10 +4,12 @@ Assume you use Archlinux.
 
 Read [Redis](https://wiki.archlinux.org/index.php/Redis).
 
-Start service:
+Start/enable service:
 
 ```sh
 systemctl start redis.service
+
+systemctl enable redis.service
 ```
 
 Otherwise use docker:
