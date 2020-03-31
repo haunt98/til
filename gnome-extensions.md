@@ -1,6 +1,6 @@
 # Gnome Extensions
 
-Assume you use Archlinux and Chromium.
+Assume you use Archlinux.
 
 Read [GNOME/Extensions](https://wiki.archlinux.org/index.php/GNOME#Extensions).
 
