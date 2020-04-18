@@ -10,6 +10,8 @@ Read [Flatpak](https://wiki.archlinux.org/index.php/Flatpak).
 
 [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
 
+[Tor Browser Launcher](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
+
 [qBittorrent](https://flathub.org/apps/details/org.qbittorrent.qBittorrent)
 
 ### Office
