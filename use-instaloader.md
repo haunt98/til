@@ -9,12 +9,31 @@ Install Instaloader with Python venv.
 Create `args.txt` file with content, remember to change `username` with your real username:
 
 ```txt
+--login=username
+--sessionfile=./session
 --no-video-thumbnails
 --no-captions
 --no-metadata-json
+```
+
+For downloading posts, add to `args.txt`:
+
+```txt
 --fast-update
---login=username
---sessionfile=./session
+```
+
+For downloading only stories, add to `args.txt`:
+
+```txt
+--stories
+--no-posts
+```
+
+For downloading only hightlights, add to `args.txt`:
+
+```txt
+--highlights
+--no-posts
 ```
 
 Then run, remeber to change `targetname1`, `targetname2`, ... to your target:

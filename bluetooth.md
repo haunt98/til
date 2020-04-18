@@ -4,7 +4,7 @@ Assume you use Archlinux.
 
 Read [Bluetooth](https://wiki.archlinux.org/index.php/Bluetooth).
 
-After install `bluez`, `bluez-utils`, `blueman`, start/enable service:
+After install `bluez`, `bluez-utils`, start/enable service:
 
 ```sh
 systemctl start bluetooth.service

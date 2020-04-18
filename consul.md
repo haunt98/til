@@ -9,3 +9,9 @@ Run:
 ```sh
 consul agent -dev
 ```
+
+UI:
+
+```txt
+http://localhost:8500/ui
+```
