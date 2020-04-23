@@ -22,3 +22,5 @@ export PATH="$PATH:$GOPATH/bin"
 [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports?tab=doc)
 
 [GolangCI-Lint](https://github.com/golangci/golangci-lint)
+
+[gomodifytags](https://github.com/fatih/gomodifytags)
