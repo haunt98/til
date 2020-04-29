@@ -1,4 +1,4 @@
-# Install DNSCrypt
+# Use DNSCrypt
 
 What is DNSCrypt? Why use DNSCrypt? These questions can be answered by simple Google search, and I don't know where to start.
 

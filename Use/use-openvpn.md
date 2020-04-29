@@ -1,4 +1,4 @@
-# OpenVPN
+# Use OpenVPN
 
 Assume you use Archlinux.
 

@@ -1,4 +1,4 @@
-# AUR
+# Use AUR
 
 AUR is [Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository).
 

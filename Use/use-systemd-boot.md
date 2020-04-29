@@ -1,4 +1,4 @@
-# systemd-boot
+# Use systemd-boot
 
 Read [systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot).
 

@@ -1,4 +1,4 @@
-# fish
+# Use fish
 
 Read [fish](https://wiki.archlinux.org/index.php/fish).
 
