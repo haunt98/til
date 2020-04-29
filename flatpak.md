@@ -34,7 +34,7 @@ Read [Flatpak](https://wiki.archlinux.org/index.php/Flatpak).
 
 [Peek](https://flathub.org/apps/details/com.uploadedlobster.peek)
 
-### Wallpaper
+### Appearance
 
 [Fondo](https://flathub.org/apps/details/com.github.calo001.fondo)
 
@@ -47,8 +47,6 @@ Read [Flatpak](https://wiki.archlinux.org/index.php/Flatpak).
 ### Productivity
 
 [Planner](https://flathub.org/apps/details/com.github.alainm23.planner)
-
-[Reminduck](https://flathub.org/apps/details/com.github.matfantinel.reminduck)
 
 ### Developer
 
