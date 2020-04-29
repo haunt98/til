@@ -1,4 +1,4 @@
-# AMD
+# Use AMD
 
 Assume you use Archlinux.
 

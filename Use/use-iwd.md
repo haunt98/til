@@ -1,4 +1,4 @@
-# Install iwd
+# Use iwd
 
 Assume you use Archlinux.
 
