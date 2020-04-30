@@ -1,3 +1,1 @@
-# Blog
-
-Backup my blog content.
+# Today I learned
