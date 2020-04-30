@@ -67,6 +67,7 @@ Neovim
 
 Visual Studio Code
 [Snap](https://snapcraft.io/code)
+[Flatpak](https://snapcraft.io/code)
 
 VS Codium
 [Snap](https://snapcraft.io/codium)
