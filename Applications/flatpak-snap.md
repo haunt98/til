@@ -69,9 +69,6 @@ Visual Studio Code
 [Snap](https://snapcraft.io/code)
 [Flatpak](https://snapcraft.io/code)
 
-VS Codium
-[Snap](https://snapcraft.io/codium)
-
 GoLand
 [Snap](https://snapcraft.io/goland)
 
@@ -84,9 +81,6 @@ DataGrip
 Postman
 [Snap](https://snapcraft.io/postman)
 [Flatpak](https://flathub.org/apps/details/com.getpostman.Postman)
-
-HTTPie
-[Snap](https://snapcraft.io/http)
 
 ## Chat
 
