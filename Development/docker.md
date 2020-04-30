@@ -4,6 +4,8 @@ Assume you use Archlinux.
 
 Read [Docker](https://wiki.archlinux.org/index.php/Docker).
 
+Read [LinuxServer.io/Docs](https://docs.linuxserver.io/).
+
 Start/enable service:
 
 ```sh

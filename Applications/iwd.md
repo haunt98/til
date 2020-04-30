@@ -1,4 +1,4 @@
-# Use iwd
+# iwd
 
 Assume you use Archlinux.
 

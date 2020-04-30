@@ -1,4 +1,4 @@
-# Use Instaloader
+# Instaloader
 
 [Instaloader](https://instaloader.github.io/) is a tool for download Instagram photos, videos, ...
 

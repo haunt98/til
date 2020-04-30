@@ -1,4 +1,4 @@
-# Use git
+# git
 
 Prefer rebase when pull:
 

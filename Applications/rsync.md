@@ -1,4 +1,4 @@
-# Use rsync
+# rsync
 
 ```sh
 rsync -vah src dest

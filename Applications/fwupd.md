@@ -1,4 +1,4 @@
-# Use fwupd
+# fwupd
 
 Assume you use Archlinux.
 

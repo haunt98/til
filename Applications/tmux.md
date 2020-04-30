@@ -1,4 +1,4 @@
-# Use tmux
+# tmux
 
 Imagine you want to run a long task in terminal, but you don't want to keep terminal open.
 

@@ -1,4 +1,4 @@
-# Use pacman
+# pacman
 
 Assume you use Archlinux.
 
