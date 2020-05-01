@@ -1,4 +1,4 @@
-# bluetooth
+# Bluetooth
 
 Assume you use Archlinux.
 

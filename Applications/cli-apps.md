@@ -1,7 +1,5 @@
 # CLI apps
 
-[curl](https://curl.haxx.se/)
-
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
 [fd](https://github.com/sharkdp/fd): simple `find`.
