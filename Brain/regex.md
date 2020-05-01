@@ -29,6 +29,7 @@ Read [Golang-Regex-Tutorial](https://github.com/StefanSchroeder/Golang-Regex-Tut
 | `(?:x|y)`      | `x` or `y` expression wrap in `()`  |
 | `(?flags)`     | set flags within current group      |
 
-| flag | meaning |
-| `i` | case-insensitive |
-| `s` | `.` match `\n` |
+| flag | meaning          |
+| ---- | ---------------- |
+| `i`  | case-insensitive |
+| `s`  | `.` match `\n`   |
