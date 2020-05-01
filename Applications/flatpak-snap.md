@@ -46,6 +46,9 @@ Steam
 Planner
 [Flatpak](https://flathub.org/apps/details/com.github.alainm23.planner)
 
+bucklespring
+[Snap](https://snapcraft.io/bucklespring)
+
 ## Development
 
 ### Languages
