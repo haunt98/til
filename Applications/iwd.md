@@ -2,7 +2,7 @@
 
 Assume you use Archlinux.
 
-Install [iwd](https://wiki.archlinux.org/index.php/Iwd).
+Read [iwd](https://wiki.archlinux.org/index.php/Iwd).
 
 Read [NetworkManager: Using iwd as the Wi-Fi backend](https://wiki.archlinux.org/index.php/NetworkManager#Using_iwd_as_the_Wi-Fi_backend).
 
