@@ -9,7 +9,7 @@ Read [Golang-Regex-Tutorial](https://github.com/StefanSchroeder/Golang-Regex-Tut
 | `.`     | any character, default not including `\n` |
 | `[xy]`  | `x` or `y` character                      |
 | `[^xy]` | not `x` and `y` character                 |
-| `x|y`   | `x` or `y`                                |
+| `x\|y`  | `x` or `y`                                |
 | `x*`    | 0 or more `x`, prefer **more**            |
 | `x+`    | 1 or more `x`, prefer **more**            |
 | `x?`    | 0 or 1 `x` , prefer 1                     |
