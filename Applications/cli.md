@@ -1,4 +1,4 @@
-# CLI apps
+# CLI
 
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
