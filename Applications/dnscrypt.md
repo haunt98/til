@@ -6,15 +6,9 @@ Install [dnscrypt-proxy](https://wiki.archlinux.org/index.php/Dnscrypt-proxy).
 
 Edit `/etc/dnscrypt-proxy/dnscrypt-proxy.toml`:
 
-- Change `listen_addresses` option:
-
 ```toml
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
-```
 
-- Change `server_names` option to use Cloudflare:
-
-```toml
 server_names = ['google', 'google-ipv6', 'cloudflare', 'cloudflare-ipv6']
 ```
 
