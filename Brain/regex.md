@@ -50,7 +50,6 @@ hello\s(.+)
 match: hello foo
 group 1: foo
 
-
 match: hello bar
 group 1: bar
 ```
