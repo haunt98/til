@@ -1,5 +1,11 @@
 # Flatpak and Snap
 
+Assume you use Archlinux.
+
+Read [Snap](https://wiki.archlinux.org/index.php/Snap).
+
+Read [Flatpak](https://wiki.archlinux.org/index.php/Flatpak).
+
 ## Internet
 
 Chromium
@@ -59,10 +65,7 @@ Go
 node
 [Snap](https://snapcraft.io/node)
 
-### Editor/IDE
-
-Vim
-[Flatpak](https://flathub.org/apps/details/org.vim.Vim)
+### Editor
 
 Neovim
 [Snap](https://snapcraft.io/nvim)
@@ -70,7 +73,9 @@ Neovim
 
 Visual Studio Code
 [Snap](https://snapcraft.io/code)
-[Flatpak](https://snapcraft.io/code)
+[Flatpak](https://flathub.org/apps/details/com.visualstudio.code)
+
+### IDE
 
 GoLand
 [Snap](https://snapcraft.io/goland)
@@ -79,11 +84,19 @@ DataGrip
 [Snap](https://snapcraft.io/datagrip)
 [Flatpak](https://flathub.org/apps/details/com.jetbrains.DataGrip)
 
-### Others
+### API
 
 Postman
 [Snap](https://snapcraft.io/postman)
 [Flatpak](https://flathub.org/apps/details/com.getpostman.Postman)
+
+Insomnia
+[Snap](https://snapcraft.io/insomnia)
+
+### Others
+
+heroku
+[Snap](https://snapcraft.io/heroku)
 
 ## Chat
 
