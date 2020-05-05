@@ -2,10 +2,12 @@
 
 ## Set up
 
-If you use Archlinux,
-use [go-pie](https://www.archlinux.org/packages/community/x86_64/go-pie/)
-instead of [go](https://www.archlinux.org/packages/?name=go),
-because [Go package guidelines/Building](https://wiki.archlinux.org/index.php/Go_package_guidelines#Building).
+Read [Go](https://wiki.archlinux.org/index.php/Go).
+
+Install:
+
+- [go](https://www.archlinux.org/packages/community/x86_64/go/)
+- [go-tools](https://www.archlinux.org/packages/community/x86_64/go-tools/)
 
 Add to `~/.bashrc`, `~/.zshrc`, `~/.config/fish/config.fish`:
 
