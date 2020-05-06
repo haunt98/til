@@ -1,6 +1,6 @@
 # Applications
 
-[Neovim](./neovim.md)
+[Neovim](neovim.md)
 
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
