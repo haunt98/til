@@ -1,6 +1,6 @@
 # Applications
 
-[Neovim](neovim.md)
+[Neovim](neovim.md): like `vim`.
 
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
