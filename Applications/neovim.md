@@ -2,6 +2,6 @@
 
 Add to `~/.bashrc`:
 
-```sh
+```bash
 export EDITOR=nvim
 ```

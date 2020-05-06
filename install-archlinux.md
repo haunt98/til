@@ -117,6 +117,24 @@ Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
 
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
 
+### [pacman](https://wiki.archlinux.org/index.php/pacman)
+
+Uncomment or add if not exist options in `/etc/pacman.conf`:
+
+```txt
+# Misc options
+Color
+ILoveCandy
+```
+
+### [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
+
+Install AUR package:
+
+```sh
+makepkg -sric
+```
+
 ## In the end
 
 This guide is updated regularly I promise.

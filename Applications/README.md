@@ -2,23 +2,42 @@
 
 [Neovim](neovim.md): like `vim`.
 
+[git](git.md)
+
+[tmux](tmux.md)
+
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
 [fd](https://github.com/sharkdp/fd): simple `find`.
 
-[fzf](https://github.com/junegunn/fzf): command-line finder.
+[fzf](fzf.md): command-line finder.
 
-Read [fzf](https://wiki.archlinux.org/index.php/Fzf).
+[diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): `diff` with human readable.
 
-```sh
-export FZF_DEFAULT_COMMAND='fd -H'
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-```
+[exa](https://github.com/ogham/exa): `ls` replacement.
 
 [tldr](https://github.com/tldr-pages/tldr): simple `man`.
 
-[HTTPie](https://httpie.org/): call API in terminal.
+[HTTPie](https://httpie.org/): call API.
+
+[rsync](rsync.md)
 
 [Rclone](https://rclone.org/): `rsync` for cloud storage.
 
 [Prettier](https://prettier.io/): format code.
+
+---
+
+[Flatpak and Snap](flatpak-snap.md)
+
+[systemd-boot](systemd-boot.md)
+
+[blueman](https://github.com/blueman-project/blueman)
+
+[DNSCrypt](dnscrypt.md)
+
+[OpenVPN](openvpn.md)
+
+[Instaloader](instaloader.md)
+
+[Cheat](cheat.md)
