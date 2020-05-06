@@ -1,10 +1,6 @@
 # Applications
 
-[Neovim](https://github.com/neovim/neovim): like Vim.
-
-```sh
-export EDITOR=nvim
-```
+[Neovim](./neovim.md)
 
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
