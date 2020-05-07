@@ -40,4 +40,6 @@
 
 [Instaloader](instaloader.md)
 
+[Steam](steam.md)
+
 [Cheat](cheat.md)

@@ -2,9 +2,9 @@
 
 Assume you use Archlinux.
 
-Read [Snap](https://wiki.archlinux.org/index.php/Snap).
-
 Read [Flatpak](https://wiki.archlinux.org/index.php/Flatpak).
+
+Read [Snap](https://wiki.archlinux.org/index.php/Snap).
 
 ## Internet
 
@@ -12,27 +12,27 @@ Chromium
 [Snap](https://snapcraft.io/chromium)
 
 Firefox
-[Snap](https://snapcraft.io/firefox)
 [Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+[Snap](https://snapcraft.io/firefox)
 
 ## Office
 
 LibreOffice
-[Snap](https://snapcraft.io/libreoffice)
 [Flatpak](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+[Snap](https://snapcraft.io/libreoffice)
 
 ## Media
 
 VLC
-[Snap](https://snapcraft.io/vlc)
 [Flatpak](https://flathub.org/apps/search/vlc)
+[Snap](https://snapcraft.io/vlc)
 
 Celluloid
 [Flatpak](https://flathub.org/apps/details/io.github.celluloid_player.Celluloid)
 
 OBS Studio
-[Snap](https://snapcraft.io/obs-studio)
 [Flatpak](https://flathub.org/apps/details/com.obsproject.Studio)
+[Snap](https://snapcraft.io/obs-studio)
 
 ## Appearance
 
@@ -68,12 +68,12 @@ node
 ### Editor
 
 Neovim
-[Snap](https://snapcraft.io/nvim)
 [Flatpak](https://flathub.org/apps/details/io.neovim.nvim)
+[Snap](https://snapcraft.io/nvim)
 
 Visual Studio Code
-[Snap](https://snapcraft.io/code)
 [Flatpak](https://flathub.org/apps/details/com.visualstudio.code)
+[Snap](https://snapcraft.io/code)
 
 ### IDE
 
@@ -81,14 +81,14 @@ GoLand
 [Snap](https://snapcraft.io/goland)
 
 DataGrip
-[Snap](https://snapcraft.io/datagrip)
 [Flatpak](https://flathub.org/apps/details/com.jetbrains.DataGrip)
+[Snap](https://snapcraft.io/datagrip)
 
 ### API
 
 Postman
-[Snap](https://snapcraft.io/postman)
 [Flatpak](https://flathub.org/apps/details/com.getpostman.Postman)
+[Snap](https://snapcraft.io/postman)
 
 Insomnia
 [Snap](https://snapcraft.io/insomnia)
@@ -101,13 +101,13 @@ heroku
 ## Chat
 
 Slack
-[Snap](https://snapcraft.io/slack)
 [Flatpak](https://flathub.org/apps/details/com.slack.Slack)
+[Snap](https://snapcraft.io/slack)
 
 Discord
-[Snap](https://snapcraft.io/discord)
 [Flatpak](https://flathub.org/apps/details/com.discordapp.Discord)
+[Snap](https://snapcraft.io/discord)
 
 Telegram Desktop
-[Snap](https://snapcraft.io/telegram-desktop)
 [Flatpak](https://flathub.org/apps/details/org.telegram.desktop)
+[Snap](https://snapcraft.io/telegram-desktop)
