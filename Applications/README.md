@@ -1,8 +1,8 @@
 # Applications
 
-[bash](bash.md)
+[Bash](bash.md)
 
-[git](git.md)
+[Git](git.md)
 
 [tmux](tmux.md)
 
