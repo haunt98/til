@@ -42,6 +42,9 @@ Fondo
 HydraPaper
 [Flatpak](https://flathub.org/apps/details/org.gabmus.hydrapaper)
 
+Dynamic Wallpaper Editor
+[Flatpak](https://flathub.org/apps/details/com.github.maoschanz.DynamicWallpaperEditor)
+
 ### Games
 
 Steam
