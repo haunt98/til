@@ -36,7 +36,7 @@
 
 [systemd-boot](systemd-boot.md)
 
-[blueman](https://github.com/blueman-project/blueman)
+[blueman](https://github.com/blueman-project/blueman): Bluetooth Manager.
 
 [DNSCrypt](dnscrypt.md)
 

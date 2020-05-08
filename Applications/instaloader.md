@@ -1,12 +1,8 @@
-# Instaloader
+# [Instaloader](https://instaloader.github.io/)
 
-[Instaloader](https://instaloader.github.io/) is a tool for download Instagram photos, videos, ...
+Should install Instaloader with Python venv.
 
----
-
-Install Instaloader with Python venv.
-
-Create `args.txt` file with content, remember to change `username` with your real username:
+Create `args.txt`, remember to change `username` with your real username:
 
 ```txt
 --login=username
@@ -36,7 +32,7 @@ For downloading only hightlights, add to `args.txt`:
 --no-posts
 ```
 
-Then run, remeber to change `targetname1`, `targetname2`, ... to your target:
+Then run, remember to change `targetname1`, `targetname2`, ... to your target:
 
 ```sh
 instaloader +args.txt targetname1 targetname2
