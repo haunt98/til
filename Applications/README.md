@@ -20,7 +20,7 @@
 
 [tldr](https://github.com/tldr-pages/tldr): simple `man`.
 
-[Ncat](ncat.md)
+[Ncat](ncat.md): Netcat implementation from Nmap project.
 
 [HTTPie](https://httpie.org/): call API.
 
