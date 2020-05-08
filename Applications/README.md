@@ -1,10 +1,12 @@
 # Applications
 
-[Neovim](neovim.md): like `vim`.
+[bash](bash.md)
 
 [git](git.md)
 
 [tmux](tmux.md)
+
+[Neovim](neovim.md): like `vim`.
 
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
@@ -17,6 +19,8 @@
 [exa](https://github.com/ogham/exa): `ls` replacement.
 
 [tldr](https://github.com/tldr-pages/tldr): simple `man`.
+
+[Ncat](ncat.md)
 
 [HTTPie](https://httpie.org/): call API.
 
