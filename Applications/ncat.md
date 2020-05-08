@@ -1,6 +1,6 @@
 # Ncat
 
-Read [Ncat](https://nmap.org/ncat/).
+Assume you use Archlinux.
 
 It is included in [nmap](https://www.archlinux.org/packages/extra/x86_64/nmap/).
 
