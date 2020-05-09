@@ -11,7 +11,12 @@ docker run -d \
 
 ## redis-cli
 
-`redis-cli` is included in [redis](https://www.archlinux.org/packages/community/x86_64/redis/).
+`redis-cli` is included in:
+
+| Distribution | Package        |
+| ------------ | -------------- |
+| Archlinux    | `redis`        |
+| Ubuntu       | `redis-server` |
 
 Connect:
 

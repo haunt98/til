@@ -1,10 +1,12 @@
 # Docker
 
-Assume you use Archlinux.
+| Distribution | Package                                               |
+| ------------ | ----------------------------------------------------- |
+| Archlinux    | `docker`                                              |
+| Ubuntu       | [See](https://docs.docker.com/engine/install/ubuntu/) |
 
-Read [Docker](https://wiki.archlinux.org/index.php/Docker).
+On Archlinux, enable and start service:
 
-Enable and start service:
 
 ```sh
 systemctl enable --now docker.service

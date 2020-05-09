@@ -1,17 +1,13 @@
 # Go
 
-## Set up
+| Distribution | Package                                         |
+| ------------ | ----------------------------------------------- |
+| Archlinux    | `go`, `go-tools`                                |
+| Ubuntu       | [See](https://github.com/golang/go/wiki/Ubuntu) |
 
-Read [Go](https://wiki.archlinux.org/index.php/Go).
+Add to `~/.bashrc`:
 
-Install:
-
-- [go](https://www.archlinux.org/packages/community/x86_64/go/)
-- [go-tools](https://www.archlinux.org/packages/community/x86_64/go-tools/)
-
-Add to `~/.bashrc`, `~/.zshrc`, `~/.config/fish/config.fish`:
-
-```sh
+```bash
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
 ```
@@ -31,5 +27,3 @@ export PATH="$PATH:$GOPATH/bin"
 [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports?tab=doc)
 
 [GolangCI-Lint](https://github.com/golangci/golangci-lint)
-
-[gomodifytags](https://github.com/fatih/gomodifytags)

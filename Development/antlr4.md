@@ -1,15 +1,20 @@
 # ANTLR4
 
+| Distribution | Package  |
+| ------------ | -------- |
+| Archlinux    | `antlr4` |
+| Ubuntu       | `antlr4` |
+
 Read [Getting Started with ANTLR v4](https://github.com/antlr/antlr4/blob/master/doc/getting-started.md).
 
-Assume you use Archlinux.
+Add to `~/.bashrc`:
 
-Install [antlr4](https://www.archlinux.org/packages/extra/any/antlr4/).
+```bash
+# Archlinux
+export classpath=".:/usr/share/java/antlr-complete.jar:$classpath"
 
-Add to `~/.bashrc`, `~/.zshrc`, `~/.config/fish/config.fish`:
-
-```sh
-export CLASSPATH=".:/usr/share/java/antlr-complete.jar:$CLASSPATH"
+# Ubuntu
+export classpath=".:/usr/share/java/antlr4.jar:$classpath"
 ```
 
 Sample `Condition.g4`:
