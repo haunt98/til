@@ -34,3 +34,20 @@ docker run -d \
     -p 9091:9091 \
     prom/pushgateway
 ```
+
+UI:
+
+```txt
+localhost:9091
+```
+
+To configure the Pushgateway as a target to scrape by Prometheus,
+add to Prometheus configuration file:
+
+```yaml
+scrape_configs:
+  - job_name: "pushgateway"
+    honor_labels: true
+    static_configs:
+      - targets: ["localhost:9091"]
+```
