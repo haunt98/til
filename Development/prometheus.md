@@ -8,6 +8,7 @@ Docker:
 docker run -d \
     -p 9090:9090 \
     -v /path/to/config:/etc/prometheus \
+    --name prometheus
     prom/prometheus
 ```
 
@@ -32,6 +33,7 @@ Docker:
 ```sh
 docker run -d \
     -p 9091:9091 \
+    --name pushgateway
     prom/pushgateway
 ```
 

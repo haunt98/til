@@ -4,14 +4,10 @@ Assume you use Archlinux.
 
 Read [Docker](https://wiki.archlinux.org/index.php/Docker).
 
-Read [LinuxServer.io/Docs](https://docs.linuxserver.io/).
-
-Start/enable service:
+Enable and start service:
 
 ```sh
-systemctl start docker.service
-
-systemctl enable docker.service
+systemctl enable --now docker.service
 ```
 
 Add your user to `docker` group:
@@ -37,7 +33,7 @@ Read [docker run](https://docs.docker.com/engine/reference/commandline/run/).
 | `-t`     |                 | Allocate a pseudo-TTY                     |
 | `-v`     | `-v ~/abc:/abc` | Bind host directory : container directory |
 
-Run `ubuntu` image:
+Example run `ubuntu` image:
 
 ```sh
 docker run --rm -it ubuntu

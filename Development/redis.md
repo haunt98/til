@@ -1,24 +1,17 @@
 # Redis
 
-Assume you use Archlinux.
-
-Read [Redis](https://wiki.archlinux.org/index.php/Redis).
-
-Start/enable service:
+Docker:
 
 ```sh
-systemctl start redis.service
-
-systemctl enable redis.service
-```
-
-Otherwise use docker:
-
-```sh
-docker run -d -p 6379:6379 --name redis redis:alpine
+docker run -d \
+    -p 6379:6379 \
+    --name redis \
+    redis:alpine
 ```
 
 ## redis-cli
+
+`redis-cli` is included in [redis](https://www.archlinux.org/packages/community/x86_64/redis/).
 
 Connect:
 
@@ -26,7 +19,7 @@ Connect:
 redis-cli -h localhost -p 6379
 ```
 
-### After connect
+### [Commands](https://redis.io/commands)
 
 Get all keys:
 
@@ -39,5 +32,3 @@ Delete all keys:
 ```sh
 FLUSHALL
 ```
-
-Read [Commands](https://redis.io/commands).
