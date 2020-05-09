@@ -1,21 +1,36 @@
 # Prometheus
 
-Assume you use Archlinux.
-
-Read [Prometheus](https://wiki.archlinux.org/index.php/Prometheus).
-
 Read [Getting started](https://prometheus.io/docs/prometheus/latest/getting_started/).
 
-Start/enable service:
+Docker:
 
 ```sh
-systemctl start prometheus.service
-
-systemctl enable prometheus.service
+docker run -d \
+    -p 9090:9090 \
+    -v /path/to/config:/etc/prometheus \
+    prom/prometheus
 ```
 
 UI:
 
 ```txt
-http://localhost:9090
+localhost:9090
+```
+
+Metrics:
+
+```txt
+localhost:9090/metrics
+```
+
+## Pushing metrics
+
+Read [Pushing metrics](https://prometheus.io/docs/instrumenting/pushing/)
+
+Docker:
+
+```sh
+docker run -d \
+    -p 9091:9091 \
+    prom/pushgateway
 ```
