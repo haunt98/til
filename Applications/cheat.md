@@ -6,6 +6,7 @@
 
 ## Linux
 
-Assume you use Archlinux.
-
-[gameconqueror](https://www.archlinux.org/packages/community/x86_64/gameconqueror/)
+| Distribution | Package         |
+| ------------ | --------------- |
+| Archlinux    | `gameconqueror` |
+| Ubuntu       | `gameconqueror` |

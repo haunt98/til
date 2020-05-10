@@ -38,7 +38,7 @@
 
 [blueman](https://github.com/blueman-project/blueman): Bluetooth Manager.
 
-[DNSCrypt](dnscrypt.md)
+[dnscrypt-proxy](dnscrypt-proxy.md)
 
 [OpenVPN](openvpn.md)
 

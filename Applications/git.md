@@ -1,5 +1,10 @@
 # Git
 
+| Distribution | Package |
+| ------------ | ------- |
+| Archlinux    | `git`   |
+| Ubuntu       | `git`   |
+
 Add to `~/.bashrc`:
 
 ```bash

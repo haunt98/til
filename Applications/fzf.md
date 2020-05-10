@@ -1,5 +1,10 @@
 # [fzf](https://wiki.archlinux.org/index.php/Fzf)
 
+| Distribution | Package |
+| ------------ | ------- |
+| Archlinux    | `fzf`   |
+| Ubuntu       | `fzf`   |
+
 Add to `~/.bashrc`:
 
 ```bash

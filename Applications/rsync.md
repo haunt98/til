@@ -1,5 +1,10 @@
 # rsync
 
+| Distribution | Package |
+| ------------ | ------- |
+| Archlinux    | `rsync` |
+| Ubuntu       | `rsync` |
+
 ```sh
 rsync -vah src dest
 ```

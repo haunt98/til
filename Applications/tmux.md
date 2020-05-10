@@ -1,5 +1,10 @@
 # tmux
 
+| distribution | package |
+| ------------ | ------- |
+| archlinux    | `tmux`  |
+| ubuntu       | `tmux`  |
+
 Imagine you want to run a long task in terminal, but you don't want to keep terminal open.
 
 Run the task in tmux then detach session, after some time attach that session.

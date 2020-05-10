@@ -1,8 +1,9 @@
-# DNSCrypt
+# dnscrypt-proxy
 
-Assume you use Archlinux and NetworkManager.
-
-Install [dnscrypt-proxy](https://wiki.archlinux.org/index.php/Dnscrypt-proxy).
+| Distribution | Package          |
+| ------------ | ---------------- |
+| Archlinux    | `dnscrypt-proxy` |
+| Ubuntu       | `dnscrypt-proxy` |
 
 Edit `/etc/dnscrypt-proxy/dnscrypt-proxy.toml`:
 
