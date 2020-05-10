@@ -15,6 +15,6 @@ Add to `~/.bashrc`:
 export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="cd:cd *:ls:ls *:pwd:exit"
 
-[[ -f /usr/share/bash-completion/bash_completion ]] & \
+[[ -f /usr/share/bash-completion/bash_completion ]] && \
     source /usr/share/bash-completion/bash_completion
 ```
