@@ -1,16 +1,11 @@
-# Ncat
+# [Ncat](https://nmap.org/ncat/)
 
-Assume you use Archlinux.
+| Distribution | Package |
+| ------------ | ------- |
+| Archlinux    | `nmap`  |
+| Ubuntu       | `ncat`  |
 
-It is included in [nmap](https://www.archlinux.org/packages/extra/x86_64/nmap/).
-
-Check connectivity to `host` with `port`:
-
-```sh
-ncat -zv host post
-```
-
-Example:
+Check connectivity:
 
 ```sh
 ncat -zv google.com 80
