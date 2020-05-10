@@ -6,7 +6,7 @@
 
 [tmux](tmux.md)
 
-[Neovim](neovim.md): like `vim`.
+[Neovim](neovim.md): `vim` fork.
 
 [bat](https://github.com/sharkdp/bat): `cat` with colors.
 
