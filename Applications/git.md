@@ -38,24 +38,6 @@ Push force safely:
 git push --force-with-lease
 ```
 
-Prefer rebase when pull:
-
-```sh
-git pull --rebase
-```
-
-Clean outdated branches:
-
-```sh
-git fetch --prune
-```
-
-Push force safely:
-
-```sh
-git push --force-with-lease
-```
-
 Rewrite history by changing last `x` commits :
 
 ```sh
