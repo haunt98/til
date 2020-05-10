@@ -8,3 +8,9 @@ docker run -d \
     --name grafana \
     grafana/grafana
 ```
+
+UI:
+
+```
+localhost:3000
+```
