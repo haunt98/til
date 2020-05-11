@@ -1,6 +1,6 @@
 # Development
 
-[Go](go.md)
+[Go](go/README.md)
 
 [Python](python.md)
 
