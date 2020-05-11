@@ -34,6 +34,12 @@ OBS Studio
 [Flatpak](https://flathub.org/apps/details/com.obsproject.Studio)
 [Snap](https://snapcraft.io/obs-studio)
 
+Video Trimmer
+[Flatpak](https://flathub.org/apps/details/org.gnome.gitlab.YaLTeR.VideoTrimmer)
+
+Peek
+[Flatpak](https://flathub.org/apps/details/com.uploadedlobster.peek)
+
 ## Appearance
 
 Fondo
