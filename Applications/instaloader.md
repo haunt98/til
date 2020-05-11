@@ -12,27 +12,35 @@ Create `args.txt`, remember to change `username` with your real username:
 --no-metadata-json
 ```
 
-For downloading posts, add to `args.txt`:
+Want more custom? Add to `args.txt`.
+
+Downloading posts:
 
 ```txt
 --fast-update
 ```
 
-For downloading only stories, add to `args.txt`:
+Downloading only stories:
 
 ```txt
 --stories
 --no-posts
 ```
 
-For downloading only hightlights, add to `args.txt`:
+Downloading only hightlights:
 
 ```txt
 --highlights
 --no-posts
 ```
 
-Then run, remember to change `targetname1`, `targetname2`, ... to your target:
+Filter posts:
+
+```txt
+--post-filter="date_utc <= datetime(2020, 6, 30)"
+```
+
+Finally run, remember to change `targetname1`, `targetname2`, ... to your target:
 
 ```sh
 instaloader +args.txt targetname1 targetname2
