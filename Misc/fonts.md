@@ -1,9 +1,5 @@
 # Fonts
 
-Assume you use Archlinux.
-
-Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
-
 [Preview programming fonts](https://app.programmingfonts.org/)
 
 Fonts I use currently:
@@ -16,11 +12,21 @@ Fonts I use currently:
 
 [Fira Code](https://github.com/tonsky/FiraCode)
 
+[Cascadia Code](https://github.com/microsoft/cascadia-code)
+
 Honorable mention:
+
+[Inconsolata](https://github.com/googlefonts/Inconsolata)
 
 [Iosevka](https://github.com/be5invis/Iosevka)
 
 [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+
+[mononoki](https://github.com/madmalik/mononoki)
+
+[agave](https://github.com/agarick/agave)
+
+[Fonts for Apple Platforms](https://developer.apple.com/fonts/)
 
 How to see font name:
 
