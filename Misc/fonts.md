@@ -1,8 +1,14 @@
 # Fonts
 
-[Preview programming fonts](https://app.programmingfonts.org/)
+Read [Preview programming fonts](https://app.programmingfonts.org/).
 
-Fonts I use currently:
+How to see font name:
+
+```sh
+fc-list
+```
+
+## Currently
 
 [Google Noto Fonts](https://www.google.com/get/noto/)
 
@@ -14,7 +20,7 @@ Fonts I use currently:
 
 [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
-Honorable mention:
+## Honorable mention
 
 [Inconsolata](https://github.com/googlefonts/Inconsolata)
 
@@ -27,9 +33,3 @@ Honorable mention:
 [agave](https://github.com/agarick/agave)
 
 [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
-
-How to see font name:
-
-```sh
-fc-list
-```
