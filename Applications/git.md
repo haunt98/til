@@ -5,14 +5,6 @@
 | Archlinux    | `git`   |
 | Ubuntu       | `git`   |
 
-Add to `~/.bashrc`:
-
-```bash
-[[ -f /usr/share/git/completion/git-prompt.sh ]] && \
-    source /usr/share/git/completion/git-prompt.sh
-PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
-```
-
 Save usernames and passwords in `~/.git-credentials`:
 
 ```sh
