@@ -8,7 +8,17 @@ Assume your laptop/PC is UEFI-capable.
 
 ## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
 
-First [USB flash installation media](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
+Remember to check disks carefully:
+
+```sh
+lsblk
+```
+
+Create USB flash installation media:
+
+```sh
+dd bs=4M if=path/to/archlinux.iso of=/dev/sdx status=progress oflag=sync
+```
 
 ### Connect to the internet
 
@@ -34,9 +44,19 @@ cfdisk
 
 | Mount point | Partition type       | Suggested size |
 | ----------- | -------------------- | -------------- |
-| /mnt/boot   | EFI system partition | 1 GiB          |
+| /mnt/boot   | EFI system partition | 512 MiB        |
 | /mnt        | Linux                |                |
 | /mnt/home   | Linux                |                |
+
+Format:
+
+```sh
+# /boot
+mkfs.fat -F32 /dev/sdxY
+
+# /, /home
+
+```
 
 Read [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition)
 

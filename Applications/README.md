@@ -47,3 +47,5 @@
 [Steam](steam.md)
 
 [Cheat](cheat.md)
+
+[Ventoy](ventoy.md)
