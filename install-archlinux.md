@@ -89,12 +89,10 @@ Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
 pacman -Syu \
     gnome-shell \
     gdm \
-    networkmanager \
-    gnome-keyring \
-    gnome-control-center \
-    gnome-tweak-tool \
-    nautilus \
-    xdg-user-dirs-gtk \
+    networkmanager gnome-keyring \
+    gnome-control-center gnome-tweak-tool \
+    nautilus xdg-user-dirs-gtk \
+    file-roller p7zip unrar \
     gnome-terminal \
     gnome-backgrounds \
     gnome-screenshot \

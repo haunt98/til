@@ -5,8 +5,6 @@
 | Archlinux    | `antlr4` |
 | Ubuntu       | `antlr4` |
 
-Read [Getting Started with ANTLR v4](https://github.com/antlr/antlr4/blob/master/doc/getting-started.md).
-
 Add to `~/.bashrc`:
 
 ```bash
@@ -16,6 +14,8 @@ export classpath=".:/usr/share/java/antlr-complete.jar:$classpath"
 # Ubuntu
 export classpath=".:/usr/share/java/antlr4.jar:$classpath"
 ```
+
+Read [Getting Started with ANTLR v4](https://github.com/antlr/antlr4/blob/master/doc/getting-started.md).
 
 Sample `Condition.g4`:
 
