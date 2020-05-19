@@ -8,15 +8,15 @@
 
 [Neovim](neovim.md): `vim` fork.
 
-[bat](https://github.com/sharkdp/bat): `cat` with colors.
+[exa](exa.md): `ls` replacement.
+
+[bat](bat.md): `cat` with colors.
 
 [fd](https://github.com/sharkdp/fd): simple `find`.
 
 [fzf](fzf.md): command-line finder.
 
 [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): `diff` with human readable.
-
-[exa](https://github.com/ogham/exa): `ls` replacement.
 
 [tldr](https://github.com/tldr-pages/tldr): simple `man`.
 

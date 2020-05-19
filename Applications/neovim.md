@@ -9,4 +9,7 @@ Add to `~/.bashrc`:
 
 ```bash
 export EDITOR=nvim
+
+[[ -f /usr/bin/nvim ]] && \
+    alias vim="nvim"
 ```
