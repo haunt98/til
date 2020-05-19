@@ -30,12 +30,6 @@ wifi-menu
 
 ### Partition the disks
 
-Identify:
-
-```sh
-lsblk
-```
-
 Partition:
 
 ```sh
@@ -52,13 +46,11 @@ Format:
 
 ```sh
 # /boot
-mkfs.fat -F32 /dev/sdxY
+mkfs.fat -F32 /dev/xxxY
 
-# /, /home
-
+# / and /home
+mkfs.ext4 /dev/xxxY
 ```
-
-Read [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition)
 
 ### Boot loader
 
@@ -72,46 +64,50 @@ Always remember to check **dependencies** when install packages.
 
 Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups).
 
-Read [fish](https://wiki.archlinux.org/index.php/fish).
-
 Read [Sudo/Using visudo](https://wiki.archlinux.org/index.php/Sudo#Using_visudo).
 
 ```sh
 useradd -m -G additional_groups -s login_shell username
 ```
 
-| abstract            | implement       |
-| ------------------- | --------------- |
-| `additional_groups` | `wheel`         |
-| `login_shell`       | `/usr/bin/fish` |
+| abstract            | implement   |
+| ------------------- | ----------- |
+| `additional_groups` | `wheel`     |
+| `login_shell`       | `/bin/bash` |
 
-### Graphical user interface
+### Graphical user interface and Networking
 
-Display server: [Xorg](https://wiki.archlinux.org/index.php/Xorg).
-
-Desktop environments: [GNOME](https://wiki.archlinux.org/index.php/GNOME).
-
-Display manager: [GDM](https://wiki.archlinux.org/index.php/GDM), start/enable service:
+Install [Xorg](https://wiki.archlinux.org/index.php/Xorg):
 
 ```sh
-systemctl start gdm.service
-
-systemctl enable gdm.service
+pacman -Syu xorg-server
 ```
 
-### Networking
-
-Network configuration: [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager), start/enable service:
+Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
 
 ```sh
-systemctl start NetworkManager.service
+pacman -Syu \
+    gnome-shell \
+    gdm \
+    networkmanager \
+    gnome-keyring \
+    gnome-control-center \
+    gnome-tweak-tool \
+    nautilus \
+    xdg-user-dirs-gtk \
+    gnome-terminal \
+    gnome-backgrounds \
+    gnome-screenshot \
+
+```
+
+Enable services:
+
+```sh
+systemctl enable gdm.service
 
 systemctl enable NetworkManager.service
-```
 
-Clock synchronization: [systemd-timesyncd](https://wiki.archlinux.org/index.php/Systemd-timesyncd):
-
-```sh
 timedatectl set-ntp true
 ```
 
