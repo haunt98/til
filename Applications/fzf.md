@@ -16,3 +16,8 @@ Add to `~/.bashrc`:
 export FZF_DEFAULT_COMMAND='fd -H'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 ```
+
+| Shorcut  | Explain                              |
+| -------- | ------------------------------------ |
+| `Ctrl-T` | search through files and directories |
+| `Ctrl-R` | search though command-line history   |
