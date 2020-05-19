@@ -1,7 +1,5 @@
 # [Ventoy](https://github.com/ventoy/Ventoy)
 
-A new bootable USB solution.
-
 ```sh
 # Install
 sh Ventoy2Disk.sh -i /dev/XXX

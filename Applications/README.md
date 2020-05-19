@@ -48,4 +48,4 @@
 
 [Cheat](cheat.md)
 
-[Ventoy](ventoy.md)
+[Ventoy](ventoy.md): bootable USB.
