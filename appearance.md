@@ -1,14 +1,32 @@
-# Fonts
+# Appearance
+
+## Themes
+
+[Materia](https://github.com/nana-4/materia-theme)
+
+[Plata-theme](https://gitlab.com/tista500/plata-theme)
+
+## Icons
+
+[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+## Cursors
+
+[Bibata](https://github.com/KaizIqbal/Bibata_Cursor)
+
+[Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)
+
+## Fonts
 
 Read [Preview programming fonts](https://app.programmingfonts.org/).
 
-How to see font name:
+List fonts:
 
 ```sh
 fc-list
 ```
 
-## Currently
+### Currently
 
 [Google Noto Fonts](https://www.google.com/get/noto/)
 
@@ -20,7 +38,7 @@ fc-list
 
 [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
-## Honorable mention
+### Honorable mention
 
 [Inconsolata](https://github.com/googlefonts/Inconsolata)
 
