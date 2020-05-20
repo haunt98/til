@@ -11,5 +11,3 @@
 [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)
 
 [Prettier Formatter](https://github.com/prettier/prettier-vscode)
-
-[markdownlint](https://github.com/DavidAnson/vscode-markdownlint)
