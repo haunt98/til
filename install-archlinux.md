@@ -8,7 +8,7 @@ Assume your laptop/PC is UEFI-capable.
 
 ## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
 
-Remember to check disks carefully:
+Check disks carefully:
 
 ```sh
 lsblk
