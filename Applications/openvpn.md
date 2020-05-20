@@ -16,6 +16,8 @@ systemctl enable --now systemd-resolved.service
 Edit `client.ovpn`:
 
 ```txt
+script-security 2
+setenv PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 up /etc/openvpn/scripts/update-systemd-resolved
 up-restart
 down /etc/openvpn/scripts/update-systemd-resolved
