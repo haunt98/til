@@ -9,6 +9,13 @@ In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`
     source ~/.bashrc
 ```
 
+Add to `~/.bashrc`:
+
+```bash
+export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE="cd:cd *:ls:ls *:pwd:exit"
+```
+
 ## Bash completion
 
 | Distribution | Package           |
@@ -20,9 +27,6 @@ In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`
 Add to `~/.bashrc`:
 
 ```bash
-export HISTCONTROL=ignoreboth:erasedups
-export HISTIGNORE="cd:cd *:ls:ls *:pwd:exit"
-
 # Archlinux, Ubuntu
 [[ -f /usr/share/bash-completion/bash_completion ]] && \
     source /usr/share/bash-completion/bash_completion
