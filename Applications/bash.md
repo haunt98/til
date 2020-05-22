@@ -8,6 +8,7 @@ Bash completion:
 | ------------ | ----------------- |
 | Archlinux    | `bash-completion` |
 | Ubuntu       | `bash-completion` |
+| Homebrew     | `bash-completion` |
 
 Add to `~/.bashrc`:
 
@@ -15,6 +16,11 @@ Add to `~/.bashrc`:
 export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="cd:cd *:ls:ls *:pwd:exit"
 
+# Archlinux, Ubuntu
 [[ -f /usr/share/bash-completion/bash_completion ]] && \
     source /usr/share/bash-completion/bash_completion
+
+# Homebrew
+[ -f /usr/local/etc/bash_completion ] && \
+    source /usr/local/etc/bash_completion
 ```
