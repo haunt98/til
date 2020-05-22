@@ -2,7 +2,14 @@
 
 Read [Default Keyboard Shortcuts for Bash](https://catonmat.net/ftp/readline-emacs-editing-mode-cheat-sheet.pdf).
 
-Bash completion:
+In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`:
+
+```bash
+[[ -f ~/.bashrc ]] && \
+    source ~/.bashrc
+```
+
+## Bash completion
 
 | Distribution | Package           |
 | ------------ | ----------------- |
