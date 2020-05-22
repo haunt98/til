@@ -22,7 +22,7 @@ Add to `~/.bashrc`:
     source /usr/local/opt/fzf/shell/key-bindings.bash
 
 # Use fd instead of find
-export FZF_DEFAULT_COMMAND='fd -H -E .git'
+export FZF_DEFAULT_COMMAND='fd --hidden --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 ```
 
