@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Archlinux    | `nmap`  |
 | Ubuntu       | `ncat`  |
+| Homebrew     | `nmap`  |
 
 Check connectivity:
 
