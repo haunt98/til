@@ -28,17 +28,17 @@ editor          no
 Edit `/boot/loader/entries/archlinux.conf`:
 
 ```txt
-title       Arch Linux
+title       Archlinux
 linux       /vmlinuz-linux
 initrd      /intel-ucode.img
 initrd      /initramfs-linux.img
 options     root="LABEL=ROOT" rw
 ```
 
-Label root partition:
+Label partition:
 
 ```sh
-e2label /dev/XXX ROOT
+e2label /dev/sdxY ROOT
 ```
 
 View partitions:
