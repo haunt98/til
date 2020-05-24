@@ -2,5 +2,5 @@
 
 | Distribution | Package   |
 | ------------ | --------- |
-| Archlinux    | `ansible` |
+| Arch Linux   | `ansible` |
 | Ubuntu       | `ansible` |

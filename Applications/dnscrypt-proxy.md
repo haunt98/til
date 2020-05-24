@@ -2,7 +2,7 @@
 
 | Distribution | Package          |
 | ------------ | ---------------- |
-| Archlinux    | `dnscrypt-proxy` |
+| Arch Linux   | `dnscrypt-proxy` |
 | Ubuntu       | `dnscrypt-proxy` |
 
 Edit `/etc/dnscrypt-proxy/dnscrypt-proxy.toml`:

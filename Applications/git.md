@@ -2,7 +2,7 @@
 
 | Distribution | Package |
 | ------------ | ------- |
-| Archlinux    | `git`   |
+| Arch Linux   | `git`   |
 | Ubuntu       | `git`   |
 
 Save usernames and passwords in `~/.git-credentials`:

@@ -1,17 +1,17 @@
 # [Neovim](https://github.com/neovim/neovim)
 
-| Distribution | Package    |
-| ------------ | ---------- |
-| Archlinux    | `neovim`   |
-| Ubuntu       | `neovim`   |
-| Homebrew     | `neovim` ` |
+| Distribution | Package  |
+| ------------ | -------- |
+| Arch Linux   | `neovim` |
+| Ubuntu       | `neovim` |
+| Homebrew     | `neovim` |
 
 Add to `~/.bashrc`:
 
 ```bash
 export EDITOR=nvim
 
-# Archlinux, Ubuntu
+# Arch Linux, Ubuntu
 [[ -f /usr/bin/nvim ]] && \
     alias vim="nvim"
 

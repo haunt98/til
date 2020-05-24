@@ -1,9 +1,5 @@
 # Gnome Extensions
 
-Assume you use Archlinux.
-
-Read [GNOME/Extensions](https://wiki.archlinux.org/index.php/GNOME#Extensions).
-
 [Dash to Panel](https://github.com/home-sweet-gnome/dash-to-panel)
 
 [Dash to Dock](https://github.com/micheleg/dash-to-dock)

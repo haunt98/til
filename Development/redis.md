@@ -15,7 +15,7 @@ docker run -d \
 
 | Distribution | Package        |
 | ------------ | -------------- |
-| Archlinux    | `redis`        |
+| Arch Linux   | `redis`        |
 | Ubuntu       | `redis-server` |
 
 Connect:

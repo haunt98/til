@@ -2,14 +2,14 @@
 
 | Distribution | Package |
 | ------------ | ------- |
-| Archlinux    | `fzf`   |
+| Arch Linux   | `fzf`   |
 | Ubuntu       | `fzf`   |
 | Homebrew     | `fzf`   |
 
 Add to `~/.bashrc`:
 
 ```bash
-# Archlinux, Ubuntu
+# Arch Linux, Ubuntu
 [[ -f /usr/share/fzf/completion.bash ]] && \
     source /usr/share/fzf/completion.bash
 [[ -f /usr/share/fzf/key-bindings.bash ]] && \

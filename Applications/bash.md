@@ -20,14 +20,14 @@ export HISTIGNORE="cd:cd *:ls:ls *:pwd:exit"
 
 | Distribution | Package           |
 | ------------ | ----------------- |
-| Archlinux    | `bash-completion` |
+| Arch Linux   | `bash-completion` |
 | Ubuntu       | `bash-completion` |
 | Homebrew     | `bash-completion` |
 
 Add to `~/.bashrc`:
 
 ```bash
-# Archlinux, Ubuntu
+# Arch Linux, Ubuntu
 [[ -f /usr/share/bash-completion/bash_completion ]] && \
     source /usr/share/bash-completion/bash_completion
 

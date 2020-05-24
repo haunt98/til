@@ -2,7 +2,7 @@
 
 | Distribution | Package |
 | ------------ | ------- |
-| Archlinux    | `nmap`  |
+| Arch Linux   | `nmap`  |
 | Ubuntu       | `ncat`  |
 | Homebrew     | `nmap`  |
 

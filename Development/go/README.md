@@ -2,7 +2,7 @@
 
 | Distribution | Package                                         |
 | ------------ | ----------------------------------------------- |
-| Archlinux    | `go`, `go-tools`                                |
+| Arch Linux   | `go`, `go-tools`                                |
 | Ubuntu       | [See](https://github.com/golang/go/wiki/Ubuntu) |
 
 Add to `~/.bashrc`:

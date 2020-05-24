@@ -2,13 +2,13 @@
 
 | Distribution | Package  |
 | ------------ | -------- |
-| Archlinux    | `antlr4` |
+| Arch Linux   | `antlr4` |
 | Ubuntu       | `antlr4` |
 
 Add to `~/.bashrc`:
 
 ```bash
-# Archlinux
+# Arch Linux
 export classpath=".:/usr/share/java/antlr-complete.jar:$classpath"
 
 # Ubuntu

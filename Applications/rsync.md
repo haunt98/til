@@ -2,7 +2,7 @@
 
 | Distribution | Package |
 | ------------ | ------- |
-| Archlinux    | `rsync` |
+| Arch Linux   | `rsync` |
 | Ubuntu       | `rsync` |
 
 ```sh

@@ -1,11 +1,5 @@
 # Flatpak and Snap
 
-Assume you use Archlinux.
-
-Read [Flatpak](https://wiki.archlinux.org/index.php/Flatpak).
-
-Read [Snap](https://wiki.archlinux.org/index.php/Snap).
-
 ## Internet
 
 Chromium
@@ -83,6 +77,9 @@ Neovim
 Visual Studio Code
 [Flatpak](https://flathub.org/apps/details/com.visualstudio.code)
 [Snap](https://snapcraft.io/code)
+
+Tau
+[Flatpak](https://flathub.org/apps/details/org.gnome.Tau)
 
 ### IDE
 

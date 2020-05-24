@@ -2,7 +2,7 @@
 
 | Distribution | Package       |
 | ------------ | ------------- |
-| Archlinux    | `xorg-xinput` |
+| Arch Linux   | `xorg-xinput` |
 | Ubuntu       | `xinput`      |
 
 List devices:

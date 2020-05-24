@@ -2,7 +2,7 @@
 
 Read [systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot).
 
-Assume you use Archlinux, and [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition) mount point is `/boot`.
+Assume you use Arch Linux, and [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition) mount point is `/boot`.
 
 Install:
 
@@ -28,7 +28,7 @@ editor          no
 Edit `/boot/loader/entries/archlinux.conf`:
 
 ```txt
-title       Archlinux
+title       Arch Linux
 linux       /vmlinuz-linux
 initrd      /intel-ucode.img
 initrd      /initramfs-linux.img

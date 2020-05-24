@@ -4,7 +4,7 @@
 
 | Distribution | Package         |
 | ------------ | --------------- |
-| Archlinux    | `gameconqueror` |
+| Arch Linux   | `gameconqueror` |
 | Ubuntu       | `gameconqueror` |
 
 ## Windows

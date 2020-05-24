@@ -4,7 +4,7 @@ Read [update-systemd-resolved](https://github.com/jonathanio/update-systemd-reso
 
 | Distribution | Package                                 |
 | ------------ | --------------------------------------- |
-| Archlinux    | `openvpn-update-systemd-resolved` (AUR) |
+| Arch Linux   | `openvpn-update-systemd-resolved` (AUR) |
 | Ubuntu       | `openvpn-systemd-resolved`              |
 
 Start and enable service:

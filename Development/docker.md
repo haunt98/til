@@ -2,11 +2,10 @@
 
 | Distribution | Package                                               |
 | ------------ | ----------------------------------------------------- |
-| Archlinux    | `docker`                                              |
+| Arch Linux   | `docker`                                              |
 | Ubuntu       | [See](https://docs.docker.com/engine/install/ubuntu/) |
 
-On Archlinux, enable and start service:
-
+On Arch Linux, enable and start service:
 
 ```sh
 systemctl enable --now docker.service

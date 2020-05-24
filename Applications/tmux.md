@@ -2,7 +2,7 @@
 
 | distribution | package |
 | ------------ | ------- |
-| Archlinux    | `tmux`  |
+| Arch Linux   | `tmux`  |
 | Ubuntu       | `tmux`  |
 
 Imagine you want to run a long task in terminal, but you don't want to keep terminal open.
