@@ -38,7 +38,7 @@ options     root="LABEL=ROOT" rw
 Label partition:
 
 ```sh
-e2label /dev/sdxY ROOT
+e2label /dev/xxxY ROOT
 ```
 
 View partitions:
