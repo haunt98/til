@@ -20,7 +20,7 @@
 
 [fzf](fzf.md): command-line finder.
 
-[The Silver Searcher](https://github.com/ggreer/the_silver_searcher): similar to `ack`.
+[ripgrep](https://github.com/BurntSushi/ripgrep): similar to `ack`.
 
 [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): `diff` with human readable.
 
