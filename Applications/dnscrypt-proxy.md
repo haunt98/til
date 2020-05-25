@@ -19,7 +19,7 @@ Enable and start service:
 systemctl enable --now dnscrypt-proxy.service
 ```
 
-In NetworkManager GUI, change DNS:
+In NetworkManager GUI, turn off automatic DNS and edit:
 
 ```txt
 IPv4    127.0.0.1
