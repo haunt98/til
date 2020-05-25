@@ -5,7 +5,7 @@
 | Arch Linux   | `docker`                                              |
 | Ubuntu       | [See](https://docs.docker.com/engine/install/ubuntu/) |
 
-In Arch Linux, enable and start service:
+Enable and start service:
 
 ```sh
 systemctl enable --now docker.service
