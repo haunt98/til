@@ -6,5 +6,4 @@ src = "src"
 title = "Today I learned"
 
 [build]
-build-dir = "docs"
 create-missing = false
