@@ -1,6 +1,10 @@
 [book]
-authors = ["Tran Hau"]
+authors = ["Nguyen Tran Hau"]
 language = "en"
 multilingual = false
 src = "src"
 title = "Today I learned"
+
+[build]
+build-dir = "docs"
+create-missing = false
