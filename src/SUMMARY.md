@@ -10,7 +10,7 @@
   - [Neovim](Applications/neovim.md)
   - [rsync](Applications/rsync.md)
   - [exa](Applications/exa.md)
-  - [bat](Applications/bad.md)
+  - [bat](Applications/bat.md)
   - [fzf](Applications/fzf.md)
   - [Ncat](Applications/ncat.md)
   - [systemd-boot](Applications/systemd-boot.md)
