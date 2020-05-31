@@ -7,3 +7,7 @@ title = "Today I learned"
 
 [build]
 create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
