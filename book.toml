@@ -9,5 +9,5 @@ title = "Today I learned"
 create-missing = false
 
 [output.html]
-default-theme = "light"
+default-theme = "ayu"
 preferred-dark-theme = "ayu"
