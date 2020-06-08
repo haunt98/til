@@ -16,6 +16,12 @@ export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="cd:cd *:ls:ls *:pwd:exit"
 ```
 
+Shebang:
+
+```sh
+#!/usr/bin/env bash
+```
+
 ## Bash completion
 
 | Distribution | Package           |

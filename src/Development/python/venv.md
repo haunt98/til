@@ -1,6 +1,4 @@
-# Python
-
-## venv
+# venv
 
 Python venv is Python Virtual Environment.
 Why do we need to use Python venv?
