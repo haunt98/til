@@ -20,6 +20,8 @@
   - [HTTPie](Applications/httpie.md)
   - [systemd-boot](Applications/systemd-boot.md)
   - [systemd-swap](Applications/systemd-swap.md)
+  - [systemd/Journal](Applications/systemd-journal.md)
+  - [fstrim](Applications/fstrim.md)
   - [Blueman](Applications/blueman.md)
   - [dnscrypt-proxy](Applications/dnscrypt-proxy.md)
   - [OpenVPN](Applications/openvpn.md)

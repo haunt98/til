@@ -111,8 +111,6 @@ timedatectl set-ntp true
 
 ### Optimization
 
-Read [Solid state drive](https://wiki.archlinux.org/index.php/Solid_state_drive).
-
 Read [Improving performance/Watchdogs](https://wiki.archlinux.org/index.php/Improving_performance#Watchdogs).
 
 Read [Improving performance/Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up).
@@ -122,12 +120,6 @@ Read [Silent boot](https://wiki.archlinux.org/index.php/Silent_boot).
 ### Appearance
 
 Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
-
-### Misc
-
-[Swap/systemd-swap](https://wiki.archlinux.org/index.php/Swap#systemd-swap)
-
-[systemd/Journal](https://wiki.archlinux.org/index.php/Systemd/Journal)
 
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
 
