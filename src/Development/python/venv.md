@@ -1,22 +1,12 @@
-# venv
+# [venv](https://docs.python.org/3/library/venv.html)
 
-Python venv is Python Virtual Environment.
-Why do we need to use Python venv?
-Because we don't want to mess up with Python packages which are stored in different location: system directories, user directories, ...
-
-Assume you use Python 3 and Linux.
-
----
-
-Python venv stores everything in a local directory.
-
-Inside chosen directory, run:
+Creating virtual environments:
 
 ```sh
-python -m venv venv
+python3 -m venv /path/to/venv
 ```
 
-Now you can use venv with:
+Activate:
 
 ```sh
 # Bash

@@ -39,6 +39,7 @@
   - [Python](Development/python/README.md)
     - [venv](Development/python/venv.md)
     - [argparse](Development/python/argparse.md)
+    - [subprocess](Development/python/subprocess.md)
   - [Docker](Development/docker.md)
   - [Redis](Development/redis.md)
   - [Prometheus](Development/prometheus.md)
