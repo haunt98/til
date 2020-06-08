@@ -1,5 +1,10 @@
 # OpenVPN
 
+| Distribution | Package   |
+| ------------ | --------- |
+| Arch Linux   | `openvpn` |
+| Ubuntu       | `openvpn` |
+
 Read [update-systemd-resolved](https://github.com/jonathanio/update-systemd-resolved).
 
 | Distribution | Package                                 |
