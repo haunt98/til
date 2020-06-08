@@ -19,5 +19,6 @@ python -m venv venv
 Now you can use venv with:
 
 ```sh
+# Bash
 source ./venv/bin/activate
 ```

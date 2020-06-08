@@ -38,6 +38,7 @@
     - [testing](Development/go/testing.md)
   - [Python](Development/python/README.md)
     - [venv](Development/python/venv.md)
+    - [argparse](Development/python/argparse.md)
   - [Docker](Development/docker.md)
   - [Redis](Development/redis.md)
   - [Prometheus](Development/prometheus.md)
