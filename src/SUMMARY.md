@@ -25,6 +25,7 @@
   - [Blueman](Applications/blueman.md)
   - [dnscrypt-proxy](Applications/dnscrypt-proxy.md)
   - [sshuttle](Applications/sshuttle.md)
+  - [Mosh](Applications/mosh.md)
   - [OpenVPN](Applications/openvpn.md)
   - [Xinput](Applications/xinput.md)
   - [Flatpak and Snap](Applications/flatpak-snap.md)
