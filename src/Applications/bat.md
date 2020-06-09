@@ -1,10 +1,10 @@
 # [bat](https://github.com/sharkdp/bat)
 
-| Distribution | Package    |
-| ------------ | ---------- |
-| Arch Linux   | `bat`      |
-| Ubuntu       | `rust-bat` |
-| Homebrew     | `bat`      |
+| Distribution | Package |
+| ------------ | ------- |
+| Arch Linux   | `bat`   |
+| Ubuntu       | `bat`   |
+| Homebrew     | `bat`   |
 
 Add to `~/.bashrc`:
 
