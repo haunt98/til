@@ -10,8 +10,6 @@ docker run --rm -p 6379:6379 --name redis redis:alpine
 
 ### redis-cli
 
-redis-cli is included in:
-
 | Distribution | Package        |
 | ------------ | -------------- |
 | Arch Linux   | `redis`        |
