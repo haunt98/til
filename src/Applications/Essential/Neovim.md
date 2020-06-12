@@ -19,3 +19,17 @@ export EDITOR=nvim
 [[ -f /usr/local/bin/nvim ]] && \
     alias vim="nvim"
 ```
+
+## Packages
+
+Autoloaded package is stored `~/.local/share/nvim/site/pack/foo/start/bar`.
+
+Manually loaded package is stored `~/.local/share/nvim/site/pack/foo/opt/bar`
+
+`foo` is random name, `bar` is package name.
+
+To load package manully:
+
+```vim
+packadd bar
+```
