@@ -3,7 +3,7 @@
 Docker:
 
 ```sh
-docker run -p 6379:6379 --name redis redis:alpine
+docker run --rm -p 6379:6379 --name redis redis:alpine
 ```
 
 ## redis-cli
