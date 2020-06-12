@@ -9,7 +9,7 @@ docker run --rm -p 9090:9090 --name prometheus prom/prometheus
 docker run --rm -p 9090:9090 -v "$(pwd)"/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml --name prometheus prom/prometheus
 ```
 
-UI:
+UI endpoint:
 
 ```txt
 localhost:9090
@@ -24,7 +24,7 @@ Docker:
 docker run --rm -p 9091:9091 --name pushgateway prom/pushgateway
 ```
 
-UI:
+UI endpoint:
 
 ```txt
 localhost:9091
