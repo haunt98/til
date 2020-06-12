@@ -17,25 +17,25 @@ Add your user to `docker` group:
 sudo usermod -aG docker $USER
 ```
 
-Delete all images, containers, volumes, and networks that are not associated with a container (dangling):
+## Command-line
+
+Remove unused data:
 
 ```sh
 docker system prune
+
+docker system prune -a
 ```
 
-Read [docker run](https://docs.docker.com/engine/reference/commandline/run/).
+Docker run options:
 
-| option   | example         | explain                                   |
-| -------- | --------------- | ----------------------------------------- |
-| `-i`     |                 | Keep STDIN open even if not attached      |
-| `--name` |                 |                                           |
-| `-p`     | `-p 8080:80`    | Publish container port : host port        |
-| `--rm`   |                 |                                           |
-| `-t`     |                 | Allocate a pseudo-TTY                     |
-| `-v`     | `-v ~/abc:/abc` | Bind host directory : container directory |
-
-Example run `ubuntu` image:
-
-```sh
-docker run --rm -it ubuntu
-```
+| option                | example                  | explain                                 |
+| --------------------- | ------------------------ | --------------------------------------- |
+| `--detach`, `-d`      |                          | Run container in background             |
+| `--env`, `-e`         | `-e PLATFORM=linux`      | Set environment variables               |
+| `--interactive`, `-i` |                          | Keep STDIN open                         |
+| `--name`              |                          |                                         |
+| `--publish`, `-p`     | `-p 8080:80`             | Publish container port:host port        |
+| `--rm`                |                          | Remove container when exit              |
+| `--tty`, `-t`         |                          | Allocate a pseudo-TTY                   |
+| `--volume`, `-v`      | `-v "$(pwd)"/data:/data` | Bind host directory:container directory |
