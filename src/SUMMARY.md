@@ -24,6 +24,7 @@
     - [HTTPie](Applications/Network/HTTPie.md)
     - [Mosh](Applications/Network/Mosh.md)
     - [Ncat](Applications/Network/Ncat.md)
+    - [OpenSSH](Applications/Network/OpenSSH.md)
     - [OpenVPN](Applications/Network/OpenVPN.md)
     - [sshuttle](Applications/Network/sshuttle.md)
   - [System](Applications/System/README.md)
