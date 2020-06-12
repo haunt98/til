@@ -9,7 +9,7 @@ docker run --rm -p 9090:9090 --name prometheus prom/prometheus
 docker run --rm -p 9090:9090 -v "$(pwd)"/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml --name prometheus prom/prometheus
 ```
 
-UI
+UI:
 
 ```txt
 localhost:9090
