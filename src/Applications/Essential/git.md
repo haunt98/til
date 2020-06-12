@@ -5,6 +5,16 @@
 | Arch Linux   | `git`   |
 | Ubuntu       | `git`   |
 
+Aliases:
+
+```sh
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.logo 'log --pretty=oneline'
+```
+
 Save usernames and passwords in `~/.git-credentials`:
 
 ```sh
