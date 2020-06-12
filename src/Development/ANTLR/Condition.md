@@ -1,23 +1,4 @@
-# ANTLR4
-
-| Distribution | Package  |
-| ------------ | -------- |
-| Arch Linux   | `antlr4` |
-| Ubuntu       | `antlr4` |
-
-Add to `~/.bashrc`:
-
-```bash
-# Arch Linux
-export classpath=".:/usr/share/java/antlr-complete.jar:$classpath"
-
-# Ubuntu
-export classpath=".:/usr/share/java/antlr4.jar:$classpath"
-```
-
-Read [Getting Started with ANTLR v4](https://github.com/antlr/antlr4/blob/master/doc/getting-started.md).
-
-Sample `Condition.g4`:
+# Condition
 
 ```antlr4
 grammar Condition;
