@@ -22,9 +22,9 @@ export EDITOR=nvim
 
 ## Packages
 
-Autoloaded package is stored `~/.local/share/nvim/site/pack/foo/start/bar`.
+Autoloaded package is stored `~/.local/share/nvim/site/pack/{foo}/start/{bar}`.
 
-Manually loaded package is stored `~/.local/share/nvim/site/pack/foo/opt/bar`
+Manually loaded package is stored `~/.local/share/nvim/site/pack/{foo}/opt/{bar}`
 
 `foo` is random name, `bar` is package name.
 
