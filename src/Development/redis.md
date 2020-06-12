@@ -6,14 +6,17 @@ Docker:
 docker run --rm -p 6379:6379 --name redis redis:alpine
 ```
 
-## redis-cli
+## Command line interface
 
-`redis-cli` is included in:
+### redis-cli
+
+redis-cli is included in:
 
 | Distribution | Package        |
 | ------------ | -------------- |
 | Arch Linux   | `redis`        |
 | Ubuntu       | `redis-server` |
+| Homebrew     | `redis`        |
 
 Connect:
 
@@ -21,16 +24,32 @@ Connect:
 redis-cli -h localhost -p 6379
 ```
 
-### [Commands](https://redis.io/commands)
+### [Redli](https://github.com/IBM-Cloud/redli)
+
+Connect:
+
+```sh
+redli -h localhost -p 6379
+```
+
+### Commands
 
 Get all keys:
 
-```sh
-KEYS *
+```redis
+keys *
 ```
 
 Delete all keys:
 
-```sh
-FLUSHALL
+```redis
+flushall
+```
+
+Get/Set/Delete key:
+
+```redis
+get mykey
+set mykey myvalue
+del mykey
 ```
