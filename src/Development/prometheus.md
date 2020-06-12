@@ -1,46 +1,34 @@
 # Prometheus
 
-Read [Getting started](https://prometheus.io/docs/prometheus/latest/getting_started/).
-
 Docker:
 
 ```sh
-docker run -d \
-    -p 9090:9090 \
-    -v /path/to/config:/etc/prometheus \
-    --name prometheus
-    prom/prometheus
+docker run --rm -p 9090:9090 --name prometheus prom/prometheus
+
+# Custom configuration
+docker run --rm -p 9090:9090 -v "$(pwd)"/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml --name prometheus prom/prometheus
 ```
 
-UI:
+UI
 
 ```txt
 localhost:9090
-```
-
-Metrics:
-
-```txt
 localhost:9090/metrics
 ```
 
 ## Pushing metrics
 
-Read [Pushing metrics](https://prometheus.io/docs/instrumenting/pushing/)
-
 Docker:
 
 ```sh
-docker run -d \
-    -p 9091:9091 \
-    --name pushgateway
-    prom/pushgateway
+docker run --rm -p 9091:9091 --name pushgateway prom/pushgateway
 ```
 
 UI:
 
 ```txt
 localhost:9091
+localhost:9091/metrics
 ```
 
 To configure the Pushgateway as a target to scrape by Prometheus,
