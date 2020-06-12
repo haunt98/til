@@ -1,12 +1,9 @@
-# Grafana
+# [Grafana](https://grafana.com/)
 
 Docker:
 
 ```sh
-docker run -d \
-    -p 3000:3000 \
-    --name grafana \
-    grafana/grafana
+docker run --rm -p 3000:3000 --name grafana grafana/grafana
 ```
 
 UI:
