@@ -6,7 +6,7 @@ Docker:
 docker run --rm -p 6379:6379 --name redis redis:alpine
 ```
 
-## Command line interface
+## Command-line interface
 
 ### redis-cli
 
