@@ -50,8 +50,9 @@
     - [Grafana](Development/Services/Grafana.md)
     - [MinIO](Development/Services/MinIO.md)
     - [Prometheus](Development/Services/Prometheus.md)
+    - [RabbitMQ](Development/Services/RabbitMQ.md)
     - [Redis](Development/Services/Redis.md)
-  - [Docker](Development/Docker.md)
+  - [Docker](Development/Docker.md)t
 - [Knowledge](Knowledge/README.md)
   - [Regular expression](Knowledge/regex.md)
   - [Top Down Operator Precedence](Knowledge/tdop.md)
