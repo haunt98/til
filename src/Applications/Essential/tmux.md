@@ -1,9 +1,10 @@
 # tmux
 
-| distribution | package |
+| Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `tmux`  |
 | Ubuntu       | `tmux`  |
+| Homebrew     | `tmux`  |
 
 Imagine you want to run a long task in terminal, but you don't want to keep terminal open.
 
