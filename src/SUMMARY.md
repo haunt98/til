@@ -18,6 +18,7 @@
   - [Misc](Applications/Misc/README.md)
     - [Cheat](Applications/Misc/Cheat.md)
     - [Instaloader](Applications/Misc/Instaloader.md)
+    - [mpv](Applications/Misc/mpv.md)
     - [Steam](Applications/Misc/Steam.md)
     - [Ventoy](Applications/Misc/Ventoy.md)
   - [Network](Applications/Network/README.md)
