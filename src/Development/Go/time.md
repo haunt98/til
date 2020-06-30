@@ -42,3 +42,26 @@ if err != nil {
 
 fmt.Println(t)
 ```
+
+Example `Format` with layout:
+
+```go
+now := time.Now()
+
+layout := "2006-01-02"
+fmt.Println(now.Format(layout))
+```
+
+Example `Format` with layout and location:
+
+```go
+loc, err := time.LoadLocation("Asia/Ho_Chi_Minh")
+if err != nil {
+    return "", err
+}
+
+now := time.Now().In(loc)
+
+layout := "2006-01-02"
+fmt.Println(now.Format(layout))
+```
