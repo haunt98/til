@@ -21,6 +21,7 @@
     - [mpv](Applications/Misc/mpv.md)
     - [Steam](Applications/Misc/Steam.md)
     - [Ventoy](Applications/Misc/Ventoy.md)
+    - [Prettier](Applications/Misc/Prettier.md)
   - [Network](Applications/Network/README.md)
     - [HTTPie](Applications/Network/HTTPie.md)
     - [Mosh](Applications/Network/Mosh.md)
