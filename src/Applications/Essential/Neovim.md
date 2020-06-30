@@ -33,3 +33,14 @@ To load package manully:
 ```vim
 packadd bar
 ```
+
+## Usage
+
+Completion:
+
+| Command         | Description               |
+| --------------- | ------------------------- |
+| `CTRL-N`        | Insert next matching word |
+| `CTRL-X CTRL-F` | File completion           |
+| `CTRL-X CTRL-L` | Line completion           |
+| `CTRL-X CTRL-Q` | Vim completion            |
