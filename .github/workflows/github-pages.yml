@@ -5,7 +5,7 @@ on:
     branches: master
 
 jobs:
-  github.io:
+  github-pages:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
