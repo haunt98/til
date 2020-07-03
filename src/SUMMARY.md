@@ -45,6 +45,7 @@
     - [time](Development/Go/time.md)
   - [Python](Development/Python/README.md)
     - [argparse](Development/Python/argparse.md)
+    - [black](Development/Python/black.md)
     - [subprocess](Development/Python/subprocess.md)
     - [venv](Development/Python/venv.md)
   - [Services](Development/Services/README.md)
