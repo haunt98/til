@@ -32,6 +32,8 @@ fc-list
 
 [Ubuntu font](https://design.ubuntu.com/font/)
 
+[Inter](https://rsms.me/inter/)
+
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 [Fira Code](https://github.com/tonsky/FiraCode)
@@ -44,10 +46,14 @@ fc-list
 
 [Iosevka](https://github.com/be5invis/Iosevka)
 
+[M+ FONTS](https://mplus-fonts.osdn.jp/)
+
 [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
 
 [mononoki](https://github.com/madmalik/mononoki)
 
 [agave](https://github.com/agarick/agave)
+
+[Sudo](https://github.com/jenskutilek/sudo-font)
 
 [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
