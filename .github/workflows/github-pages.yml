@@ -5,7 +5,7 @@ on:
     branches: master
 
 jobs:
-  deploy:
+  github.io:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
