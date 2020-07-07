@@ -24,6 +24,10 @@ Add to `~/.bashrc`:
 # Use fd instead of find
 export FZF_DEFAULT_COMMAND='fd --hidden --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# Colorscheme
+export FZF_DEFAULT_OPTS='--color dark'
+export FZF_DEFAULT_OPTS='--color light'
 ```
 
 | Shorcut  | Explain                              |
