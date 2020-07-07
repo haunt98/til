@@ -13,7 +13,7 @@ Add to `~/.bashrc`:
 
 ```bash
 export HISTCONTROL=ignoreboth:erasedups
-export HISTIGNORE="cd:ls:pwd:exit"
+export HISTIGNORE="cd:ls:la:ll:pwd:exit"
 ```
 
 Shebang:
