@@ -5,12 +5,15 @@
 | Arch Linux   | `git`   |
 | Ubuntu       | `git`   |
 
+## Config
+
 Aliases:
 
 ```sh
-git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
+git config --global alias.co checkout
+git config --global alias.df diff
 git config --global alias.st status
 git config --global alias.logo 'log --pretty=oneline'
 ```
@@ -27,6 +30,8 @@ Use neovim when commit:
 git config --global core.editor nvim
 ```
 
+## Commands
+
 Prefer rebase when pull:
 
 ```sh
@@ -39,7 +44,7 @@ Clean outdated branches:
 git fetch --prune
 ```
 
-Push force safely:
+Push force **safely**:
 
 ```sh
 git push --force-with-lease
