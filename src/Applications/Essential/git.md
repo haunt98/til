@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Arch Linux   | `git`   |
 | Ubuntu       | `git`   |
+| Homebrew     | `git`   |
 
 ## Config
 
