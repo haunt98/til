@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Arch Linux   | `rsync` |
 | Ubuntu       | `rsync` |
+| Homebrew     | `rsync` |
 
 ```sh
 rsync -vah src dest
