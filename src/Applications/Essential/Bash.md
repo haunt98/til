@@ -38,6 +38,6 @@ Add to `~/.bashrc`:
     source /usr/share/bash-completion/bash_completion
 
 # Homebrew
-[ -f /usr/local/etc/bash_completion ] && \
+[[ -f /usr/local/etc/bash_completion ]] && \
     source /usr/local/etc/bash_completion
 ```
