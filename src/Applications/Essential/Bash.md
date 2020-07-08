@@ -12,8 +12,12 @@ In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`
 Add to `~/.bashrc`:
 
 ```bash
+export HISTSIZE=10000
+export HISTFILESIZE=10000
 export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="cd:ls:la:ll:pwd:exit"
+
+shopt -s histappend
 ```
 
 Shebang:
