@@ -70,3 +70,9 @@ Cleanup unnecessary files:
 ```sh
 git gc
 ```
+
+Find common ancestor:
+
+```sh
+git merge-base A B
+```
