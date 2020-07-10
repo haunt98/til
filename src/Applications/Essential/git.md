@@ -56,3 +56,17 @@ Rewrite history by changing last `x` commits :
 ```sh
 git rebase -i HEAD~x
 ```
+
+Squash last `x` commits to 1 commit:
+
+```sh
+git reset HEAD~x
+git add -A
+git commit
+```
+
+Cleanup unnecessary files:
+
+```sh
+git gc
+```
