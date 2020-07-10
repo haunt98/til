@@ -1,9 +1,9 @@
 # Go
 
-| Distribution | Package                                         |
-| ------------ | ----------------------------------------------- |
-| Arch Linux   | `go`, `go-tools`                                |
-| Ubuntu       | [See](https://github.com/golang/go/wiki/Ubuntu) |
+| Distribution | Package          |
+| ------------ | ---------------- |
+| Arch Linux   | `go`, `go-tools` |
+| Snap         | `go`             |
 
 Add to `~/.bashrc`:
 
