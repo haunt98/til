@@ -10,11 +10,11 @@ docker run --rm -p 6379:6379 --name redis redis:alpine
 
 ### redis-cli
 
-| Distribution | Package        |
-| ------------ | -------------- |
-| Arch Linux   | `redis`        |
-| Ubuntu       | `redis-server` |
-| Homebrew     | `redis`        |
+| Distribution | Package       |
+| ------------ | ------------- |
+| Arch Linux   | `redis`       |
+| Ubuntu       | `redis-tools` |
+| Homebrew     | `redis`       |
 
 Connect:
 
