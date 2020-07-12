@@ -30,6 +30,7 @@
     - [Ncat](Applications/Network/Ncat.md)
     - [OpenSSH](Applications/Network/OpenSSH.md)
     - [OpenVPN](Applications/Network/OpenVPN.md)
+    - [Telnet](Applications/Network/Telnet.md)
     - [sshuttle](Applications/Network/sshuttle.md)
   - [System](Applications/System/README.md)
     - [Blueman](Applications/System/Blueman.md)
