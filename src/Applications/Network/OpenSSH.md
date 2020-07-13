@@ -25,13 +25,25 @@ ssh myserver
 
 ## SSH key
 
+Remove keys in `known_hosts`:
+
+```sh
+# Remove all
+rm -rf ~/.ssh/known_hosts
+
+# Remove only 1
+ssh-keygen -R remote_host
+```
+
+### Copy local key to server
+
 Generate key:
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your@email.com"
 ```
 
-Start:
+Start `ssh-agent`:
 
 ```sh
 eval "$(ssh-agent -s)"
