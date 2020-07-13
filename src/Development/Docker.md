@@ -39,3 +39,26 @@ Docker run options:
 | `--rm`                |                          | Remove container when exit              |
 | `--tty`, `-t`         |                          | Allocate a pseudo-TTY                   |
 | `--volume`, `-v`      | `-v "$(pwd)"/data:/data` | Bind host directory:container directory |
+
+## Docker Compose
+
+Update images:
+
+```sh
+docker-compose pull
+```
+
+Start:
+
+```sh
+docker-compose up
+
+# Detach
+docker-compose up -d
+```
+
+Stops:
+
+```sh
+docker-compose down
+```
