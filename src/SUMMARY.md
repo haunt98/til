@@ -44,6 +44,7 @@
   - [ANTLR](Development/ANTLR/README.md)
     - [Condition](Development/ANTLR/Condition.md)
   - [Go](Development/Go/README.md)
+    - [errors](Development/Go/errors.md)
     - [strings](Development/Go/strings.md)
     - [testing](Development/Go/testing.md)
     - [time](Development/Go/time.md)
