@@ -25,6 +25,7 @@
     - [mdBook](Applications/Misc/mdBook.md)
     - [mpv](Applications/Misc/mpv.md)
   - [Network](Applications/Network/README.md)
+    - [EasySSH](Applications/Network/EasySSH.md)
     - [HTTPie](Applications/Network/HTTPie.md)
     - [Mosh](Applications/Network/Mosh.md)
     - [Ncat](Applications/Network/Ncat.md)
