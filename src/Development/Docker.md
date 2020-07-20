@@ -22,9 +22,9 @@ sudo usermod -aG docker $USER
 Remove unused data:
 
 ```sh
-docker system prune
+docker system prune --volumes
 
-docker system prune -a
+docker system prune --volumes -a
 ```
 
 Docker run options:
