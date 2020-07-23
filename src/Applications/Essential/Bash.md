@@ -1,14 +1,5 @@
 # Bash
 
-Read [Default Keyboard Shortcuts for Bash](https://catonmat.net/ftp/readline-emacs-editing-mode-cheat-sheet.pdf).
-
-In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`:
-
-```bash
-[[ -f ~/.bashrc ]] && \
-    source ~/.bashrc
-```
-
 Add to `~/.bashrc`:
 
 ```bash
@@ -25,6 +16,14 @@ Shebang:
 ```sh
 #!/usr/bin/env bash
 ```
+
+| Shorcut      | Explain                  |
+| ------------ | ------------------------ |
+| `CTRL-A`     | move to begining of line |
+| `CTRL-E`     | move to end of line      |
+| `CTRL-Right` | move forward a word      |
+| `CTRL-Left`  | move backward a word     |
+| `CTRL-W`     | clear the word behind    |
 
 ## Bash completion
 
@@ -44,4 +43,26 @@ Add to `~/.bashrc`:
 # Homebrew
 [[ -f /usr/local/etc/bash_completion ]] && \
     source /usr/local/etc/bash_completion
+```
+
+## macOS
+
+In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`:
+
+```bash
+[[ -f ~/.bashrc ]] && \
+    source ~/.bashrc
+```
+
+To use latest Bash, install `bash` from Homebrew.
+Then append to `/etc/shells`:
+
+```txt
+/usr/local/bin/bash
+```
+
+Set default shell
+
+```
+chsh -s /usr/local/bin/bash
 ```

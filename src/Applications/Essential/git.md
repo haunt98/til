@@ -1,11 +1,5 @@
 # Git
 
-| Distribution | Package |
-| ------------ | ------- |
-| Arch Linux   | `git`   |
-| Ubuntu       | `git`   |
-| Homebrew     | `git`   |
-
 ## Config
 
 Aliases:
