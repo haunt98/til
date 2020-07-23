@@ -17,7 +17,7 @@ Add your user to `docker` group:
 sudo usermod -aG docker $USER
 ```
 
-## Command-line
+## Commands
 
 Remove unused data:
 
@@ -25,6 +25,12 @@ Remove unused data:
 docker system prune --volumes
 
 docker system prune --volumes -a
+```
+
+Inside container:
+
+```sh
+docker exec -it container_name /bin/bash
 ```
 
 Docker run options:

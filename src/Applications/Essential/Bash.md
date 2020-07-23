@@ -54,7 +54,7 @@ In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`
     source ~/.bashrc
 ```
 
-To use latest Bash, install `bash` from Homebrew.
+To use latest Bash, install `bash` with Homebrew.
 Then append to `/etc/shells`:
 
 ```txt

@@ -6,19 +6,12 @@
 | Ubuntu       | `neovim` |
 | Homebrew     | `neovim` |
 
-Add to `~/.bashrc`:
-
-```bash
-export EDITOR=nvim
-
-# Arch Linux, Ubuntu
-[[ -f /usr/bin/nvim ]] && \
-    alias vim="nvim"
-
-# Homebrew
-[[ -f /usr/local/bin/nvim ]] && \
-    alias vim="nvim"
-```
+| Shorcut         | Description               |
+| --------------- | ------------------------- |
+| `CTRL-N`        | Insert next matching word |
+| `CTRL-X CTRL-F` | File completion           |
+| `CTRL-X CTRL-L` | Line completion           |
+| `CTRL-X CTRL-Q` | Vim completion            |
 
 ## Packages
 
@@ -33,14 +26,3 @@ To load package manully:
 ```vim
 packadd bar
 ```
-
-## Usage
-
-Completion:
-
-| Command         | Description               |
-| --------------- | ------------------------- |
-| `CTRL-N`        | Insert next matching word |
-| `CTRL-X CTRL-F` | File completion           |
-| `CTRL-X CTRL-L` | Line completion           |
-| `CTRL-X CTRL-Q` | Vim completion            |
