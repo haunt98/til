@@ -2,4 +2,5 @@
 
 | Distribution | Package  |
 | ------------ | -------- |
+| Snap         | `mdbook` |
 | Homebrew     | `mdbook` |
