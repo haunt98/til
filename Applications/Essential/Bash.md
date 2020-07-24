@@ -25,26 +25,6 @@ Shebang:
 | `CTRL-Left`  | move backward a word     |
 | `CTRL-W`     | clear the word behind    |
 
-## Bash completion
-
-| Distribution | Package           |
-| ------------ | ----------------- |
-| Arch Linux   | `bash-completion` |
-| Ubuntu       | `bash-completion` |
-| Homebrew     | `bash-completion` |
-
-Add to `~/.bashrc`:
-
-```bash
-# Arch Linux, Ubuntu
-[[ -f /usr/share/bash-completion/bash_completion ]] && \
-    source /usr/share/bash-completion/bash_completion
-
-# Homebrew
-[[ -f /usr/local/etc/bash_completion ]] && \
-    source /usr/local/etc/bash_completion
-```
-
 ## macOS
 
 In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`:

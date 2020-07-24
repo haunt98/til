@@ -5,6 +5,7 @@
   - [Essential](Applications/Essential/README.md)
     - [Bash](Applications/Essential/Bash.md)
     - [Neovim](Applications/Essential/Neovim.md)
+    - [bash-completion](Applications/Essential/bash-completion.md)
     - [fd](Applications/Essential/fd.md)
     - [fzf](Applications/Essential/fzf.md)
     - [git](Applications/Essential/git.md)
