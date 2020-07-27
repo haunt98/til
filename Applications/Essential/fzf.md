@@ -1,6 +1,6 @@
 # [fzf](https://wiki.archlinux.org/index.php/Fzf)
 
-Add to `~/.bashrc`:
+Add to `~/.bashrc`, `~/.zshrc`:
 
 ```bash
 # Use fd instead of find
