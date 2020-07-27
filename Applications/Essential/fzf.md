@@ -1,4 +1,4 @@
-# [fzf](https://wiki.archlinux.org/index.php/Fzf)
+# [fzf](https://github.com/junegunn/fzf)
 
 Add to `~/.bashrc`, `~/.zshrc`:
 
