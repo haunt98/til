@@ -12,7 +12,7 @@ Mon Jan 2 15:04:05 MST 2006
 
 To define your layout, rewrite reference time in your layout.
 
-Example `Parse`:
+Example `time.Parse` from `string` to `time.Time`:
 
 ```go
 layout := "2006-01-02 15:04:05"
@@ -25,7 +25,7 @@ if err != nil {
 fmt.Println(t)
 ```
 
-Example `ParseInLocation`:
+Example `time.ParseInLocation` from `string` to `time.Time` with location:
 
 ```go
 layout := "2006-01-02 15:04:05"
@@ -43,7 +43,7 @@ if err != nil {
 fmt.Println(t)
 ```
 
-Example `Format` with layout:
+Example `Format` from `time.Time` to `string`:
 
 ```go
 now := time.Now()
@@ -52,7 +52,7 @@ layout := "2006-01-02"
 fmt.Println(now.Format(layout))
 ```
 
-Example `Format` with layout and location:
+Example `Format` from `time.Time` to `string` with location:
 
 ```go
 loc, err := time.LoadLocation("Asia/Ho_Chi_Minh")
@@ -64,4 +64,10 @@ now := time.Now().In(loc)
 
 layout := "2006-01-02"
 fmt.Println(now.Format(layout))
+```
+
+Example `time.Unix` from timestamp ms to `time.Time`:
+
+```go
+time.Unix(0, timestamp * int64(time.Millisecond))
 ```
