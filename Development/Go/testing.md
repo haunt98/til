@@ -1,5 +1,18 @@
 # [testing](https://golang.org/pkg/testing/)
 
+## Coverage
+
+```sh
+# Write a coverage profile
+go test -coverprofile=coverage.out ./...
+
+# Coverage
+go tool cover -func=coverage.out
+
+# Coverage with HTML
+go tool cover -html=coverage.out
+```
+
 ## Benchmark
 
 Any benchmark should be careful to prevent **compiler optimization**.
