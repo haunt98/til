@@ -4,7 +4,6 @@
 | ------------ | ---------------------------------- |
 | Arch Linux   | `openssh`                          |
 | Ubuntu       | `openssh-client`, `openssh-server` |
-| Homebrew     | `openssh`                          |
 
 Edit `~/.ssh/config`:
 
