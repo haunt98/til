@@ -135,7 +135,8 @@ pacman -Syu gnome-shell gdm gnome-control-center gnome-tweak-tool
     networkmanager gnome-keyring \
     nautilus xdg-user-dirs-gtk \
     file-roller p7zip unrar \
-    gnome-terminal gnome-backgrounds gnome-screenshot
+    gnome-terminal gnome-backgrounds gnome-screenshot \
+    evince eog
 ```
 
 Enable services:
