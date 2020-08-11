@@ -1,4 +1,4 @@
-# systemd/Journal
+# systemd-journald
 
 Edit `/etc/systemd/journald.conf.d/00-journal-size.conf`:
 
@@ -7,7 +7,7 @@ Edit `/etc/systemd/journald.conf.d/00-journal-size.conf`:
 SystemMaxUse=50M
 ```
 
-After editing, restart service:
+Restart service:
 
 ```sh
 systemctl restart systemd-journald.service

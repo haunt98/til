@@ -78,9 +78,15 @@ mkdir -p /mnt/home
 mount /dev/xxxY /mnt/home
 ```
 
+### Installation
+
+```sh
+pacstrap /mnt base linux linux-firmware base-devel neovim intel-ucode
+```
+
 ### Boot loader
 
-[systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot)
+[systemd-boot](Applications/System/systemd-boot.md)
 
 ## [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations)
 
@@ -88,20 +94,33 @@ Always remember to check **dependencies** when install packages.
 
 ### System administration
 
-Read [Users and groups](https://wiki.archlinux.org/index.php/Users_and_groups).
-
-Read [Sudo/Using visudo](https://wiki.archlinux.org/index.php/Sudo#Using_visudo).
+Add user:
 
 ```sh
 useradd -m -G additional_groups -s login_shell username
 ```
 
-| abstract            | implement   |
+Set password:
+
+```sh
+passwd username
+```
+
+Enable sudo:
+
+```sh
+EDITOR=nvim visudo
+
+# Uncomment group wheel
+```
+
+| Pseudo              | Real        |
 | ------------------- | ----------- |
 | `additional_groups` | `wheel`     |
 | `login_shell`       | `/bin/bash` |
+| `username`          | `joker`     |
 
-### Graphical user interface and Networking
+### Desktop Environment
 
 Install [Xorg](https://wiki.archlinux.org/index.php/Xorg):
 
@@ -112,17 +131,11 @@ pacman -Syu xorg-server
 Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
 
 ```sh
-pacman -Syu \
-    gnome-shell \
-    gdm \
+pacman -Syu gnome-shell gdm gnome-control-center gnome-tweak-tool
     networkmanager gnome-keyring \
-    gnome-control-center gnome-tweak-tool \
     nautilus xdg-user-dirs-gtk \
     file-roller p7zip unrar \
-    gnome-terminal \
-    gnome-backgrounds \
-    gnome-screenshot \
-
+    gnome-terminal gnome-backgrounds gnome-screenshot
 ```
 
 Enable services:
@@ -132,20 +145,10 @@ systemctl enable gdm.service
 
 systemctl enable NetworkManager.service
 
+systemctl enable bluetooth.service
+
 timedatectl set-ntp true
 ```
-
-### Optimization
-
-Read [Improving performance/Watchdogs](https://wiki.archlinux.org/index.php/Improving_performance#Watchdogs).
-
-Read [Improving performance/Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up).
-
-Read [Silent boot](https://wiki.archlinux.org/index.php/Silent_boot).
-
-### Appearance
-
-Read [Fonts](https://wiki.archlinux.org/index.php/Fonts).
 
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
 
