@@ -13,12 +13,6 @@ git config --global alias.st status
 git config --global alias.logo 'log --pretty=oneline'
 ```
 
-Save usernames and passwords in `~/.git-credentials`:
-
-```sh
-git config --global credential.helper store
-```
-
 Use neovim when commit:
 
 ```sh
