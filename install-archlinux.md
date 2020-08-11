@@ -22,10 +22,24 @@ dd bs=4M if=path/to/archlinux.iso of=/dev/sdx status=progress oflag=sync
 
 ### Connect to the internet
 
-Enable wifi:
+Read [iwd/iwctl](https://wiki.archlinux.org/index.php/Iwd#iwctl):
 
 ```sh
-wifi-menu
+iwctl
+```
+
+Inside `iwctl`:
+
+```txt
+device list
+
+# Change device to real device
+station device scan
+
+station device get-networks
+
+# Change SSID to real SSID
+station device connect SSID
 ```
 
 ### Partition the disks
@@ -50,6 +64,18 @@ mkfs.fat -F32 /dev/xxxY
 
 # / and /home
 mkfs.ext4 /dev/xxxY
+```
+
+Mount:
+
+```sh
+mount /dev/xxxY /mnt
+
+mkdir -p /mnt/boot
+mount /dev/xxxY /mnt/boot
+
+mkdir -p /mnt/home
+mount /dev/xxxY /mnt/home
 ```
 
 ### Boot loader
