@@ -27,11 +27,3 @@ In world of corporation, we work with private repository, add to `~/.bashrc`, `~
 ```sh
 export GOPRIVATE=private.git.com
 ```
-
-Last hope, use `~/.netrc`:
-
-```txt
-machine private.git.com
-login your_user
-password your_password 
-```
