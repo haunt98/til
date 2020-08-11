@@ -5,6 +5,12 @@
 | Arch Linux   | `tlp`   |
 | Ubuntu       | `tlp`   |
 
+Enable and start service:
+
+```sh
+systemctl enable --now  tlp.service
+```
+
 ## Thinkpads only
 
 | Distribution | Package          |
