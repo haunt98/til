@@ -22,8 +22,12 @@ export PATH="$PATH:$GOPATH/bin"
 
 [Thanos Coding Style Guide](https://thanos.io/contributing/coding-style-guide.md/)
 
-## Helpful programs
+## Helpful
 
 [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports?tab=doc)
 
 [GolangCI-Lint](https://github.com/golangci/golangci-lint)
+
+[panicparse](https://github.com/maruel/panicparse)
+
+[gomock](https://github.com/golang/mock)

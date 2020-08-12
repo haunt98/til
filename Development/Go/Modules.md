@@ -22,6 +22,12 @@ go mod tidy
 go mod vendor
 ```
 
+Outside modules:
+
+```
+GOMODULE11=on go get example.com/foo/bar
+```
+
 In world of corporation, we work with private repository, add to `~/.bashrc`, `~/.zshrc`:
 
 ```sh
