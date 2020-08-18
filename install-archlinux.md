@@ -131,7 +131,7 @@ pacman -Syu xorg-server
 Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
 
 ```sh
-pacman -Syu gnome-shell gdm gnome-control-center gnome-tweak-tool
+pacman -Syu gnome-shell gdm gnome-control-center gnome-tweak-tool gnome-shell-extensions \
     networkmanager gnome-keyring \
     nautilus xdg-user-dirs-gtk \
     file-roller p7zip unrar \
