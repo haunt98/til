@@ -11,13 +11,12 @@ git config --global alias.co checkout
 git config --global alias.df diff
 git config --global alias.st status
 git config --global alias.sw switch
-git config --global alias.logo 'log --pretty=oneline'
 ```
 
-Use neovim when commit:
+Use nice editor when commit:
 
 ```sh
-git config --global core.editor nvim
+git config --global core.editor <editor>
 ```
 
 ## Commands
@@ -43,13 +42,13 @@ git push --force-with-lease
 Rewrite history by changing last `x` commits :
 
 ```sh
-git rebase -i HEAD~x
+git rebase -i HEAD~<x>
 ```
 
 Squash last `x` commits to 1 commit:
 
 ```sh
-git reset HEAD~x
+git reset HEAD~<x>
 git add -A
 git commit
 ```
@@ -63,5 +62,19 @@ git gc
 Find common ancestor:
 
 ```sh
-git merge-base A B
+git merge-base <A> <B>
+```
+
+Log:
+
+```
+git log --pretty=oneline
+git log --graph --pretty=oneline
+git log --date=human
+```
+
+Changelog:
+
+```
+git shortlog <commit>..HEAD
 ```
