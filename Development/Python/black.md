@@ -5,8 +5,8 @@
 | Arch Linux   | `python-black` |
 | Homebrew     | `black`        |
 
-## Usage
+Usage:
 
-```
+```sh
 black unformatted.py
 ```
