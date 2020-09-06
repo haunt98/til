@@ -34,6 +34,8 @@ fc-list
 
 [Inter](https://rsms.me/inter/)
 
+[IBM Plex](https://github.com/IBM/plex)
+
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 [Fira Code](https://github.com/tonsky/FiraCode)
