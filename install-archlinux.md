@@ -81,7 +81,7 @@ mount /dev/xxxY /mnt/home
 ### Installation
 
 ```sh
-pacstrap /mnt base linux linux-firmware base-devel neovim intel-ucode
+pacstrap /mnt base base-devel linux linux-firmware man-db man-pages intel-ucode neovim
 ```
 
 ### Boot loader
@@ -160,7 +160,6 @@ Uncomment or add if not exist options in `/etc/pacman.conf`:
 ```txt
 # Misc options
 Color
-ILoveCandy
 ```
 
 ### [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
