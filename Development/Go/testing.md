@@ -11,6 +11,9 @@ go tool cover -func=coverage.out
 
 # Coverage with HTML
 go tool cover -html=coverage.out
+
+# Output coverage with HTML
+go tool cover -html=coverage.out -o coverage.html
 ```
 
 ## Benchmark
