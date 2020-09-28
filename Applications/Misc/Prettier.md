@@ -5,7 +5,7 @@
 | Arch Linux   | `prettier` |
 | Homebrew     | `prettier` |
 
-## Usage
+Usage:
 
 ```sh
 prettier --write unformatted.md
