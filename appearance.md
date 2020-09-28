@@ -32,15 +32,17 @@ fc-list
 
 [Ubuntu font](https://design.ubuntu.com/font/)
 
-[Inter](https://rsms.me/inter/)
+[Inter](https://github.com/rsms/inter)
 
 [IBM Plex](https://github.com/IBM/plex)
 
-[JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
 [Fira Code](https://github.com/tonsky/FiraCode)
 
 [Cascadia Code](https://github.com/microsoft/cascadia-code)
+
+[Recursive Sans & Mono](https://github.com/arrowtype/recursive)
 
 ### Honorable mention
 
