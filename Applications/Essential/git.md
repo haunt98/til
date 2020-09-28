@@ -67,7 +67,7 @@ git merge-base <A> <B>
 
 Log:
 
-```
+```sh
 git log --pretty=oneline
 git log --graph --pretty=oneline
 git log --date=human
@@ -75,6 +75,15 @@ git log --date=human
 
 Changelog:
 
-```
+```sh
 git shortlog <commit>..HEAD
+```
+
+Clean untracked files and folders:
+
+```sh
+git clean -fd
+
+# If afraid
+git clean -fdn
 ```
