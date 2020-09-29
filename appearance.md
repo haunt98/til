@@ -36,9 +36,11 @@ fc-list
 
 [IBM Plex](https://github.com/IBM/plex)
 
-[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
+[Iosevka](https://github.com/be5invis/Iosevka)
 
 [Fira Code](https://github.com/tonsky/FiraCode)
+
+[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
 [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
@@ -47,8 +49,6 @@ fc-list
 ### Honorable mention
 
 [Inconsolata](https://github.com/googlefonts/Inconsolata)
-
-[Iosevka](https://github.com/be5invis/Iosevka)
 
 [M+ FONTS](https://mplus-fonts.osdn.jp/)
 
@@ -61,3 +61,5 @@ fc-list
 [Sudo](https://github.com/jenskutilek/sudo-font)
 
 [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
+
+> =
