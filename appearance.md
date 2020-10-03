@@ -61,5 +61,3 @@ fc-list
 [Sudo](https://github.com/jenskutilek/sudo-font)
 
 [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
-
-> =
