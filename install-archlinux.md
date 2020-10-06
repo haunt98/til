@@ -30,7 +30,7 @@ iwctl
 
 Inside `iwctl`:
 
-```txt
+```sh
 device list
 
 # Change device to real device

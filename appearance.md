@@ -6,6 +6,8 @@
 
 [Plata-theme](https://gitlab.com/tista500/plata-theme)
 
+[Arc Theme](https://github.com/jnsh/arc-theme)
+
 ## Icons
 
 [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
@@ -18,7 +20,7 @@
 
 ## Fonts
 
-Read [Preview programming fonts](https://app.programmingfonts.org/).
+Read [Preview programming fonts](https://www.programmingfonts.org/).
 
 List fonts:
 
@@ -46,18 +48,6 @@ fc-list
 
 [Recursive Sans & Mono](https://github.com/arrowtype/recursive)
 
-### Honorable mention
-
-[Inconsolata](https://github.com/googlefonts/Inconsolata)
-
-[M+ FONTS](https://mplus-fonts.osdn.jp/)
-
-[Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
-
-[mononoki](https://github.com/madmalik/mononoki)
-
 [agave](https://github.com/agarick/agave)
 
 [Sudo](https://github.com/jenskutilek/sudo-font)
-
-[Fonts for Apple Platforms](https://developer.apple.com/fonts/)
