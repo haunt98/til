@@ -52,30 +52,38 @@ cfdisk
 
 | Mount point | Partition type       | Suggested size |
 | ----------- | -------------------- | -------------- |
-| /mnt/boot   | EFI system partition | 512 MiB        |
-| /mnt        | Linux                |                |
-| /mnt/home   | Linux                |                |
+| `/mnt/efi`  | EFI system partition | 512 MiB        |
+| `/mnt/boot` | Linux extended boot  | 1 GiB          |
+| `/mnt`      | Linux                |                |
+| `/mnt/home` | Linux                |                |
 
 Format:
 
 ```sh
-# /boot
-mkfs.fat -F32 /dev/xxxY
+# /efi and /boot
+mkfs.fat -F32 /dev/sdxY
 
 # / and /home
-mkfs.ext4 /dev/xxxY
+mkfs.ext4 /dev/sdxY
 ```
 
 Mount:
 
 ```sh
-mount /dev/xxxY /mnt
+# /
+mount /dev/sdxY /mnt
 
+# /efi
+mkdir -p /mnt/efi
+mount /dev/sdxY /mnt/efi
+
+# /boot
 mkdir -p /mnt/boot
-mount /dev/xxxY /mnt/boot
+mount /dev/sdxY /mnt/boot
 
+# /home
 mkdir -p /mnt/home
-mount /dev/xxxY /mnt/home
+mount /dev/sdxY /mnt/home
 ```
 
 ### Installation
@@ -155,7 +163,7 @@ timedatectl set-ntp true
 
 ### [pacman](https://wiki.archlinux.org/index.php/pacman)
 
-Uncomment or add if not exist options in `/etc/pacman.conf`:
+Uncomment in `/etc/pacman.conf`:
 
 ```txt
 # Misc options

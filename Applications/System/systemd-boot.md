@@ -2,12 +2,10 @@
 
 Read [systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot).
 
-Assume you use Arch Linux, and [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition) mount point is `/boot`.
-
-Install:
+Install using XBOOTLDR:
 
 ```sh
-bootctl --path=/boot install
+bootctl --esp-path=/efi --boot-path=/boot install
 ```
 
 Update:
@@ -16,7 +14,7 @@ Update:
 bootctl update
 ```
 
-Edit `/boot/loader/loader.conf`:
+Edit `/efi/loader/loader.conf`:
 
 ```txt
 default         archlinux.conf
