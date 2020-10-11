@@ -140,11 +140,11 @@ Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
 
 ```sh
 pacman -Syu gnome-shell gdm gnome-control-center gnome-tweak-tool gnome-shell-extensions \
-    networkmanager gnome-keyring \
+    networkmanager gnome-keyring seahorse \
     nautilus xdg-user-dirs-gtk \
     file-roller p7zip unrar \
     gnome-terminal gnome-backgrounds gnome-screenshot \
-    evince eog
+    evince eog gedit
 ```
 
 Enable services:
