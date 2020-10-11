@@ -54,16 +54,17 @@ cfdisk
 | ----------- | -------------------- | -------------- |
 | `/mnt/efi`  | EFI system partition | 512 MiB        |
 | `/mnt/boot` | Linux extended boot  | 1 GiB          |
-| `/mnt`      | Linux                |                |
+| `/mnt`      | Linux                | 24 GiB         |
+| `/mnt/var`  | Linux                | 16 GiB         |
 | `/mnt/home` | Linux                |                |
 
 Format:
 
 ```sh
-# /efi and /boot
+# /efi, /boot
 mkfs.fat -F32 /dev/sdxY
 
-# / and /home
+# /, /var, /home
 mkfs.ext4 /dev/sdxY
 ```
 
@@ -80,6 +81,10 @@ mount /dev/sdxY /mnt/efi
 # /boot
 mkdir -p /mnt/boot
 mount /dev/sdxY /mnt/boot
+
+# /var
+mkdir -p /mnt/var
+mount /dev/sdxY /mnt/var
 
 # /home
 mkdir -p /mnt/home
