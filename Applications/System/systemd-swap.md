@@ -4,11 +4,10 @@
 | ------------ | -------------- |
 | Arch Linux   | `systemd-swap` |
 
-Edit `/etc/systemd/swap.conf`:
+Create directory if not exist `/etc/systemd/swap.conf.d` and edit `/etc/systemd/swap.conf.d/overrides.conf`:
 
 ```txt
 swapfc_enabled=1
-swapfc_force_preallocated=1
 ```
 
 Enable and start service:
