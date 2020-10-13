@@ -8,7 +8,7 @@
 Display current Boot Manager settings:
 
 ```sh
-efibootmgr
+efibootmgr -v
 ```
 
 Delete boot entry 7th:
