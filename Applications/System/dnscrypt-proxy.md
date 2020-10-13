@@ -1,4 +1,4 @@
-# dnscrypt-proxy
+# [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
 
 | Distribution | Package          |
 | ------------ | ---------------- |
