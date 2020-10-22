@@ -2,9 +2,11 @@
 
 Should install using git.
 
+## Shell
+
 Add to `~/.bashrc`, `~/.zshrc`:
 
-```bash
+```sh
 # Use fd instead of find
 export FZF_DEFAULT_COMMAND='fd --hidden --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
@@ -19,8 +21,14 @@ export FZF_DEFAULT_OPTS='--color light'
 | `CTRL-T` | search through files and directories |
 | `CTRL-R` | search though command-line history   |
 
+## Editor
+
 Add to `~/.vimrc`, `~/.config/nvim/init.vim`:
 
 ```vim
 set rtp+=~/.fzf
 ```
+
+| Command | Explain                                                      |
+| ------- | ------------------------------------------------------------ |
+| `:FZF`  | search through files and directories under current directory |
