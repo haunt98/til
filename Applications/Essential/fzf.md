@@ -1,5 +1,7 @@
 # [fzf](https://github.com/junegunn/fzf)
 
+Should install using git.
+
 Add to `~/.bashrc`, `~/.zshrc`:
 
 ```bash
@@ -16,3 +18,9 @@ export FZF_DEFAULT_OPTS='--color light'
 | -------- | ------------------------------------ |
 | `CTRL-T` | search through files and directories |
 | `CTRL-R` | search though command-line history   |
+
+Add to `~/.vimrc`, `~/.config/nvim/init.vim`:
+
+```vim
+set rtp+=~/.fzf
+```
