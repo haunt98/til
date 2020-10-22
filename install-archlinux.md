@@ -94,7 +94,7 @@ mount /dev/sdxY /mnt/home
 ### Installation
 
 ```sh
-pacstrap /mnt base base-devel linux linux-firmware man-db man-pages intel-ucode neovim
+pacstrap /mnt base base-devel linux linux-lts linux-zen linux-firmware man-db man-pages intel-ucode neovim
 ```
 
 ### Boot loader

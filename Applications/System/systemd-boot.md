@@ -14,13 +14,25 @@ Update:
 bootctl update
 ```
 
+Label partition:
+
+```sh
+e2label /dev/xxxY ROOT
+```
+
+View partitions:
+
+```sh
+blkid
+```
+
 Edit `/efi/loader/loader.conf`:
 
 ```txt
 default         archlinux.conf
 timeout         4
-console-mode    max
 editor          no
+console-mode    max
 ```
 
 Edit `/boot/loader/entries/archlinux.conf`:
@@ -33,14 +45,22 @@ initrd      /initramfs-linux.img
 options     root="LABEL=ROOT" rw
 ```
 
-Label partition:
+Edit `/boot/loader/entries/archlinux-lts.conf`:
 
-```sh
-e2label /dev/xxxY ROOT
+```txt
+title       Arch Linux LTS
+linux       /vmlinuz-linux-lts
+initrd      /intel-ucode.img
+initrd      /initramfs-linux-lts.img
+options     root="LABEL=ROOT" rw
 ```
 
-View partitions:
+Edit `/boot/loader/entries/archlinux-zen.conf`:
 
-```sh
-blkid
+```txt
+title       Arch Linux ZEN
+linux       /vmlinuz-linux-zen
+initrd      /intel-ucode.img
+initrd      initramfs-linux-zen.img
+options     root="LABEL=ROOT" rw
 ```
