@@ -6,12 +6,15 @@
 | Ubuntu       | `neovim` |
 | Homebrew     | `neovim` |
 
-| Shorcut         | Description               |
-| --------------- | ------------------------- |
-| `CTRL-N`        | Insert next matching word |
-| `CTRL-X CTRL-F` | File completion           |
-| `CTRL-X CTRL-L` | Line completion           |
-| `CTRL-X CTRL-Q` | Vim completion            |
+| Shorcut                        | Description                           |
+| ------------------------------ | ------------------------------------- |
+| `CTRL-N`                       | Insert next matching word             |
+| `CTRL-X CTRL-F`                | File completion                       |
+| `CTRL-X CTRL-L`                | Line completion                       |
+| `CTRL-X CTRL-Q`                | Vim completion                        |
+| `CTRL-X CTRL-O`                | Omni completion                       |
+| `CTRL-W left, right, up, down` | Go to window in left, right, up, down |
+| `CTRL-]`                       | Jump to definition                    |
 
 ## Packages
 
