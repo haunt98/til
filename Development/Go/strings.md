@@ -27,3 +27,9 @@ func newConcat(strs ...string) string {
 	return sb.String()
 }
 ```
+
+Use `EqualFold` for faster compare strings with upper, lower or mixed case:
+
+```go
+strings.EqualFold("Foo", "fOO")
+```
