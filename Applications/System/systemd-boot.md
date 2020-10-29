@@ -61,6 +61,16 @@ Edit `/boot/loader/entries/archlinux-zen.conf`:
 title       Arch Linux ZEN
 linux       /vmlinuz-linux-zen
 initrd      /intel-ucode.img
-initrd      initramfs-linux-zen.img
+initrd      /initramfs-linux-zen.img
+options     root="LABEL=ROOT" rw
+```
+
+Edit `/boot/loader/entries/archlinux-hardened.conf`:
+
+```txt
+title       Arch Linux Hardened
+linux       /vmlinuz-linux-hardened
+initrd      /intel-ucode.img
+initrd      /initramfs-linux-hardened.img
 options     root="LABEL=ROOT" rw
 ```
