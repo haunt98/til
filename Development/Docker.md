@@ -2,7 +2,7 @@
 
 | Distribution | Package                                               |
 | ------------ | ----------------------------------------------------- |
-| Arch Linux   | `docker`                                              |
+| Arch Linux   | `docker docker-compose`                               |
 | Ubuntu       | [See](https://docs.docker.com/engine/install/ubuntu/) |
 
 Enable and start service:
