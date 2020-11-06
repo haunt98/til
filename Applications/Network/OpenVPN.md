@@ -1,33 +1,9 @@
 # OpenVPN
 
-| Distribution | Package   |
-| ------------ | --------- |
-| Arch Linux   | `openvpn` |
-| Ubuntu       | `openvpn` |
-
-Read [update-systemd-resolved](https://github.com/jonathanio/update-systemd-resolved).
-
-| Distribution | Package                                 |
-| ------------ | --------------------------------------- |
-| Arch Linux   | `openvpn-update-systemd-resolved` (AUR) |
-| Ubuntu       | `openvpn-systemd-resolved`              |
-
-Start and enable service:
-
-```sh
-systemctl enable --now systemd-resolved.service
-```
-
-Edit `client.ovpn`:
-
-```txt
-script-security 2
-setenv PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-up /etc/openvpn/scripts/update-systemd-resolved
-up-restart
-down /etc/openvpn/scripts/update-systemd-resolved
-down-pre
-```
+| Distribution | Package                          |
+| ------------ | -------------------------------- |
+| Arch Linux   | `openvpn networkmanager-openvpn` |
+| Ubuntu       | `openvpn`                        |
 
 Connect with factor authentication and start as a dameon:
 
