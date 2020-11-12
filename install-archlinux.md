@@ -55,7 +55,7 @@ cfdisk
 | `/mnt/efi`  | EFI system partition | 512 MiB        |
 | `/mnt/boot` | Linux extended boot  | 1 GiB          |
 | `/mnt`      | Linux                | 24 GiB         |
-| `/mnt/var`  | Linux                | 16 GiB         |
+| `/mnt/var`  | Linux                | 24 GiB         |
 | `/mnt/home` | Linux                |                |
 
 Format:
