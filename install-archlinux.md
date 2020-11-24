@@ -22,25 +22,7 @@ dd bs=4M if=path/to/archlinux.iso of=/dev/sdx status=progress oflag=sync
 
 ### Connect to the internet
 
-Read [iwd/iwctl](https://wiki.archlinux.org/index.php/Iwd#iwctl):
-
-```sh
-iwctl
-```
-
-Inside `iwctl`:
-
-```sh
-device list
-
-# Change device to real device
-station device scan
-
-station device get-networks
-
-# Change SSID to real SSID
-station device connect SSID
-```
+Read [iwd/iwctl](Applications/System/iwd.md).
 
 ### Partition the disks
 

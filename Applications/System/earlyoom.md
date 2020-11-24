@@ -8,5 +8,5 @@
 Enable and start service:
 
 ```sh
-sudo systemctl enable --now earlyoom
+sudo systemctl enable --now earlyoom.service
 ```
