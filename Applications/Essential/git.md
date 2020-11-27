@@ -19,6 +19,24 @@ Use nice editor when commit:
 git config --global core.editor <editor>
 ```
 
+Always pull rebase:
+
+```sh
+git config --global pull.rebase true
+```
+
+Set default branch to `main`:
+
+```sh
+git config --global init.defaultBranch main
+```
+
+Always fetch/pull prune:
+
+```sh
+git config --global fetch.prune true
+```
+
 ## Commands
 
 Prefer rebase when pull:
