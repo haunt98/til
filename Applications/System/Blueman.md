@@ -4,3 +4,4 @@
 | ------------ | --------- |
 | Arch Linux   | `blueman` |
 | Ubuntu       | `blueman` |
+| Fedora       | `blueman` |

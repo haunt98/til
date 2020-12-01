@@ -4,6 +4,7 @@
 | ------------ | ------------ |
 | Arch Linux   | `efibootmgr` |
 | Ubuntu       | `efibootmgr` |
+| Fedora       | `efibootmgr` |
 
 Display current Boot Manager settings:
 

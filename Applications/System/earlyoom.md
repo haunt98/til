@@ -4,9 +4,10 @@
 | ------------ | ---------- |
 | Arch Linux   | `earlyoom` |
 | Ubuntu       | `earlyoom` |
+| Fedora       | `earlyoom` |
 
 Enable and start service:
 
 ```sh
-sudo systemctl enable --now earlyoom.service
+systemctl enable --now earlyoom.service
 ```

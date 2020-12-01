@@ -4,4 +4,5 @@
 | ------------ | ------- |
 | Arch Linux   | `exa`   |
 | Ubuntu       | `exa`   |
+| Fedora       | `exa`   |
 | Homebrew     | `exa`   |

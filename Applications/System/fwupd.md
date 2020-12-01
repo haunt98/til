@@ -3,6 +3,8 @@
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `fwupd` |
+| Ubuntu       | `fwupd` |
+| Fedora       | `fwupd` |
 | Snap         | `fwupd` |
 
 Usage flow:

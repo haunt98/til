@@ -3,6 +3,7 @@
 | Distribution | Package        |
 | ------------ | -------------- |
 | Arch Linux   | `systemd-swap` |
+| Fedora       | `systemd-swap` |
 
 Create directory if not exist `/etc/systemd/swap.conf.d` and edit `/etc/systemd/swap.conf.d/overrides.conf`:
 

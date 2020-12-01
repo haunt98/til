@@ -3,6 +3,7 @@
 | Distribution | Package          |
 | ------------ | ---------------- |
 | Arch Linux   | `go`, `go-tools` |
+| Fedora       | `golang`         |
 | Snap         | `go`             |
 
 Add to `~/.bashrc`:

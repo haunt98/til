@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Arch Linux   | `rsync` |
 | Ubuntu       | `rsync` |
+| Fedora       | `rsync` |
 | Homebrew     | `rsync` |
 
 ```sh

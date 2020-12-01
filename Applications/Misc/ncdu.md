@@ -4,4 +4,5 @@
 | ------------ | ------- |
 | Arch Linux   | `ncdu`  |
 | Ubuntu       | `ncdu`  |
+| Fedora       | `ncdu`  |
 | Homebrew     | `ncdu`  |

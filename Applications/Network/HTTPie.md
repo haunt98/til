@@ -4,4 +4,5 @@
 | ------------ | -------- |
 | Arch Linux   | `httpie` |
 | Ubuntu       | `httpie` |
+| Fedora       | `httpie` |
 | Homebrew     | `httpie` |

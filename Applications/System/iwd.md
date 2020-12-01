@@ -3,11 +3,13 @@
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `iwd`   |
+| Ubuntu       | `iwd`   |
+| Fedora       | `iwd`   |
 
 Enable and start service:
 
 ```sh
-sudo systemctl enable --now iwd.service
+systemctl enable --now iwd.service
 ```
 
 Inside `iwctl`:

@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Arch Linux   | `tlp`   |
 | Ubuntu       | `tlp`   |
+| Fedora       | `tlp`   |
 
 Enable and start service:
 

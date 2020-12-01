@@ -6,6 +6,7 @@
 | ------------ | --------------- |
 | Arch Linux   | `gameconqueror` |
 | Ubuntu       | `gameconqueror` |
+| Fedora       | `gameconqueror` |
 
 ## Windows
 

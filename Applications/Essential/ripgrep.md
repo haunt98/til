@@ -4,4 +4,5 @@
 | ------------ | --------- |
 | Arch Linux   | `ripgrep` |
 | Ubuntu       | `ripgrep` |
+| Fedora       | `ripgrep` |
 | Homebrew     | `ripgrep` |

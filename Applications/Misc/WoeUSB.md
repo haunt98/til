@@ -3,3 +3,4 @@
 | Distribution | Package  |
 | ------------ | -------- |
 | Arch Linux   | `woeusb` |
+| Fedora       | `WoeUSB` |

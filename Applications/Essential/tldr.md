@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Arch Linux   | `tldr`  |
 | Ubuntu       | `tldr`  |
+| Fedora       | `tldr`  |
 | Homebrew     | `tldr`  |
 
 Want to know `tar` ?:

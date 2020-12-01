@@ -1,9 +1,10 @@
 # [OpenSSH](https://www.openssh.com/)
 
-| Distribution | Package                            |
-| ------------ | ---------------------------------- |
-| Arch Linux   | `openssh`                          |
-| Ubuntu       | `openssh-client`, `openssh-server` |
+| Distribution | Package                         |
+| ------------ | ------------------------------- |
+| Arch Linux   | `openssh`                       |
+| Ubuntu       | `openssh-client openssh-server` |
+| Ubuntu       | `openssh`                       |
 
 Edit `~/.ssh/config`:
 

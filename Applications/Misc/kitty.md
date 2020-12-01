@@ -4,4 +4,5 @@
 | ------------ | ------- |
 | Arch Linux   | `kitty` |
 | Ubuntu       | `kitty` |
+| Fedora       | `kitty` |
 | Homebrew     | `kitty` |

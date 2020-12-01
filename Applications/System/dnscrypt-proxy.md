@@ -4,6 +4,7 @@
 | ------------ | ---------------- |
 | Arch Linux   | `dnscrypt-proxy` |
 | Ubuntu       | `dnscrypt-proxy` |
+| Fedora       | `dnscrypt-proxy` |
 
 Edit `/etc/dnscrypt-proxy/dnscrypt-proxy.toml`:
 

@@ -4,6 +4,7 @@
 | ------------ | ------- |
 | Arch Linux   | `bat`   |
 | Ubuntu       | `bat`   |
+| Fedora       | `bat`   |
 | Homebrew     | `bat`   |
 
 List themes:

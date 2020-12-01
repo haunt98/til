@@ -4,6 +4,7 @@
 | ------------ | ----------------- |
 | Arch Linux   | `bash-completion` |
 | Ubuntu       | `bash-completion` |
+| Fedora       | `bash-completion` |
 | Homebrew     | `bash-completion` |
 
 With Arch Linux, Ubuntu, add to `~/.bashrc`:

@@ -4,8 +4,8 @@
 | ------------ | ------- |
 | Arch Linux   | `curl`  |
 | Ubuntu       | `curl`  |
-| Homebrew     | `curl`  |
 | Fedora       | `curl`  |
+| Homebrew     | `curl`  |
 
 Add credentials, edit `~/.netrc`:
 
