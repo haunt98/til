@@ -9,6 +9,8 @@ Config in git:
 
 ```sh
 git config --global core.pager delta
+
+git config --global delta.syntax-theme YourFavoriteTheme
 ```
 
 Edit in `~/.bashrc`, `~/.zshrc`:
