@@ -6,3 +6,9 @@
 | Ubuntu       | `kitty` |
 | Fedora       | `kitty` |
 | Homebrew     | `kitty` |
+
+List fonts:
+
+```sh
+kitty list-fonts
+```
