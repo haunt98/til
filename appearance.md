@@ -70,11 +70,11 @@ fc-list
 
 [IBM Plex](https://github.com/IBM/plex)
 
-| Distribution | Package          |
-| ------------ | ---------------- |
-| Arch Linux   | `ttf-ibm-plex`   |
-| Ubuntu       | `fonts-ibm-plex` |
-| Fedora       | `ibm-plex-fonts` |
+| Distribution | Package              |
+| ------------ | -------------------- |
+| Arch Linux   | `ttf-ibm-plex`       |
+| Ubuntu       | `fonts-ibm-plex`     |
+| Fedora       | `ibm-plex-fonts-all` |
 
 [Clear Sans](https://01.org/clear-sans)
 
