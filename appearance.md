@@ -30,15 +30,22 @@
 | Ubuntu       | `papirus-icon-theme` |
 | Fedora       | `papirus-icon-theme` |
 
+[La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
+
+| Distribution | Package                   |
+| ------------ | ------------------------- |
+| Fedora       | `la-capitaine-icon-theme` |
+
 ## Cursors
 
 [Bibata](https://github.com/KaizIqbal/Bibata_Cursor)
 
 [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)
 
-| Distribution | Package             |
-| ------------ | ------------------- |
-| Arch Linux   | `capitaine-cursors` |
+| Distribution | Package                     |
+| ------------ | --------------------------- |
+| Arch Linux   | `capitaine-cursors`         |
+| Fedora       | `la-capitaine-cursor-theme` |
 
 ## Fonts
 
