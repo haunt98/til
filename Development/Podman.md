@@ -4,5 +4,3 @@
 | ------------ | ------------------------------------- |
 | Arch Linux   | `podman podman-compose podman-docker` |
 | Fedora       | `podman podman-compose podman-docker` |
-
-By default Podman requires root.
