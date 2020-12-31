@@ -1,4 +1,4 @@
-# apng2gif
+# [apng2gif](http://apng2gif.sourceforge.net/)
 
 | Distribution | Package    |
 | ------------ | ---------- |
