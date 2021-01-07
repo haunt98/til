@@ -61,6 +61,11 @@ fc-list
 
 [Google Noto Fonts](https://www.google.com/get/noto/)
 
+| Distribution | Package |
+| Arch Linux | `noto-fonts` |
+| Ubuntu | `fonts-noto` |
+| Fedora | `google-noto-sans-fonts google-noto-serif-fonts google-noto-sans-mono-fonts` |
+
 [Ubuntu font](https://design.ubuntu.com/font/)
 
 | Distribution | Package                  |
