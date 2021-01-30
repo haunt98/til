@@ -14,11 +14,7 @@ Check disks carefully:
 lsblk
 ```
 
-Create USB flash installation media:
-
-```sh
-dd bs=4M if=path/to/archlinux.iso of=/dev/sdx status=progress oflag=sync
-```
+[USB flash installation medium](https://wiki.archlinux.org/index.php/USB_flash_installation_medium)
 
 ### Connect to the internet
 
