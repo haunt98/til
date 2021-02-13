@@ -122,25 +122,60 @@ pacman -Syu xorg-server
 Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
 
 ```sh
-pacman -Syu gnome-shell gdm gnome-control-center \
-	gnome-system-monitor gnome-logs \
-	gnome-tweak-tool gnome-shell-extensions \
-	networkmanager gnome-keyring seahorse \
-	nautilus xdg-user-dirs-gtk \
-	file-roller p7zip unrar \
-	gnome-terminal gnome-backgrounds gnome-screenshot \
-	evince eog gedit
+pacman -Syu gnome
 ```
 
-Enable services:
+Install [MATE](https://wiki.archlinux.org/index.php/MATE)
 
 ```sh
+pacman -Syu mate mate-extra
+```
+
+Install [Xfce](https://wiki.archlinux.org/index.php/xfce#Installation)
+
+```sh
+pacman -Syu xfce4 xfce4-goodies
+```
+
+
+Install and enable [GDM](https://wiki.archlinux.org/index.php/GDM) for GNOME:
+
+```sh
+pacman -Syu gdm
+
 systemctl enable gdm.service
+```
+
+Install and enable [LightDM](https://wiki.archlinux.org/index.php/LightDM) for MATE, Xfce:
+
+```sh
+pacman -Syu lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+
+systemctl enable lightdm.service
+```
+
+Install and enable [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager):
+
+```sh
+pacman -Syu networkmanager
+
+# Support OpenVPN
+pacman -Syu networkmanager-openvpn
 
 systemctl enable NetworkManager.service
+```
+
+Install and enable [Bluetooth](https://wiki.archlinux.org/index.php/Bluetooth):
+
+```sh
+pacman -Syu bluez bluez-utils
 
 systemctl enable bluetooth.service
+```
 
+Enable [systemd-timesyncd](https://wiki.archlinux.org/index.php/systemd-timesyncd)
+
+```sh
 timedatectl set-ntp true
 ```
 
