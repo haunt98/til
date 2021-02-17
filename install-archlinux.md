@@ -149,7 +149,6 @@ Install [Xfce](https://wiki.archlinux.org/index.php/xfce#Installation)
 pacman -Syu xfce4 xfce4-goodies
 ```
 
-
 Install and enable [GDM](https://wiki.archlinux.org/index.php/GDM) for GNOME:
 
 ```sh

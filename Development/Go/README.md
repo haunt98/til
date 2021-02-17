@@ -1,14 +1,14 @@
 # Go
 
-| Distribution | Package          |
-| ------------ | ---------------- |
-| Arch Linux   | `go`, `go-tools` |
-| Fedora       | `golang`         |
-| Snap         | `go`             |
+| Distribution | Package                       |
+| ------------ | ----------------------------- |
+| Arch Linux   | `go`, `go-tools`              |
+| Fedora       | `golang`                      |
+| Snap         | [Go](https://snapcraft.io/go) |
 
-Add to `~/.bashrc`:
+Add to `~/.bashrc`, `~/.zshrc`:
 
-```bash
+```sh
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
 ```
@@ -25,10 +25,10 @@ export PATH="$PATH:$GOPATH/bin"
 
 ## Helpful
 
-[goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports?tab=doc)
+[gomock](https://github.com/golang/mock)
+
+[goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports)
 
 [GolangCI-Lint](https://github.com/golangci/golangci-lint)
 
-[panicparse](https://github.com/maruel/panicparse)
-
-[gomock](https://github.com/golang/mock)
+[vim-go](https://github.com/fatih/vim-go)
