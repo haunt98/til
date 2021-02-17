@@ -3,6 +3,7 @@
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `exa`   |
+| Debian       | `exa`   |
 | Ubuntu       | `exa`   |
 | Fedora       | `exa`   |
 | Homebrew     | `exa`   |
