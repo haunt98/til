@@ -3,6 +3,7 @@
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `mpv`   |
+| Debian       | `mpv`   |
 | Ubuntu       | `mpv`   |
 | Homebrew     | `mpv`   |
 
@@ -22,6 +23,7 @@ Require [youtube-dl](https://github.com/ytdl-org/youtube-dl):
 | Distribution | Package      |
 | ------------ | ------------ |
 | Arch Linux   | `youtube-dl` |
+| Debian       | `youtube-dl` |
 | Ubuntu       | `youtube-dl` |
 | Homebrew     | `youtube-dl` |
 
