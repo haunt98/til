@@ -1,10 +1,11 @@
 # OpenVPN
 
-| Distribution | Package                          |
-| ------------ | -------------------------------- |
-| Arch Linux   | `openvpn networkmanager-openvpn` |
-| Ubuntu       | `openvpn`                        |
-| Fedora       | `openvpn NetworkManager-openvpn` |
+| Distribution | Package   |
+| ------------ | --------- |
+| Arch Linux   | `openvpn` |
+| Debian       | `openvpn` |
+| Ubuntu       | `openvpn` |
+| Fedora       | `openvpn` |
 
 Connect with factor authentication and start as a dameon:
 
