@@ -1,8 +1,9 @@
-# tmux
+# [tmux](https://wiki.archlinux.org/index.php/Tmux)
 
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `tmux`  |
+| Debian       | `tmux`  |
 | Ubuntu       | `tmux`  |
 | Fedora       | `tmux`  |
 | Homebrew     | `tmux`  |

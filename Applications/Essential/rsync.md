@@ -3,6 +3,7 @@
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `rsync` |
+| Debian       | `rsync` |
 | Ubuntu       | `rsync` |
 | Fedora       | `rsync` |
 | Homebrew     | `rsync` |
