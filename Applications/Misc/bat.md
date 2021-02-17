@@ -3,6 +3,7 @@
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `bat`   |
+| Debian       | `bat`   |
 | Ubuntu       | `bat`   |
 | Fedora       | `bat`   |
 | Homebrew     | `bat`   |
