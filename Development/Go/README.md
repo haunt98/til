@@ -1,4 +1,4 @@
-# Go
+# [Go](https://golang.org/)
 
 | Distribution | Package                       |
 | ------------ | ----------------------------- |
