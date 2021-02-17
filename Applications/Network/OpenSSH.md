@@ -3,8 +3,9 @@
 | Distribution | Package                         |
 | ------------ | ------------------------------- |
 | Arch Linux   | `openssh`                       |
+| Debian       | `openssh-client openssh-server` |
 | Ubuntu       | `openssh-client openssh-server` |
-| Ubuntu       | `openssh`                       |
+| Fedora       | `openssh`                       |
 
 Edit `~/.ssh/config`:
 
