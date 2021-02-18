@@ -1,4 +1,4 @@
-# Bash
+# [Bash](https://wiki.archlinux.org/index.php/bash)
 
 Add to `~/.bashrc`:
 
@@ -30,8 +30,7 @@ Shebang:
 In macOS, Bash read `~/.bash_profile` not `~/.bashrc`, so edit `~/.bash_profile`:
 
 ```bash
-[[ -f ~/.bashrc ]] && \
-    source ~/.bashrc
+[[ -f ~/.bashrc ]] && source ~/.bashrc
 ```
 
 To use latest Bash, install `bash` with Homebrew.
@@ -43,6 +42,6 @@ Then append to `/etc/shells`:
 
 Set default shell
 
-```
+```sh
 chsh -s /usr/local/bin/bash
 ```
