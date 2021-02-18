@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-sudo apt install build-essential \
+sudo apt install \
+	build-essential \
 	zsh \
 	curl wget git \
 	neovim tmux \
 	exa fd-find ripgrep \
-	openssh-server openssh-client
+	openssh-server openssh-client \
+	neofetch
 
 # https://github.com/ohmyzsh/ohmyzsh/
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
