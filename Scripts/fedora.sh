@@ -7,7 +7,8 @@ sudo dnf install \
 	neovim tmux \
 	exa bat fd-find ripgrep \
 	openssh \
-	golang
+	golang \
+	nodejs
 
 # https://github.com/ohmyzsh/ohmyzsh/
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
