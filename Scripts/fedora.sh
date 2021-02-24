@@ -7,7 +7,7 @@ sudo dnf install \
 	neovim tmux \
 	exa bat fd-find ripgrep \
 	openssh \
-	golang nodejs \
+	golang nodejs python3 \
 	neofetch
 
 # https://github.com/ohmyzsh/ohmyzsh/
