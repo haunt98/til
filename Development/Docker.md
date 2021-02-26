@@ -3,7 +3,9 @@
 | Distribution | Package                                               |
 | ------------ | ----------------------------------------------------- |
 | Arch Linux   | `docker docker-compose`                               |
+| Debian       | [See](https://docs.docker.com/engine/install/debian/) |
 | Ubuntu       | [See](https://docs.docker.com/engine/install/ubuntu/) |
+| Fedor        | [See](https://docs.docker.com/engine/install/fedora/) |
 
 Enable and start service:
 
