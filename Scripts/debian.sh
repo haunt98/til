@@ -8,4 +8,5 @@ sudo apt install \
 	exa fd-find ripgrep \
 	openssh-server openssh-client \
 	python3 python3-venv nodejs npm \
+	podman \
 	neofetch

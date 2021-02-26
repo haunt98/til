@@ -8,4 +8,5 @@ sudo dnf install \
 	exa bat fd-find ripgrep git-delta \
 	openssh \
 	golang python3 nodejs \
+	podman \
 	neofetch
