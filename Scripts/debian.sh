@@ -7,5 +7,5 @@ sudo apt install \
 	neovim tmux \
 	exa fd-find ripgrep \
 	openssh-server openssh-client \
-	python3 python3-venv \
+	python3 python3-venv nodejs npm \
 	neofetch

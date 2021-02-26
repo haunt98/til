@@ -7,5 +7,5 @@ sudo dnf install \
 	neovim tmux \
 	exa bat fd-find ripgrep git-delta \
 	openssh \
-	golang nodejs python3 \
+	golang python3 nodejs \
 	neofetch
