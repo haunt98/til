@@ -11,6 +11,12 @@ Create directory if not exist `/etc/systemd/swap.conf.d` and edit `/etc/systemd/
 swapfc_enabled=1
 ```
 
+Edit `/etc/sysctl.d/99-swappiness.conf`:
+
+```txt
+vm.swappiness=10
+```
+
 Enable and start service:
 
 ```sh
