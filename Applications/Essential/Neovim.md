@@ -15,6 +15,7 @@
 | `CTRL-X CTRL-O`                | Omni completion                       |
 | `CTRL-W left, right, up, down` | Go to window in left, right, up, down |
 | `CTRL-]`                       | Jump to definition                    |
+| `CTRL-O`                       | Jump backwards                        |
 
 ## Packages
 
