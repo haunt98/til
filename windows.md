@@ -19,3 +19,7 @@
 [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
 
 [Windows Terminal](https://github.com/microsoft/terminal)
+
+[UniKey - Bàn phím tiếng Việt](https://www.unikey.org/)
+
+[Cygwin](https://cygwin.com/)
