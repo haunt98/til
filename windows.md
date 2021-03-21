@@ -23,3 +23,5 @@
 [UniKey - Bàn phím tiếng Việt](https://www.unikey.org/)
 
 [Cygwin](https://cygwin.com/)
+
+[MSYS2](https://www.msys2.org/)
