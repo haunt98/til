@@ -3,4 +3,3 @@
 | Distribution | Package  |
 | ------------ | -------- |
 | Homebrew     | `mdbook` |
-| Snap         | `mdbook` |

@@ -1,11 +1,11 @@
 # [fwupd](https://github.com/fwupd/fwupd)
 
-| Distribution | Package |
-| ------------ | ------- |
-| Arch Linux   | `fwupd` |
-| Ubuntu       | `fwupd` |
-| Fedora       | `fwupd` |
-| Snap         | `fwupd` |
+| Distribution | Package                             |
+| ------------ | ----------------------------------- |
+| Arch Linux   | `fwupd`                             |
+| Ubuntu       | `fwupd`                             |
+| Fedora       | `fwupd`                             |
+| Snap         | [fwupd](https://snapcraft.io/fwupd) |
 
 Usage flow:
 
