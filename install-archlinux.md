@@ -218,6 +218,8 @@ makepkg -sric
 
 [systemd-journald](Applications/System/systemd-journald.md)
 
+[systemd-coredump](Applications/System/systemd-coredump.md)
+
 [fstrim](Applications/System/fstrim.md)
 
 [earlyoom](Applications/System/earlyoom.md)
