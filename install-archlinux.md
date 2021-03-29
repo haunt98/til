@@ -222,6 +222,10 @@ makepkg -sric
 
 [earlyoom](Applications/System/earlyoom.md)
 
+[Watchdogs](https://wiki.archlinux.org/index.php/improving_performance#Watchdogs)
+
+[Kernel mode setting](https://wiki.archlinux.org/index.php/kernel_mode_setting)
+
 ## In the end
 
 This guide is updated regularly I promise.
