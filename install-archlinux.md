@@ -224,7 +224,7 @@ makepkg -sric
 
 [Watchdogs](https://wiki.archlinux.org/index.php/improving_performance#Watchdogs)
 
-[Kernel mode setting](https://wiki.archlinux.org/index.php/kernel_mode_setting)
+[Turn off CPU exploit mitigations](https://wiki.archlinux.org/index.php/improving_performance#Turn_off_CPU_exploit_mitigations)
 
 ## In the end
 
