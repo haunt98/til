@@ -212,6 +212,16 @@ Install AUR package:
 makepkg -sric
 ```
 
+## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
+
+[systemd-swap](Applications/System/systemd-swap.md)
+
+[systemd-journald](Applications/System/systemd-journald.md)
+
+[fstrim](Applications/System/fstrim.md)
+
+[earlyoom](Applications/System/earlyoom.md)
+
 ## In the end
 
 This guide is updated regularly I promise.
