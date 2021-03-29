@@ -10,11 +10,15 @@
 
 [KMS_VL_ALL_AIO](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
 
-## Software
+### Package manager
 
 [Ninite](https://ninite.com/)
 
 [Chocolatey](https://chocolatey.org/)
+
+[Windows Package Manager Client](https://github.com/microsoft/winget-cli)
+
+## Software
 
 [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
 
