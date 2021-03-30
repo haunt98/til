@@ -173,10 +173,7 @@ Install and enable [NetworkManager](https://wiki.archlinux.org/index.php/Network
 ```sh
 pacman -Syu networkmanager
 
-# Support OpenVPN
-pacman -Syu networkmanager-openvpn
-
-# Support MATE, Xfce
+# MATE, Xfce
 pacman -Suy network-manager-applet
 
 systemctl enable NetworkManager.service
