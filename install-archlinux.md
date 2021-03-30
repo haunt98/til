@@ -237,6 +237,8 @@ makepkg -sric
 
 [Hardware video acceleration](https://wiki.archlinux.org/index.php/Hardware_video_acceleration)
 
+[Kernel mode setting](https://wiki.archlinux.org/index.php/Kernel_mode_setting)
+
 [Turn off CPU exploit mitigations](https://wiki.archlinux.org/index.php/improving_performance#Turn_off_CPU_exploit_mitigations)
 
 ## In the end
