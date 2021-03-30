@@ -129,6 +129,15 @@ Install [Xorg](https://wiki.archlinux.org/index.php/Xorg):
 
 ```sh
 pacman -Syu xorg-server
+
+# AMD
+pacman -Syu xf86-video-amdgpu mesa
+
+# Intel
+pacman -Syu xf86-video-intel mesa
+
+# NVIDIA
+pacman -Syu xf86-video-nouveau mesa
 ```
 
 Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
