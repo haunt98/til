@@ -224,6 +224,8 @@ makepkg -sric
 
 [earlyoom](Applications/System/earlyoom.md)
 
+[Profile-sync-daemon](Applications/System/Profile-sync-daemon.md)
+
 [Watchdogs](https://wiki.archlinux.org/index.php/improving_performance#Watchdogs)
 
 [Hardware video acceleration](https://wiki.archlinux.org/index.php/Hardware_video_acceleration)
