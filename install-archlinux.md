@@ -6,9 +6,9 @@ This is not a guide for everyone, this is just save for myself in a future and f
 
 Assume your laptop/PC is UEFI-capable.
 
-[USB flash installation medium](https://wiki.archlinux.org/index.php/USB_flash_installation_medium)
-
 ## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
+
+### Pre-installation
 
 Check disks carefully:
 
@@ -16,7 +16,7 @@ Check disks carefully:
 lsblk
 ```
 
-### Pre-installation
+[USB flash installation medium](https://wiki.archlinux.org/index.php/USB_flash_installation_medium)
 
 #### Verify the boot mode
 
@@ -28,7 +28,13 @@ ls /sys/firmware/efi/efivars
 
 #### Connect to the internet
 
-Read [iwd/iwctl](Applications/System/iwd.md).
+Use [iwd](Applications/System/iwd.md).
+
+#### Update the system clock
+
+```sh
+timedatectl set-ntp true
+```
 
 #### Partition the disks
 
@@ -138,7 +144,7 @@ hwclock --systohc
 Edit `/etc/locale.gen`:
 
 ```txt
-# Uncoment en_US.UTF-8 UTF-8
+# Uncomment en_US.UTF-8 UTF-8
 ```
 
 Generate locales:
