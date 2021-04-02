@@ -6,6 +6,8 @@ This is not a guide for everyone, this is just save for myself in a future and f
 
 Assume your laptop/PC is UEFI-capable.
 
+[USB flash installation medium](https://wiki.archlinux.org/index.php/USB_flash_installation_medium)
+
 ## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
 
 Check disks carefully:
@@ -14,17 +16,28 @@ Check disks carefully:
 lsblk
 ```
 
-[USB flash installation medium](https://wiki.archlinux.org/index.php/USB_flash_installation_medium)
+### Pre-installation
 
-### Connect to the internet
+#### Verify the boot mode
+
+Check UEFI mode:
+
+```sh
+ls /sys/firmware/efi/efivars
+```
+
+#### Connect to the internet
 
 Read [iwd/iwctl](Applications/System/iwd.md).
 
-### Partition the disks
+#### Partition the disks
 
 Partition:
 
 ```sh
+# For convert GPT
+cgdisk
+
 cfdisk
 ```
 
@@ -32,47 +45,64 @@ cfdisk
 | ----------- | -------------------- | -------------- |
 | `/mnt/efi`  | EFI system partition | 512 MiB        |
 | `/mnt/boot` | Linux extended boot  | 1 GiB          |
-| `/mnt`      | Linux                | 24 GiB         |
-| `/mnt/var`  | Linux                | 24 GiB         |
+| `/mnt`      | Linux                |                |
 | `/mnt/home` | Linux                |                |
+|             | Linux swap           | RAM x 2        |
 
 Format:
 
 ```sh
-# /efi, /boot
-mkfs.fat -F32 /dev/sdxY
+# efi
+mkfs.fat -F32 /dev/efi_system_partition
 
-# /, /var, /home
-mkfs.ext4 /dev/sdxY
+# boot
+mkfs.fat -F32 /dev/boot_system_partition
+
+# root
+mkfs.ext4 /dev/root_partition
+
+# home
+mkfs.ext4 /dev/home_partition
+
+# swap
+mkswap /dev/sdxY
 ```
 
 Mount:
 
 ```sh
-# /
-mount /dev/sdxY /mnt
+# root
+mount /dev/root_partition /mnt
 
-# /efi
-mkdir -p /mnt/efi
-mount /dev/sdxY /mnt/efi
+# efi
+mkdir /mnt/efi
+mount /dev/efi_system_partition /mnt/efi
 
-# /boot
-mkdir -p /mnt/boot
-mount /dev/sdxY /mnt/boot
+# boot
+mkdir /mnt/boot
+mount /dev/boot_system_partition /mnt/boot
 
-# /var
-mkdir -p /mnt/var
-mount /dev/sdxY /mnt/var
+# home
+mkdir /mnt/home
+mount /dev/home_partition /mnt/home
 
-# /home
-mkdir -p /mnt/home
-mount /dev/sdxY /mnt/home
+# swap
+swapon /dev/swap_partition
 ```
 
 ### Installation
 
 ```sh
-pacstrap /mnt base base-devel linux linux-lts linux-zen linux-firmware neovim
+pacstrap /mnt base linux linux-firmware neovim
+
+# LTS
+pacstrap /mnt linux-lts
+
+# Performance
+pacstrap /mnt linux-zen
+
+# Developement
+pacstrap /mnt base-devel
 
 # AMD
 pacstrap /mnt amd-ucode
@@ -81,7 +111,71 @@ pacstrap /mnt amd-ucode
 pacstrap /mnt intel-ucode
 ```
 
-### Boot loader
+### Configure
+
+#### Fstab
+
+```sh
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+#### Chroot
+
+```sh
+arch-chroot /mnt
+```
+
+#### Time zone
+
+```sh
+ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+
+hwclock --systohc
+```
+
+#### Localization:
+
+Edit `/etc/locale.gen`:
+
+```txt
+# Uncoment en_US.UTF-8 UTF-8
+```
+
+Generate locales:
+
+```sh
+locale-gen
+```
+
+Edit `/etc/locale.conf`:
+
+```txt
+LANG=en_US.UTF-8
+```
+
+#### Network configuration
+
+Edit `/etc/hostname`:
+
+```txt
+myhostname
+```
+
+Edit `/etc/hosts`:
+
+```txt
+127.0.0.1		localhost
+::1					localhost
+127.0.1.1		myhostname.localdomain myhostname
+```
+
+#### Root password
+
+```sh
+passwd
+```
+
+#### Boot loader
 
 [systemd-boot](Applications/System/systemd-boot.md)
 
