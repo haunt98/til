@@ -35,3 +35,5 @@ Name=wl*
 [Network]
 DHCP=yes
 ```
+
+For wireless adapter, need [iwd](Applications/System/iwd.md).
