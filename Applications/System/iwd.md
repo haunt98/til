@@ -1,18 +1,24 @@
 # [iwd](https://git.kernel.org/pub/scm/network/wireless/iwd.git/)
 
+## Installation
+
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `iwd`   |
 | Ubuntu       | `iwd`   |
 | Fedora       | `iwd`   |
 
-Enable and start service:
+Service: `iwd.service`
+
+Enable:
 
 ```sh
-systemctl enable --now iwd.service
+systemctl enable iwd.service
 ```
 
-Inside `iwctl`:
+## Usage
+
+After run `iwctl`:
 
 ```sh
 device list
