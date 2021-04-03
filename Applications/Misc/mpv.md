@@ -1,13 +1,15 @@
 # [mpv](https://github.com/mpv-player/mpv)
 
+## Installation
+
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `mpv`   |
-| Debian       | `mpv`   |
 | Ubuntu       | `mpv`   |
-| Homebrew     | `mpv`   |
 
-## Options
+## Usage
+
+### Options
 
 | Option            | Description   |
 | ----------------- | ------------- |
@@ -16,16 +18,14 @@
 | `--loop-playlist` | Loop playlist |
 | `--loop`          | Loop single   |
 
-## Youtube
+### Youtube
 
 Require [youtube-dl](https://github.com/ytdl-org/youtube-dl):
 
 | Distribution | Package      |
 | ------------ | ------------ |
 | Arch Linux   | `youtube-dl` |
-| Debian       | `youtube-dl` |
 | Ubuntu       | `youtube-dl` |
-| Homebrew     | `youtube-dl` |
 
 Play youtube in terminal:
 

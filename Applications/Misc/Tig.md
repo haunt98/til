@@ -1,9 +1,8 @@
 # [Tig](https://github.com/jonas/tig)
 
+## Installation
+
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `tig`   |
-| Debian       | `tig`   |
 | Ubuntu       | `tig`   |
-| Fedora       | `tig`   |
-| Homebrew     | `tig`   |

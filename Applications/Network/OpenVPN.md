@@ -1,11 +1,13 @@
 # OpenVPN
 
+## Installation
+
 | Distribution | Package   |
 | ------------ | --------- |
 | Arch Linux   | `openvpn` |
-| Debian       | `openvpn` |
 | Ubuntu       | `openvpn` |
-| Fedora       | `openvpn` |
+
+## Usage
 
 Connect with factor authentication and start as a dameon:
 

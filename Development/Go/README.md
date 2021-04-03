@@ -1,10 +1,10 @@
 # [Go](https://golang.org/)
 
-| Distribution | Package                       |
-| ------------ | ----------------------------- |
-| Arch Linux   | `go`, `go-tools`              |
-| Fedora       | `golang`                      |
-| Snap         | [Go](https://snapcraft.io/go) |
+| Distribution | Package          |
+| ------------ | ---------------- |
+| Arch Linux   | `go`, `go-tools` |
+
+## Configuration
 
 Add to `~/.bashrc`, `~/.zshrc`:
 

@@ -1,11 +1,13 @@
 # [OpenSSH](https://www.openssh.com/)
 
+## Installation
+
 | Distribution | Package                         |
 | ------------ | ------------------------------- |
 | Arch Linux   | `openssh`                       |
-| Debian       | `openssh-client openssh-server` |
 | Ubuntu       | `openssh-client openssh-server` |
-| Fedora       | `openssh`                       |
+
+## Configuration
 
 Edit `~/.ssh/config`:
 

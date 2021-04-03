@@ -2,12 +2,10 @@
 
 ## Installation
 
-| Distribution | Package                             |
-| ------------ | ----------------------------------- |
-| Arch Linux   | `fwupd`                             |
-| Ubuntu       | `fwupd`                             |
-| Fedora       | `fwupd`                             |
-| Snap         | [fwupd](https://snapcraft.io/fwupd) |
+| Distribution | Package |
+| ------------ | ------- |
+| Arch Linux   | `fwupd` |
+| Ubuntu       | `fwupd` |
 
 ## Usage
 

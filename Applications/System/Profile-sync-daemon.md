@@ -5,6 +5,4 @@
 | Distribution | Package               |
 | ------------ | --------------------- |
 | Arch Linux   | `profile-sync-daemon` |
-| Debian       | `profile-sync-daemon` |
 | Ubuntu       | `profile-sync-daemon` |
-| Fedora       | `profile-sync-daemon` |
