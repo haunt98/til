@@ -7,11 +7,7 @@
 | Ubuntu       | [See](https://docs.docker.com/engine/install/ubuntu/) |
 | Fedor        | [See](https://docs.docker.com/engine/install/fedora/) |
 
-Enable and start service:
-
-```sh
-systemctl enable --now docker.service
-```
+Service: `docker.service`
 
 Add your user to `docker` group:
 

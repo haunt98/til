@@ -4,17 +4,9 @@
 
 Service: `systemd-networkd.service`
 
-Enable:
-
-```sh
-systemctl enable systemd-networkd.service
-```
-
 Need [systemd-resolved](Applications/System/systemd-resolved.md).
 
 ## Configuration
-
-After editing, remember to restart service.
 
 Wired adapter, edit `/etc/systemd/network/20-wired.network`:
 

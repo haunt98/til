@@ -10,12 +10,6 @@
 
 Service: `iwd.service`
 
-Enable:
-
-```sh
-systemctl enable iwd.service
-```
-
 ## Usage
 
 After run `iwctl`:

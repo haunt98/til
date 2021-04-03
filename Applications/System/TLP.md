@@ -1,18 +1,16 @@
 # [TLP](https://github.com/linrunner/TLP)
 
+## Installation
+
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `tlp`   |
 | Ubuntu       | `tlp`   |
 | Fedora       | `tlp`   |
 
-Enable and start service:
+Service: `tlp.service`
 
-```sh
-systemctl enable --now  tlp.service
-```
-
-## Thinkpads only
+### Thinkpads only
 
 | Distribution | Package          |
 | ------------ | ---------------- |

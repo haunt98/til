@@ -1,6 +1,4 @@
-# systemd-boot
-
-Read [systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot).
+# [systemd-boot](https://wiki.archlinux.org/index.php/Systemd-boot)
 
 Install using XBOOTLDR:
 

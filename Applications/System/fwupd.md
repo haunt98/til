@@ -1,5 +1,7 @@
 # [fwupd](https://github.com/fwupd/fwupd)
 
+## Installation
+
 | Distribution | Package                             |
 | ------------ | ----------------------------------- |
 | Arch Linux   | `fwupd`                             |
@@ -7,9 +9,9 @@
 | Fedora       | `fwupd`                             |
 | Snap         | [fwupd](https://snapcraft.io/fwupd) |
 
-Usage flow:
+## Usage
 
-```
+```sh
 fwupdmgr get-devices
 
 fwupdmgr refresh

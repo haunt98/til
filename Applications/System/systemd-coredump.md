@@ -1,6 +1,6 @@
 # [systemd-coredump](https://wiki.archlinux.org/index.php/Core_dump#Using_systemd)
 
-Edit `/etc/systemd/coredump.conf.d/custom.conf`:
+Create directory if not exist `/etc/systemd/coredump.conf.d` and edit `/etc/systemd/coredump.conf.d/custom.conf`:
 
 ```txt
 [Coredump]

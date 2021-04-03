@@ -3,9 +3,3 @@
 ## Installation
 
 Service: `systemd-resolved.service`
-
-Enable:
-
-```sh
-systemctl enable systemd-networkd.service
-```

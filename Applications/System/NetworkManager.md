@@ -7,9 +7,3 @@
 | Arch Linux   | `networkmanager` |
 
 Service: `NetworkManager.service`
-
-Enable:
-
-```sh
-systemctl enable NetworkManager.service
-```
