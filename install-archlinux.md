@@ -234,58 +234,52 @@ pacman -Syu xf86-video-intel mesa
 pacman -Syu xf86-video-nouveau mesa
 ```
 
-Install [GNOME](https://wiki.archlinux.org/index.php/GNOME):
+#### [GNOME](https://wiki.archlinux.org/index.php/GNOME)
+
+Install:
 
 ```sh
-pacman -Syu gnome
+pacman -Syu gnome gdm
 ```
 
-Install [MATE](https://wiki.archlinux.org/index.php/MATE)
+Enable:
 
 ```sh
-pacman -Syu mate mate-extra
-```
-
-Install [Xfce](https://wiki.archlinux.org/index.php/xfce#Installation)
-
-```sh
-pacman -Syu xfce4 xfce4-goodies
-```
-
-Install and enable [GDM](https://wiki.archlinux.org/index.php/GDM) for GNOME:
-
-```sh
-pacman -Syu gdm
-
+# Login manager
 systemctl enable gdm.service
 ```
 
-Install and enable [LightDM](https://wiki.archlinux.org/index.php/LightDM) for MATE, Xfce:
+#### [i3](https://wiki.archlinux.org/index.php/i3)
+
+Install:
 
 ```sh
-pacman -Syu lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
-
-systemctl enable lightdm.service
+pacman -Syu i3-wm i3lock i3status rofi \
+	xorg-xinit lxappearance \
+	alacritty
 ```
 
-Install and enable [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager):
+#### Network managers
 
-```sh
-pacman -Syu networkmanager
+Use [NetworkManager](Applications/System/NetworkManager.md).
 
-# MATE, Xfce
-pacman -Suy network-manager-applet
+Use [systemd-networkd](Applications/System/systemd-networkd.md).
 
-systemctl enable NetworkManager.service
-```
+#### Bluetooth
 
-Install and enable [Bluetooth](https://wiki.archlinux.org/index.php/Bluetooth):
+Install:
 
 ```sh
 pacman -Syu bluez bluez-utils
+```
 
+Enable:
+
+```sh
 systemctl enable bluetooth.service
 ```
+
+#### Clock synchronization
 
 Enable [systemd-timesyncd](https://wiki.archlinux.org/index.php/systemd-timesyncd)
 
