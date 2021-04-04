@@ -341,6 +341,8 @@ makepkg -sric
 
 [Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up)
 
+[Silent boot](https://wiki.archlinux.org/index.php/Silent_boot)
+
 [Hardware video acceleration](https://wiki.archlinux.org/index.php/Hardware_video_acceleration)
 
 [Kernel mode setting](https://wiki.archlinux.org/index.php/Kernel_mode_setting)
