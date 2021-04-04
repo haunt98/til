@@ -251,6 +251,7 @@ systemctl enable gdm.service
 ```sh
 pacman -Syu i3-wm i3lock i3status rofi \
 	xorg-xinit lxappearance \
+	feh archlinux-wallpaper \
 	alacritty
 ```
 
