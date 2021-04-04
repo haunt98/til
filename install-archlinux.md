@@ -115,6 +115,9 @@ pacstrap /mnt amd-ucode
 
 # Intel
 pacstrap /mnt intel-ucode
+
+# Documentation
+pacstrap /mnt man-db man-pages
 ```
 
 ### Configure
@@ -268,6 +271,12 @@ pacman -Syu alsa-utils
 
 # https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#Unmute_with_alsamixer
 alsamixer
+```
+
+[PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio):
+
+```sh
+pacman -Syu pulseaudio pulseaudio-alsa pulseaudio-bluetooth
 ```
 
 #### Network managers
