@@ -1,7 +1,5 @@
 # Docker
 
-## Installation
-
 | Distribution | Package                 |
 | ------------ | ----------------------- |
 | Arch Linux   | `docker docker-compose` |

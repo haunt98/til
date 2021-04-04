@@ -4,8 +4,6 @@
 | ------------ | --------- |
 | Arch Linux   | `python`  |
 | Ubuntu       | `python3` |
-| Fedora       | `python3` |
-| Homebrew     | `python3` |
 
 Shebang:
 

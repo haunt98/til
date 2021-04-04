@@ -4,7 +4,6 @@
 | ------------ | -------- |
 | Arch Linux   | `neovim` |
 | Ubuntu       | `neovim` |
-| Homebrew     | `neovim` |
 
 | Shorcut                        | Description                           |
 | ------------------------------ | ------------------------------------- |

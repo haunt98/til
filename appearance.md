@@ -8,7 +8,6 @@
 | ------------ | ------------------- |
 | Arch Linux   | `materia-gtk-theme` |
 | Ubuntu       | `materia-gtk-theme` |
-| Fedora       | `materia-gtk-theme` |
 
 [Plata-theme](https://gitlab.com/tista500/plata-theme)
 
@@ -18,7 +17,6 @@
 | ------------ | --------------- |
 | Arch Linux   | `arc-gtk-theme` |
 | Ubuntu       | `arc-theme`     |
-| Fedora       | `arc-theme`     |
 
 ## Icons
 
@@ -28,13 +26,6 @@
 | ------------ | -------------------- |
 | Arch Linux   | `papirus-icon-theme` |
 | Ubuntu       | `papirus-icon-theme` |
-| Fedora       | `papirus-icon-theme` |
-
-[La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
-
-| Distribution | Package                   |
-| ------------ | ------------------------- |
-| Fedora       | `la-capitaine-icon-theme` |
 
 ## Cursors
 
@@ -42,10 +33,9 @@
 
 [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)
 
-| Distribution | Package                     |
-| ------------ | --------------------------- |
-| Arch Linux   | `capitaine-cursors`         |
-| Fedora       | `la-capitaine-cursor-theme` |
+| Distribution | Package             |
+| ------------ | ------------------- |
+| Arch Linux   | `capitaine-cursors` |
 
 ## Fonts
 
@@ -61,11 +51,10 @@ fc-list
 
 [Google Noto Fonts](https://www.google.com/get/noto/)
 
-| Distribution | Package                                                                      |
-| ------------ | ---------------------------------------------------------------------------- |
-| Arch Linux   | `noto-fonts`                                                                 |
-| Ubuntu       | `fonts-noto`                                                                 |
-| Fedora       | `google-noto-sans-fonts google-noto-serif-fonts google-noto-sans-mono-fonts` |
+| Distribution | Package      |
+| ------------ | ------------ |
+| Arch Linux   | `noto-fonts` |
+| Ubuntu       | `fonts-noto` |
 
 [Ubuntu font](https://design.ubuntu.com/font/)
 
@@ -83,35 +72,31 @@ fc-list
 
 [IBM Plex](https://github.com/IBM/plex)
 
-| Distribution | Package              |
-| ------------ | -------------------- |
-| Arch Linux   | `ttf-ibm-plex`       |
-| Ubuntu       | `fonts-ibm-plex`     |
-| Fedora       | `ibm-plex-fonts-all` |
+| Distribution | Package          |
+| ------------ | ---------------- |
+| Arch Linux   | `ttf-ibm-plex`   |
+| Ubuntu       | `fonts-ibm-plex` |
 
 [Clear Sans](https://01.org/clear-sans)
 
-| Distribution | Package                  |
-| ------------ | ------------------------ |
-| Ubuntu       | `clear-sans`             |
-| Fedora       | `intel-clear-sans-fonts` |
+| Distribution | Package      |
+| ------------ | ------------ |
+| Ubuntu       | `clear-sans` |
 
 [Iosevka](https://github.com/be5invis/Iosevka)
 
 [Fira Code](https://github.com/tonsky/FiraCode)
 
-| Distribution | Package           |
-| ------------ | ----------------- |
-| Arch Linux   | `ttf-fira-code`   |
-| Ubuntu       | `fonts-firacode`  |
-| Fedora       | `fira-code-fonts` |
+| Distribution | Package          |
+| ------------ | ---------------- |
+| Arch Linux   | `ttf-fira-code`  |
+| Ubuntu       | `fonts-firacode` |
 
 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
-| Distribution | Package                |
-| ------------ | ---------------------- |
-| Arch Linux   | `ttf-jetbrains-mono`   |
-| Fedora       | `jetbrains-mono-fonts` |
+| Distribution | Package              |
+| ------------ | -------------------- |
+| Arch Linux   | `ttf-jetbrains-mono` |
 
 [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
@@ -119,7 +104,6 @@ fc-list
 | ------------ | --------------------- |
 | Arch Linux   | `ttf-cascadia-code`   |
 | Ubuntu       | `fonts-cascadia-code` |
-| Fedora       | `cascadia-code-fonts` |
 
 [Recursive Sans & Mono](https://github.com/arrowtype/recursive)
 

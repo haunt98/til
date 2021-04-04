@@ -4,5 +4,3 @@
 | ------------ | ------------ |
 | Arch Linux   | `youtube-dl` |
 | Ubuntu       | `youtube-dl` |
-| Fedora       | `youtube-dl` |
-| Homebrew     | `youtube-dl` |

@@ -2,8 +2,6 @@
 
 Should install using git.
 
-## Shell
-
 Add to `~/.bashrc`, `~/.zshrc`:
 
 ```sh
@@ -21,8 +19,6 @@ export FZF_DEFAULT_OPTS='--color light'
 | -------- | ------------------------------------ |
 | `CTRL-T` | search through files and directories |
 | `CTRL-R` | search though command-line history   |
-
-## Editor
 
 Add to `~/.vimrc`, `~/.config/nvim/init.vim`:
 

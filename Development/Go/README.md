@@ -4,8 +4,6 @@
 | ------------ | ---------------- |
 | Arch Linux   | `go`, `go-tools` |
 
-## Configuration
-
 Add to `~/.bashrc`, `~/.zshrc`:
 
 ```sh

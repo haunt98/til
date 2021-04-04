@@ -1,13 +1,9 @@
 # [bat](https://github.com/sharkdp/bat)
 
-## Installation
-
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `bat`   |
 | Ubuntu       | `bat`   |
-
-## Usage
 
 List themes:
 

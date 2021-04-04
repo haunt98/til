@@ -1,14 +1,9 @@
 # [efibootmgr](https://github.com/rhboot/efibootmgr)
 
-## Installation
-
 | Distribution | Package      |
 | ------------ | ------------ |
 | Arch Linux   | `efibootmgr` |
 | Ubuntu       | `efibootmgr` |
-| Fedora       | `efibootmgr` |
-
-## Usage
 
 Display current Boot Manager settings:
 

@@ -4,5 +4,3 @@
 | ------------ | ---------- |
 | Arch Linux   | `sshuttle` |
 | Ubuntu       | `sshuttle` |
-| Fedora       | `sshuttle` |
-| Homebrew     | `sshuttle` |

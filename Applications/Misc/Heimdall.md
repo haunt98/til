@@ -3,4 +3,3 @@
 | Distribution | Package    |
 | ------------ | ---------- |
 | Arch Linux   | `heimdall` |
-| Fedora       | `heimdall` |

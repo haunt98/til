@@ -1,13 +1,9 @@
 # [OpenSSH](https://www.openssh.com/)
 
-## Installation
-
 | Distribution | Package                         |
 | ------------ | ------------------------------- |
 | Arch Linux   | `openssh`                       |
 | Ubuntu       | `openssh-client openssh-server` |
-
-## Configuration
 
 Edit `~/.ssh/config`:
 

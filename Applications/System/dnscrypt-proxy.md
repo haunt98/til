@@ -1,16 +1,11 @@
 # [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
 
-## Installation
-
 | Distribution | Package          |
 | ------------ | ---------------- |
 | Arch Linux   | `dnscrypt-proxy` |
 | Ubuntu       | `dnscrypt-proxy` |
-| Fedora       | `dnscrypt-proxy` |
 
 Service: `dnscrypt-proxy.service`
-
-## Configuration
 
 Edit `/etc/dnscrypt-proxy/dnscrypt-proxy.toml`:
 

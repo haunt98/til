@@ -4,7 +4,6 @@
 | ------------ | ---------- |
 | Arch Linux   | `inkscape` |
 | Ubuntu       | `inkscape` |
-| Fedora       | `inkscape` |
 
 Convert `.svg` to `.png`:
 

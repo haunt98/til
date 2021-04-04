@@ -1,13 +1,9 @@
 # rsync
 
-## Installation
-
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `rsync` |
 | Ubuntu       | `rsync` |
-
-## Usage
 
 ```sh
 rsync -vah src dest

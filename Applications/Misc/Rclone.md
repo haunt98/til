@@ -4,5 +4,3 @@
 | ------------ | -------- |
 | Arch Linux   | `rclone` |
 | Ubuntu       | `rclone` |
-| Fedora       | `rclone` |
-| Homebrew     | `rclone` |

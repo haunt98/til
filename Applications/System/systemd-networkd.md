@@ -1,12 +1,8 @@
 # [systemd-networkd](https://wiki.archlinux.org/index.php/systemd-networkd)
 
-## Installation
-
 Service: `systemd-networkd.service`
 
 Need [systemd-resolved](Applications/System/systemd-resolved.md).
-
-## Configuration
 
 Wired adapter, edit `/etc/systemd/network/20-wired.network`:
 

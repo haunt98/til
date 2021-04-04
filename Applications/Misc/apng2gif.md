@@ -6,7 +6,7 @@
 | Ubuntu       | `apng2gif` |
 | Homebrew     | `apng2gif` |
 
-Usage:
+Convert `input.png` to `output.gif`:
 
 ```sh
 apng2gif input.png output.gif

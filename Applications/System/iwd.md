@@ -1,16 +1,11 @@
 # [iwd](https://git.kernel.org/pub/scm/network/wireless/iwd.git/)
 
-## Installation
-
 | Distribution | Package |
 | ------------ | ------- |
 | Arch Linux   | `iwd`   |
 | Ubuntu       | `iwd`   |
-| Fedora       | `iwd`   |
 
 Service: `iwd.service`
-
-## Usage
 
 After run `iwctl`:
 

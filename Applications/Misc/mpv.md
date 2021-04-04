@@ -20,12 +20,7 @@
 
 ### Youtube
 
-Require [youtube-dl](https://github.com/ytdl-org/youtube-dl):
-
-| Distribution | Package      |
-| ------------ | ------------ |
-| Arch Linux   | `youtube-dl` |
-| Ubuntu       | `youtube-dl` |
+Need [youtube-dl](Applications/Misc/youtube-dl.md):
 
 Play youtube in terminal:
 

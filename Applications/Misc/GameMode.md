@@ -4,7 +4,6 @@
 | ------------ | ---------- |
 | Arch Linux   | `gamemode` |
 | Ubuntu       | `gamemode` |
-| Fedora       | `gamemode` |
 
 In Steam, set launch options:
 
