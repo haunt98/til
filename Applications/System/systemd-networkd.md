@@ -16,6 +16,9 @@ Name=en*
 
 [Network]
 DHCP=yes
+
+[DHCP]
+RouteMetric=10
 ```
 
 Wireless adapter, edit `/etc/systemd/network/25-wireless.network`:
@@ -26,6 +29,9 @@ Name=wl*
 
 [Network]
 DHCP=yes
+
+[DHCP]
+RouteMetric=20
 ```
 
 For wireless adapter, need [iwd](Applications/System/iwd.md).
