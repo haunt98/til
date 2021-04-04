@@ -236,27 +236,38 @@ pacman -Syu xf86-video-nouveau mesa
 
 #### [GNOME](https://wiki.archlinux.org/index.php/GNOME)
 
-Install:
-
 ```sh
 pacman -Syu gnome gdm
-```
 
-Enable:
-
-```sh
 # Login manager
 systemctl enable gdm.service
 ```
 
 #### [i3](https://wiki.archlinux.org/index.php/i3)
 
-Install:
-
 ```sh
 pacman -Syu i3-wm i3lock i3status rofi \
 	xorg-xinit lxappearance \
 	alacritty
+```
+
+### [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories)
+
+```sh
+pacman -Syu xdg-user-dirs
+
+xdg-user-dirs-update
+```
+
+#### [Sound system](https://wiki.archlinux.org/index.php/Sound_system)
+
+[ALSA](https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture):
+
+```sh
+pacman -Syu alsa-utils
+
+# https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#Unmute_with_alsamixer
+alsamixer
 ```
 
 #### Network managers
@@ -265,19 +276,15 @@ Use [NetworkManager](Applications/System/NetworkManager.md).
 
 Use [systemd-networkd](Applications/System/systemd-networkd.md).
 
-#### Bluetooth
-
-Install:
+#### [Bluetooth](https://wiki.archlinux.org/index.php/Bluetooth)
 
 ```sh
 pacman -Syu bluez bluez-utils
-```
 
-Enable:
-
-```sh
 systemctl enable bluetooth.service
 ```
+
+Use [Blueman](Applications/System/Blueman.md).
 
 #### Clock synchronization
 
