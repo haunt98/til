@@ -255,12 +255,21 @@ pacman -Syu i3-wm i3lock i3status rofi \
 	alacritty
 ```
 
-### [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories)
+#### [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories)
 
 ```sh
 pacman -Syu xdg-user-dirs
 
 xdg-user-dirs-update
+```
+
+#### [Power management](https://wiki.archlinux.org/index.php/Power_management)
+
+#### [Backlight](https://wiki.archlinux.org/index.php/Backlight)
+
+```sh
+# https://wiki.archlinux.org/index.php/Backlight#xbacklight
+pacman -Syu xorg-xbacklight
 ```
 
 #### [Sound system](https://wiki.archlinux.org/index.php/Sound_system)
