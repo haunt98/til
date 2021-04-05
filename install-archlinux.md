@@ -252,7 +252,8 @@ systemctl enable gdm.service
 pacman -Syu i3-wm i3lock i3status rofi \
 	xorg-xinit lxappearance \
 	feh archlinux-wallpaper \
-	alacritty
+	alacritty \
+	fcitx-im fcitx-configtool fcitx-unikey fcitx-m17n
 ```
 
 #### [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories)
