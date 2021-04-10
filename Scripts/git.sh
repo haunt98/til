@@ -12,9 +12,6 @@ git config --global alias.ps push
 git config --global alias.st status
 git config --global alias.sw switch
 
-# Editor
-git config --global core.editor nvim
-
 # Misc
 git config --global pull.rebase true
 git config --global init.defaultBranch main

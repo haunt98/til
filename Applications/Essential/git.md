@@ -29,16 +29,16 @@ Always pull rebase:
 git config --global pull.rebase true
 ```
 
-Set default branch to `main`:
-
-```sh
-git config --global init.defaultBranch main
-```
-
 Always fetch/pull prune:
 
 ```sh
 git config --global fetch.prune true
+```
+
+Set default branch to `main`:
+
+```sh
+git config --global init.defaultBranch main
 ```
 
 ## Commands
