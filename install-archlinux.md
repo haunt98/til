@@ -197,7 +197,7 @@ Always remember to check **dependencies** when install packages.
 Add user:
 
 ```sh
-useradd -m -G additional_groups -s login_shell username
+useradd -m -G wheel -s /bin/bash -c "The Joker" joker
 ```
 
 Set password:
@@ -213,12 +213,6 @@ EDITOR=nvim visudo
 
 # Uncomment group wheel
 ```
-
-| Pseudo              | Real        |
-| ------------------- | ----------- |
-| `additional_groups` | `wheel`     |
-| `login_shell`       | `/bin/bash` |
-| `username`          | `joker`     |
 
 ### Desktop Environment
 
