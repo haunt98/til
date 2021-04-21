@@ -242,7 +242,14 @@ pacman -Syu xf86-video-nouveau mesa
 #### [GNOME](https://wiki.archlinux.org/index.php/GNOME)
 
 ```sh
-pacman -Syu gnome gdm
+pacman -Syu gnome-shell \
+	gdm \
+	networkmanager \
+	gnome-control-center \
+	gnome-terminal gnome-backgrounds gnome-screenshot \
+	gnome-system-monitor gnome-keyring \
+	nautilus xdg-user-dirs-gtk file-roller p7zip unrar \
+	evince eog gedit
 
 # Login manager
 systemctl enable gdm.service
