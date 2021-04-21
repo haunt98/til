@@ -66,13 +66,16 @@ mkfs.fat -F32 /dev/efi_system_partition
 mkfs.fat -F32 /dev/boot_system_partition
 
 # root
-mkfs.ext4 /dev/root_partition
+mkfs.ext4 -L ROOT /dev/root_partition
+mkfs.btrfs -L ROOT /dev/root_partition
 
 # var
-mkfs.ext4 /dev/var_partition
+mkfs.ext4 -L VAR /dev/var_partition
+mkfs.btrfs -L VAR /dev/var_partition
 
 # home
-mkfs.ext4 /dev/home_partition
+mkfs.ext4 -L HOME /dev/home_partition
+mkfs.btrfs -L HOME /dev/home_partition
 
 # swap
 mkswap /dev/sdxY
@@ -107,7 +110,7 @@ swapon /dev/swap_partition
 ### Installation
 
 ```sh
-pacstrap /mnt base linux linux-firmware neovim
+pacstrap /mnt base linux linux-firmware
 
 # LTS
 pacstrap /mnt linux-lts
@@ -115,17 +118,17 @@ pacstrap /mnt linux-lts
 # Performance
 pacstrap /mnt linux-zen
 
-# Developement
-pacstrap /mnt base-devel
-
 # AMD
 pacstrap /mnt amd-ucode
 
 # Intel
 pacstrap /mnt intel-ucode
 
-# Documentation
-pacstrap /mnt man-db man-pages
+# Btrfs
+pacstrap /mnt btrfs-progs
+
+# Text editor
+pacstrap /mnt neovim
 ```
 
 ### Configure
@@ -217,8 +220,9 @@ passwd username
 Enable sudo:
 
 ```sh
-EDITOR=nvim visudo
+pacman -Syu sudo
 
+EDITOR=nvim visudo
 # Uncomment group wheel
 ```
 
