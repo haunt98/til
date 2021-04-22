@@ -28,7 +28,7 @@ ls /sys/firmware/efi/efivars
 
 #### Connect to the internet
 
-Use [iwd](Applications/System/iwd.md).
+Use [iwd](https://wiki.archlinux.org/index.php/Iwd).
 
 #### Update the system clock
 
@@ -44,6 +44,7 @@ Partition:
 # For convert GPT
 cgdisk
 
+# For easy partition
 cfdisk
 ```
 
