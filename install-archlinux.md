@@ -338,14 +338,6 @@ Uncomment in `/etc/pacman.conf`:
 Color
 ```
 
-### [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
-
-Install AUR package:
-
-```sh
-makepkg -sric
-```
-
 ## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
 
 [systemd-swap](Applications/System/systemd-swap.md)
