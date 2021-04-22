@@ -27,47 +27,24 @@ blkid
 Edit `/efi/loader/loader.conf`:
 
 ```txt
-default         archlinux.conf
-timeout         4
-editor          no
-console-mode    max
+default	archlinux.conf
+timeout 4
+editor no
+console-mode max
 ```
 
 Edit `/boot/loader/entries/archlinux.conf`:
 
 ```txt
-title       Arch Linux
-linux       /vmlinuz-linux
+title Arch Linux
+linux /vmlinuz-linux
+
 # Using Intel
-initrd      /intel-ucode.img
+initrd /intel-ucode.img
+
 # Using AMD
-initrd      /amd-ucode.img
-initrd      /initramfs-linux.img
-options     root="LABEL=ROOT" rw
-```
+initrd /amd-ucode.img
 
-Edit `/boot/loader/entries/archlinux-lts.conf`:
-
-```txt
-title       Arch Linux LTS
-linux       /vmlinuz-linux-lts
-# Using Intel
-initrd      /intel-ucode.img
-# Using AMD
-initrd      /amd-ucode.img
-initrd      /initramfs-linux-lts.img
-options     root="LABEL=ROOT" rw
-```
-
-Edit `/boot/loader/entries/archlinux-zen.conf`:
-
-```txt
-title       Arch Linux ZEN
-linux       /vmlinuz-linux-zen
-# Using Intel
-initrd      /intel-ucode.img
-# Using AMD
-initrd      /amd-ucode.img
-initrd      /initramfs-linux-zen.img
-options     root="LABEL=ROOT" rw
+initrd /initramfs-linux.img
+options root="LABEL=ROOT" rw
 ```
