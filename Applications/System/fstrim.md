@@ -1,3 +1,0 @@
-# fstrim
-
-Service: `fstrim.timer`
