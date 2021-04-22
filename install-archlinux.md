@@ -257,75 +257,17 @@ pacman -Syu gnome-shell \
 
 # Login manager
 systemctl enable gdm.service
-```
 
-#### [i3](https://wiki.archlinux.org/index.php/i3)
+# Network
+systemctl enable NetworkManager.service
 
-```sh
-pacman -Syu i3-wm i3lock i3status rofi \
-	xorg-xinit lxappearance \
-	feh archlinux-wallpaper \
-	alacritty \
-	fcitx-im fcitx-configtool fcitx-unikey fcitx-m17n
-```
-
-#### [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories)
-
-```sh
-pacman -Syu xdg-user-dirs
-
-xdg-user-dirs-update
-```
-
-#### [Power management](https://wiki.archlinux.org/index.php/Power_management)
-
-#### [Backlight](https://wiki.archlinux.org/index.php/Backlight)
-
-```sh
-# https://wiki.archlinux.org/index.php/Backlight#xbacklight
-pacman -Syu xorg-xbacklight
-```
-
-#### [Sound system](https://wiki.archlinux.org/index.php/Sound_system)
-
-[ALSA](https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture):
-
-```sh
-pacman -Syu alsa-utils
-
-# https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#Unmute_with_alsamixer
-alsamixer
-```
-
-[PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio):
-
-```sh
-pacman -Syu pulseaudio pulseaudio-alsa pulseaudio-bluetooth
-```
-
-#### Network managers
-
-Use [NetworkManager](Applications/System/NetworkManager.md).
-
-Use [systemd-networkd](Applications/System/systemd-networkd.md).
-
-#### [Bluetooth](https://wiki.archlinux.org/index.php/Bluetooth)
-
-```sh
-pacman -Syu bluez bluez-utils
-
+# Bluetooth
 systemctl enable bluetooth.service
-```
 
-Use [Blueman](Applications/System/Blueman.md).
-
-#### Clock synchronization
-
-Enable [systemd-timesyncd](https://wiki.archlinux.org/index.php/systemd-timesyncd)
-
-```sh
+# Clock
 timedatectl set-ntp true
 ```
+
 
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
 
@@ -340,17 +282,16 @@ Color
 
 ## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
 
-[systemd-swap](Applications/System/systemd-swap.md)
+[Swappiness](https://wiki.archlinux.org/index.php/swap#Swappiness)
 
-[systemd-journald](Applications/System/systemd-journald.md)
+[Journal size limit](https://wiki.archlinux.org/index.php/Systemd/Journal#Journal_size_limit)
 
-[systemd-coredump](Applications/System/systemd-coredump.md)
+[Disabling automatic core dumps](https://wiki.archlinux.org/index.php/Core_dump#Disabling_automatic_core_dumps)
 
-[fstrim](Applications/System/fstrim.md)
+[Periodic TRIM](https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM)
 
-[earlyoom](Applications/System/earlyoom.md)
+[Improving system responsiveness under low-memory conditions](https://wiki.archlinux.org/index.php/Improving_performance#Improving_system_responsiveness_under_low-memory_conditions)
 
-[Profile-sync-daemon](Applications/System/Profile-sync-daemon.md)
 
 [Watchdogs](https://wiki.archlinux.org/index.php/improving_performance#Watchdogs)
 
