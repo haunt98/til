@@ -269,7 +269,6 @@ systemctl enable bluetooth.service
 timedatectl set-ntp true
 ```
 
-
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
 
 ### [pacman](https://wiki.archlinux.org/index.php/pacman)
@@ -292,7 +291,6 @@ Color
 [Periodic TRIM](https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM)
 
 [Improving system responsiveness under low-memory conditions](https://wiki.archlinux.org/index.php/Improving_performance#Improving_system_responsiveness_under_low-memory_conditions)
-
 
 [Watchdogs](https://wiki.archlinux.org/index.php/improving_performance#Watchdogs)
 
