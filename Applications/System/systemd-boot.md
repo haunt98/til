@@ -6,23 +6,13 @@ Install using XBOOTLDR:
 bootctl --esp-path=/efi --boot-path=/boot install
 ```
 
-Update:
+Update everytime systemd is updated:
 
 ```sh
-bootctl update
+bootctl --esp-path=/efi --boot-path=/boot update
 ```
 
-Label partition:
-
-```sh
-e2label /dev/xxxY ROOT
-```
-
-View partitions:
-
-```sh
-blkid
-```
+[Label partition](https://wiki.archlinux.org/index.php/persistent_block_device_naming#by-label)
 
 Edit `/efi/loader/loader.conf`:
 
