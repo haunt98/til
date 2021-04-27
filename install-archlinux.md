@@ -48,12 +48,16 @@ cgdisk
 cfdisk
 ```
 
+[Partition scheme](https://wiki.archlinux.org/index.php/Partitioning#Partition_scheme)
+
+UEFI/GPT layout:
+
 | Mount point | Partition type       | Suggested size |
 | ----------- | -------------------- | -------------- |
 | `/mnt/efi`  | EFI system partition | 512 MiB        |
 | `/mnt/boot` | Linux extended boot  | 1 GiB          |
 | `/mnt`      | Linux                |                |
-| `/mnt/var`  | Linux                | >= 16 GiB      |
+| `/mnt/var`  | Linux                | >= 12 GiB      |
 | `/mnt/home` | Linux                |                |
 |             | Linux swap           | RAM x 2        |
 
