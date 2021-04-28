@@ -2,9 +2,7 @@
 
 Install Arch Linux is thing I always want to do for my laptop/PC since I had my laptop in ninth grade.
 
-This is not a guide for everyone, this is just save for myself in a future and for anyone who want to taste a bit.
-
-Assume your laptop/PC is UEFI-capable.
+This is not a guide for everyone, this is just save for myself in a future and for anyone who want to walk in my shoes.
 
 ## [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
 
