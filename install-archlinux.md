@@ -300,6 +300,8 @@ Color
 
 ## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
 
+https://wiki.archlinux.org/index.php/swap#Swap_file
+
 https://wiki.archlinux.org/index.php/swap#Swappiness
 
 https://wiki.archlinux.org/index.php/Systemd/Journal#Journal_size_limit
