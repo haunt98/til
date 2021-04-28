@@ -238,20 +238,6 @@ EDITOR=nvim visudo
 # Uncomment group wheel
 ```
 
-#### [Users and groups](https://wiki.archlinux.org/index.php/users_and_groups)
-
-Add user:
-
-```sh
-useradd -m -G wheel -s /bin/bash -c "The Joker" joker
-```
-
-Set password:
-
-```sh
-passwd username
-```
-
 #### [systemd-homed](https://wiki.archlinux.org/index.php/Systemd-homed)
 
 ```sh
@@ -260,7 +246,9 @@ systemctl enable systemd-homed.service
 homectl create joker --real-name="The Joker" --member-of=wheel
 ```
 
-**Note**: can not run `homectl` when install Arch Linux, should run on the first boot.
+**Note**:
+Can not run `homectl` when install Arch Linux.
+Should run on the first boot.
 
 ### Desktop Environment
 
