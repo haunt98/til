@@ -46,14 +46,14 @@ cgdisk /dev/sdx
 
 UEFI/GPT layout:
 
-| Mount point | Partition                    | Partition type                 | Suggested size |
-| ----------- | ---------------------------- | ------------------------------ | -------------- |
-| `/mnt/efi`  | `/dev/efi_system_partition`  | EFI System Partition           | 512 MiB        |
-| `/mnt/boot` | `/dev/boot_system_partition` | Extended Boot Loader Partition | 1 GiB          |
-| `/mnt`      | `/dev/root_partition`        | Root Partition                 |                |
-| `/mnt/var`  | `/dev/var_partition`         | Var Partition                  | >= 12 GiB      |
-| `/mnt/home` | `/dev/home_partition`        | Home Partition                 |                |
-|             | `/dev/swap_partition`        | Swap                           |                |
+| Mount point | Partition                             | Partition type                 | Suggested size |
+| ----------- | ------------------------------------- | ------------------------------ | -------------- |
+| `/mnt/efi`  | `/dev/efi_system_partition`           | EFI System Partition           | 512 MiB        |
+| `/mnt/boot` | `/dev/extended_boot_loader_partition` | Extended Boot Loader Partition | 1 GiB          |
+| `/mnt`      | `/dev/root_partition`                 | Root Partition                 |                |
+| `/mnt/var`  | `/dev/var_partition`                  | Var Partition                  | >= 12 GiB      |
+| `/mnt/home` | `/dev/home_partition`                 | Home Partition                 |                |
+|             | `/dev/swap_partition`                 | Swap                           |                |
 
 BIOS/GPT layout:
 
@@ -72,7 +72,7 @@ Format:
 mkfs.fat -F32 /dev/efi_system_partition
 
 # boot
-mkfs.fat -F32 /dev/boot_system_partition
+mkfs.fat -F32 /dev/extended_boot_loader_partition
 
 # root
 mkfs.ext4 -L ROOT /dev/root_partition
@@ -104,7 +104,7 @@ mount /dev/efi_system_partition /mnt/efi
 
 # boot
 mkdir /mnt/boot
-mount /dev/boot_system_partition /mnt/boot
+mount /dev/extended_boot_loader_partition /mnt/boot
 
 # var
 mkdir /mnt/var
