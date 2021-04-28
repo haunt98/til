@@ -48,24 +48,24 @@ cgdisk /dev/sdx
 
 UEFI/GPT layout:
 
-| Mount point | Partition                    | Partition type                 | gdisk's code | Suggested size |
-| ----------- | ---------------------------- | ------------------------------ | ------------ | -------------- |
-| `/mnt/efi`  | `/dev/efi_system_partition`  | EFI System Partition           | `ef00`       | 512 MiB        |
-| `/mnt/boot` | `/dev/boot_system_partition` | Extended Boot Loader Partition |              | 1 GiB          |
-| `/mnt`      | `/dev/root_partition`        | Root Partition                 | `8304`       |                |
-| `/mnt/var`  | `/dev/var_partition`         | Var Partition                  | `8310`       | >= 12 GiB      |
-| `/mnt/home` | `/dev/home_partition`        | Home Partition                 | `8302`       |                |
-|             | `/dev/swap_partition`        | Swap                           | `8200`       | RAM x 2        |
+| Mount point | Partition                    | Partition type                 | Suggested size |
+| ----------- | ---------------------------- | ------------------------------ | -------------- |
+| `/mnt/efi`  | `/dev/efi_system_partition`  | EFI System Partition           | 512 MiB        |
+| `/mnt/boot` | `/dev/boot_system_partition` | Extended Boot Loader Partition | 1 GiB          |
+| `/mnt`      | `/dev/root_partition`        | Root Partition                 |                |
+| `/mnt/var`  | `/dev/var_partition`         | Var Partition                  | >= 12 GiB      |
+| `/mnt/home` | `/dev/home_partition`        | Home Partition                 |                |
+|             | `/dev/swap_partition`        | Swap                           |                |
 
 BIOS/GPT layout:
 
-| Mount point | Partition type      | Suggested size |
-| ----------- | ------------------- | -------------- |
-|             | Linux extended boot | 1 GiB          |
-| `/mnt`      | Linux               |                |
-| `/mnt/var`  | Linux               | >= 12 GiB      |
-| `/mnt/home` | Linux               |                |
-|             | Linux swap          | RAM x 2        |
+| Mount point | Partition             | Partition type      | Suggested size |
+| ----------- | --------------------- | ------------------- | -------------- |
+|             |                       | BIOS boot partition | 1 MiB          |
+| `/mnt`      | `/dev/root_partition` | Root Partition      |                |
+| `/mnt/var`  | `/dev/var_partition`  | Var Partition       | >= 12 GiB      |
+| `/mnt/home` | `/dev/home_partition` | Home Partition      |                |
+|             | `/dev/swap_partition` | Swap                |                |
 
 Format:
 
@@ -252,6 +252,8 @@ systemctl enable systemd-homed.service
 
 homectl create joker --real-name="The Joker" --member-of=wheel
 ```
+
+**Note**: can not run `homectl` when install Arch Linux, should run on the first boot.
 
 #### [Sudo](https://wiki.archlinux.org/index.php/sudo)
 
