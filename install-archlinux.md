@@ -229,6 +229,15 @@ Always remember to check **dependencies** when install packages.
 
 ### System administration
 
+#### [Sudo](https://wiki.archlinux.org/index.php/sudo)
+
+```sh
+pacman -Syu sudo
+
+EDITOR=nvim visudo
+# Uncomment group wheel
+```
+
 #### [Users and groups](https://wiki.archlinux.org/index.php/users_and_groups)
 
 Add user:
@@ -252,15 +261,6 @@ homectl create joker --real-name="The Joker" --member-of=wheel
 ```
 
 **Note**: can not run `homectl` when install Arch Linux, should run on the first boot.
-
-#### [Sudo](https://wiki.archlinux.org/index.php/sudo)
-
-```sh
-pacman -Syu sudo
-
-EDITOR=nvim visudo
-# Uncomment group wheel
-```
 
 ### Desktop Environment
 
