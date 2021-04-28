@@ -91,6 +91,8 @@ Mount:
 ```sh
 # root
 mount /dev/root_partition /mnt
+# btrfs
+mount -o compress=zstd /dev/root_partition /mnt
 
 # efi
 mkdir /mnt/efi
@@ -102,11 +104,15 @@ mount /dev/boot_system_partition /mnt/boot
 
 # var
 mkdir /mnt/var
-mount /de/var_partition /mnt/var
+mount /dev/var_partition /mnt/var
+# btrfs
+mount -o compress=zstd /dev/var_partition /mnt/var
 
 # home
 mkdir /mnt/home
 mount /dev/home_partition /mnt/home
+# btrfs
+mount -o compress=zstd /dev/home_partition /mnt/home
 
 # swap
 swapon /dev/swap_partition
@@ -138,11 +144,13 @@ pacstrap /mnt neovim
 
 ### Configure
 
-#### Fstab
+#### [fstab](https://wiki.archlinux.org/index.php/Fstab)
 
 ```sh
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
+
+[Automount with systemd](https://wiki.archlinux.org/index.php/Fstab#Automount_with_systemd)
 
 #### Chroot
 
@@ -237,15 +245,6 @@ Install [Xorg](https://wiki.archlinux.org/index.php/Xorg):
 
 ```sh
 pacman -Syu xorg-server
-
-# AMD
-pacman -Syu xf86-video-amdgpu mesa
-
-# Intel
-pacman -Syu xf86-video-intel mesa
-
-# NVIDIA
-pacman -Syu xf86-video-nouveau mesa
 ```
 
 #### [GNOME](https://wiki.archlinux.org/index.php/GNOME)
@@ -257,7 +256,7 @@ pacman -Syu gnome-shell \
 	gnome-control-center \
 	gnome-terminal gnome-backgrounds gnome-screenshot \
 	gnome-system-monitor gnome-keyring \
-	nautilus xdg-user-dirs-gtk file-roller p7zip unrar \
+	nautilus xdg-user-dirs-gtk file-roller \
 	evince eog gedit
 
 # Login manager
@@ -301,12 +300,6 @@ Color
 [Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up)
 
 [Silent boot](https://wiki.archlinux.org/index.php/Silent_boot)
-
-[Hardware video acceleration](https://wiki.archlinux.org/index.php/Hardware_video_acceleration)
-
-[Kernel mode setting](https://wiki.archlinux.org/index.php/Kernel_mode_setting)
-
-[Turn off CPU exploit mitigations](https://wiki.archlinux.org/index.php/improving_performance#Turn_off_CPU_exploit_mitigations)
 
 ## In the end
 
