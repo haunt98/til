@@ -150,7 +150,9 @@ pacstrap /mnt neovim
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-[Automount with systemd](https://wiki.archlinux.org/index.php/Fstab#Automount_with_systemd)
+https://wiki.archlinux.org/index.php/Fstab#Automount_with_systemd
+
+https://wiki.archlinux.org/index.php/Btrfs#Compression
 
 #### Chroot
 
@@ -285,21 +287,21 @@ Color
 
 ## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
 
-[Swappiness](https://wiki.archlinux.org/index.php/swap#Swappiness)
+https://wiki.archlinux.org/index.php/swap#Swappiness
 
-[Journal size limit](https://wiki.archlinux.org/index.php/Systemd/Journal#Journal_size_limit)
+https://wiki.archlinux.org/index.php/Systemd/Journal#Journal_size_limit
 
-[Disabling automatic core dumps](https://wiki.archlinux.org/index.php/Core_dump#Disabling_automatic_core_dumps)
+https://wiki.archlinux.org/index.php/Core_dump#Disabling_automatic_core_dumps
 
-[Periodic TRIM](https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM)
+https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM
 
-[Improving system responsiveness under low-memory conditions](https://wiki.archlinux.org/index.php/Improving_performance#Improving_system_responsiveness_under_low-memory_conditions)
+https://wiki.archlinux.org/index.php/Improving_performance#Improving_system_responsiveness_under_low-memory_conditions
 
-[Watchdogs](https://wiki.archlinux.org/index.php/improving_performance#Watchdogs)
+https://wiki.archlinux.org/index.php/improving_performance#Watchdogs
 
-[Staggered spin-up](https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up)
+https://wiki.archlinux.org/index.php/Improving_performance/Boot_process#Staggered_spin-up
 
-[Silent boot](https://wiki.archlinux.org/index.php/Silent_boot)
+https://wiki.archlinux.org/index.php/Silent_boot
 
 ## In the end
 
