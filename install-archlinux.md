@@ -38,28 +38,34 @@ timedatectl set-ntp true
 
 #### Partition the disks
 
-Partition:
+[GPT fdisk](https://wiki.archlinux.org/index.php/GPT_fdisk):
 
 ```sh
-# For convert GPT
-cgdisk
-
-# For easy partition
-cfdisk
+cgdisk /dev/sdx
 ```
 
 [Partition scheme](https://wiki.archlinux.org/index.php/Partitioning#Partition_scheme)
 
 UEFI/GPT layout:
 
-| Mount point | Partition type       | Suggested size |
-| ----------- | -------------------- | -------------- |
-| `/mnt/efi`  | EFI system partition | 512 MiB        |
-| `/mnt/boot` | Linux extended boot  | 1 GiB          |
-| `/mnt`      | Linux                |                |
-| `/mnt/var`  | Linux                | >= 12 GiB      |
-| `/mnt/home` | Linux                |                |
-|             | Linux swap           | RAM x 2        |
+| Mount point | Partition                    | Partition type                 | gdisk's code | Suggested size |
+| ----------- | ---------------------------- | ------------------------------ | ------------ | -------------- |
+| `/mnt/efi`  | `/dev/efi_system_partition`  | EFI System Partition           | `ef00`       | 512 MiB        |
+| `/mnt/boot` | `/dev/boot_system_partition` | Extended Boot Loader Partition |              | 1 GiB          |
+| `/mnt`      | `/dev/root_partition`        | Root Partition                 | `8304`       |                |
+| `/mnt/var`  | `/dev/var_partition`         | Var Partition                  | `8310`       | >= 12 GiB      |
+| `/mnt/home` | `/dev/home_partition`        | Home Partition                 | `8302`       |                |
+|             | `/dev/swap_partition`        | Swap                           | `8200`       | RAM x 2        |
+
+BIOS/GPT layout:
+
+| Mount point | Partition type      | Suggested size |
+| ----------- | ------------------- | -------------- |
+|             | Linux extended boot | 1 GiB          |
+| `/mnt`      | Linux               |                |
+| `/mnt/var`  | Linux               | >= 12 GiB      |
+| `/mnt/home` | Linux               |                |
+|             | Linux swap          | RAM x 2        |
 
 Format:
 
@@ -83,7 +89,7 @@ mkfs.ext4 -L HOME /dev/home_partition
 mkfs.btrfs -L HOME /dev/home_partition
 
 # swap
-mkswap /dev/sdxY
+mkswap /dev/swap_partition
 ```
 
 Mount:
@@ -216,6 +222,8 @@ passwd
 #### Boot loader
 
 [systemd-boot](Applications/System/systemd-boot.md)
+
+[GRUB](https://wiki.archlinux.org/index.php/GRUB)
 
 ## [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations)
 
