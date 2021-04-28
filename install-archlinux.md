@@ -229,7 +229,7 @@ Always remember to check **dependencies** when install packages.
 
 ### System administration
 
-#### [Sudo](https://wiki.archlinux.org/index.php/sudo)
+[Sudo](https://wiki.archlinux.org/index.php/sudo):
 
 ```sh
 pacman -Syu sudo
@@ -238,7 +238,7 @@ EDITOR=nvim visudo
 # Uncomment group wheel
 ```
 
-#### [systemd-homed](https://wiki.archlinux.org/index.php/Systemd-homed)
+[systemd-homed](https://wiki.archlinux.org/index.php/Systemd-homed):
 
 ```sh
 systemctl enable systemd-homed.service
