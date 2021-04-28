@@ -140,6 +140,9 @@ pacstrap /mnt btrfs-progs
 
 # Text editor
 pacstrap /mnt neovim
+
+# Development
+pacstrap /mnt base-devel
 ```
 
 ### Configure
@@ -220,6 +223,8 @@ Always remember to check **dependencies** when install packages.
 
 ### System administration
 
+#### [Users and groups](https://wiki.archlinux.org/index.php/users_and_groups)
+
 Add user:
 
 ```sh
@@ -232,7 +237,15 @@ Set password:
 passwd username
 ```
 
-Enable sudo:
+#### [systemd-homed](https://wiki.archlinux.org/index.php/Systemd-homed)
+
+```sh
+systemctl enable systemd-homed.service
+
+homectl create joker --real-name="The Joker" --member-of=wheel
+```
+
+#### [Sudo](https://wiki.archlinux.org/index.php/sudo)
 
 ```sh
 pacman -Syu sudo
