@@ -43,3 +43,9 @@ fc-list
 | ------------ | --------------------- |
 | Arch Linux   | `ttf-cascadia-code`   |
 | Ubuntu       | `fonts-cascadia-code` |
+
+[Iosevka](https://github.com/be5invis/Iosevka)
+
+| Distribution | Package       |
+| ------------ | ------------- |
+| Arch Linux   | `ttc-iosevka` |
