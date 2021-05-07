@@ -57,3 +57,10 @@ fc-list
 | Distribution | Package       |
 | ------------ | ------------- |
 | Arch Linux   | `ttc-iosevka` |
+
+[Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+
+| Distribution | Package                   |
+| ------------ | ------------------------- |
+| Arch Linux   | `ttf-fantasque-sans-mono` |
+| Ubuntu       | `fonts-fantasque-sans`    |
