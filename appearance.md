@@ -24,6 +24,13 @@ fc-list
 | Arch Linux   | `ttf-ibm-plex`   |
 | Ubuntu       | `fonts-ibm-plex` |
 
+[Inter](https://github.com/rsms/inter)
+
+| Distribution | Package       |
+| ------------ | ------------- |
+| Arch Linux   | `inter-font`  |
+| Ubuntu       | `fonts-inter` |
+
 [Fira Code](https://github.com/tonsky/FiraCode)
 
 | Distribution | Package          |
@@ -33,9 +40,10 @@ fc-list
 
 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
-| Distribution | Package              |
-| ------------ | -------------------- |
-| Arch Linux   | `ttf-jetbrains-mono` |
+| Distribution | Package                |
+| ------------ | ---------------------- |
+| Arch Linux   | `ttf-jetbrains-mono`   |
+| Ubuntu       | `fonts-jetbrains-mono` |
 
 [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
