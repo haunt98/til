@@ -217,6 +217,20 @@ Edit `/etc/hosts`:
 passwd
 ```
 
+#### Addition
+
+```sh
+# NetworkManager
+pacman -Syu networkmanager
+systemctl enable NetworkManager.service
+
+# Bluetooth
+systemctl enable bluetooth.service
+
+# Clock
+timedatectl set-ntp true
+```
+
 #### Boot loader
 
 [systemd-boot](Applications/System/systemd-boot.md)
@@ -272,15 +286,6 @@ pacman -Syu gnome-shell \
 
 # Login manager
 systemctl enable gdm.service
-
-# Network
-systemctl enable NetworkManager.service
-
-# Bluetooth
-systemctl enable bluetooth.service
-
-# Clock
-timedatectl set-ntp true
 ```
 
 ## [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
