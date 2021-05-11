@@ -276,15 +276,13 @@ pacman -Syu xorg-server
 
 ```sh
 pacman -Syu gnome-shell \
-	gdm \
-	networkmanager \
-	gnome-control-center \
-	gnome-terminal gnome-backgrounds gnome-screenshot \
-	gnome-system-monitor gnome-keyring \
+	gnome-control-center gnome-system-monitor \
+	gnome-terminal gnome-backgrounds gnome-screenshot gnome-keyring \
 	nautilus xdg-user-dirs-gtk file-roller \
 	evince eog gedit
 
 # Login manager
+pacman -Syu gdm
 systemctl enable gdm.service
 ```
 
