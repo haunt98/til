@@ -225,6 +225,7 @@ pacman -Syu networkmanager
 systemctl enable NetworkManager.service
 
 # Bluetooth
+pacman -Syu bluez
 systemctl enable bluetooth.service
 
 # Clock
