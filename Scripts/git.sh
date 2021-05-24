@@ -14,5 +14,5 @@ git config --global alias.sw switch
 
 # Misc
 git config --global pull.rebase true
-git config --global init.defaultBranch main
 git config --global fetch.prune true
+git config --global init.defaultBranch main
