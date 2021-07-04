@@ -1,6 +1,14 @@
 # [Instaloader](https://instaloader.github.io/)
 
-Should install Instaloader with Python venv.
+Should install Instaloader with Python venv:
+
+```sh
+# Activate venv
+python3 -m pip install instaloader
+
+# Run Instaloader
+python3 -m instaloader ...
+```
 
 Create `args.txt`, remember to change `username` with your real username:
 
@@ -10,38 +18,42 @@ Create `args.txt`, remember to change `username` with your real username:
 --no-video-thumbnails
 --no-captions
 --no-metadata-json
-```
-
-Want more custom? Add to `args.txt`.
-
-Downloading posts:
-
-```txt
 --fast-update
 ```
 
-Downloading only stories:
+Create `posts.txt`:
+
+```txt
+--dirname-pattern={target}/posts
+```
+
+Create `stories.txt`:
 
 ```txt
 --stories
 --no-posts
+--no-profile-pic
+--dirname-pattern={target}/stories
 ```
 
-Downloading only hightlights:
+Create `hightlights.txt`:
 
 ```txt
 --highlights
 --no-posts
+--no-profile-pic
+--dirname-pattern={target}/stories
 ```
 
-Filter posts:
+Create `targets.txt`
 
 ```txt
---post-filter="date_utc <= datetime(2020, 6, 30)"
+targetname1
+targetname2
 ```
 
-Finally run, remember to change `targetname1`, `targetname2`, ... to your target:
+Finally, example downloaing posts:
 
 ```sh
-instaloader +args.txt targetname1 targetname2
+instaloader +args.txt +posts.txt +targets.txt
 ```
