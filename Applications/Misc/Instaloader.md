@@ -42,7 +42,7 @@ Create `hightlights.txt`:
 --highlights
 --no-posts
 --no-profile-pic
---dirname-pattern={target}/stories
+--dirname-pattern={target}/highlights
 ```
 
 Create `targets.txt`
