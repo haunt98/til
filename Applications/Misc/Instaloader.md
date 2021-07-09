@@ -5,9 +5,6 @@ Should install Instaloader with Python venv:
 ```sh
 # Activate venv
 python3 -m pip install instaloader
-
-# Run Instaloader
-python3 -m instaloader ...
 ```
 
 Create `args.txt`, remember to change `username` with your real username:
@@ -21,28 +18,20 @@ Create `args.txt`, remember to change `username` with your real username:
 --fast-update
 ```
 
-Create `posts.txt`:
-
-```txt
---dirname-pattern={target}/posts
-```
-
-Create `stories.txt`:
+Download stories:
 
 ```txt
 --stories
 --no-posts
 --no-profile-pic
---dirname-pattern={target}/stories
 ```
 
-Create `hightlights.txt`:
+Download highlights:
 
 ```txt
 --highlights
 --no-posts
 --no-profile-pic
---dirname-pattern={target}/highlights
 ```
 
 Create `targets.txt`
@@ -52,8 +41,8 @@ targetname1
 targetname2
 ```
 
-Finally, example downloaing posts:
+Example how to run, remember to rename `???` to your actual filename config:
 
 ```sh
-instaloader +args.txt +posts.txt +targets.txt
+python3 -m instaloader +args.txt +??? +targets.txt
 ```
