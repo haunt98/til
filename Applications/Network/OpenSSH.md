@@ -39,7 +39,7 @@ ssh-keygen -R remote_host
 Generate key:
 
 ```sh
-ssh-keygen -t rsa -b 4096 -C "your@email.com"
+ssh-keygen -t ed25519 -C "your@email.com"
 ```
 
 Start `ssh-agent`:
@@ -51,8 +51,16 @@ eval "$(ssh-agent -s)"
 Add key:
 
 ```sh
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ed25519
 ```
+
+Copying public key to server:
+
+```sh
+ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server-address
+```
+
+#### ssh-add
 
 Confirm key has been added:
 
@@ -60,8 +68,8 @@ Confirm key has been added:
 ssh-add -l
 ```
 
-Copying public key to server:
+Delete all keys:
 
 ```sh
-ssh-copy-id -i ~/.ssh/id_rsa.pub user@server-address
+ssh-add -D
 ```
