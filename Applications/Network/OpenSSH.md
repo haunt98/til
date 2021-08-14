@@ -9,10 +9,10 @@ Edit `~/.ssh/config`:
 
 ```txt
 Host myserver
-    Hostname        server-address
-    User            user
-    Port            port
-    IdentityFile    /path/to/private/key
+    Hostname server-address
+    User user
+    Port port
+    IdentityFile /path/to/private/key
 ```
 
 Connect:
@@ -56,8 +56,16 @@ ssh-add ~/.ssh/id_ed25519
 
 Copying public key to server:
 
+Linux:
+
 ```sh
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server-address
+```
+
+Windows:
+
+```powershell
+cat ~/.ssh/id_ed25519.pub | ssh user@server-address "cat >> ~/.ssh/authorized_keys"
 ```
 
 #### ssh-add
