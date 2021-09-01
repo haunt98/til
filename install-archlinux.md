@@ -296,6 +296,7 @@ Uncomment in `/etc/pacman.conf`:
 ```txt
 # Misc options
 Color
+ParallelDownloads
 ```
 
 ## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
