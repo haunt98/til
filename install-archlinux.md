@@ -313,6 +313,8 @@ https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM
 
 https://wiki.archlinux.org/index.php/Silent_boot
 
+https://wiki.archlinux.org/title/Reflector
+
 ## In the end
 
 This guide is updated regularly I promise.
