@@ -53,6 +53,7 @@ UEFI/GPT layout:
 | `/mnt`      | `/dev/root_partition`                 | Root Partition                 |                |
 | `/mnt/var`  | `/dev/var_partition`                  | Var Partition                  | >= 12 GiB      |
 | `/mnt/home` | `/dev/home_partition`                 | Home Partition                 |                |
+| `/mnt/data` | `/dev/data_partition`                 | Data Partition                 |                |
 |             | `/dev/swap_partition`                 | Swap                           |                |
 
 BIOS/GPT layout:
@@ -63,6 +64,7 @@ BIOS/GPT layout:
 | `/mnt`      | `/dev/root_partition` | Root Partition      |                |
 | `/mnt/var`  | `/dev/var_partition`  | Var Partition       | >= 12 GiB      |
 | `/mnt/home` | `/dev/home_partition` | Home Partition      |                |
+| `/mnt/data` | `/dev/data_partition` | Data Partition      |                |
 |             | `/dev/swap_partition` | Swap                |                |
 
 Format:
@@ -85,6 +87,10 @@ mkfs.btrfs -L VAR /dev/var_partition
 # home
 mkfs.ext4 -L HOME /dev/home_partition
 mkfs.btrfs -L HOME /dev/home_partition
+
+# home
+mkfs.ext4 -L DATA /dev/data_partition
+mkfs.btrfs -L DATA /dev/data_partition
 
 # swap
 mkswap /dev/swap_partition
@@ -117,6 +123,12 @@ mkdir /mnt/home
 mount /dev/home_partition /mnt/home
 # btrfs
 mount -o compress=zstd /dev/home_partition /mnt/home
+
+# data
+mkdir /mnt/data
+mount /dev/data_partition /mnt/data
+# btrfs
+mount -o compress=zstd /dev/data_partition /mnt/data
 
 # swap
 swapon /dev/swap_partition
@@ -280,7 +292,7 @@ pacman -Syu gnome-shell \
 	gnome-control-center gnome-system-monitor \
 	gnome-terminal gnome-backgrounds gnome-screenshot gnome-keyring \
 	nautilus xdg-user-dirs-gtk file-roller \
-	evince eog gedit
+	evince eog
 
 # Login manager
 pacman -Syu gdm
