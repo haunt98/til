@@ -88,7 +88,7 @@ mkfs.btrfs -L VAR /dev/var_partition
 mkfs.ext4 -L HOME /dev/home_partition
 mkfs.btrfs -L HOME /dev/home_partition
 
-# home
+# data
 mkfs.ext4 -L DATA /dev/data_partition
 mkfs.btrfs -L DATA /dev/data_partition
 
