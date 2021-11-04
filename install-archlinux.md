@@ -51,10 +51,6 @@ UEFI/GPT layout:
 | `/mnt/efi`  | `/dev/efi_system_partition`           | EFI System Partition           | 512 MiB        |
 | `/mnt/boot` | `/dev/extended_boot_loader_partition` | Extended Boot Loader Partition | 1 GiB          |
 | `/mnt`      | `/dev/root_partition`                 | Root Partition                 |                |
-| `/mnt/var`  | `/dev/var_partition`                  | Var Partition                  | >= 12 GiB      |
-| `/mnt/home` | `/dev/home_partition`                 | Home Partition                 |                |
-| `/mnt/data` | `/dev/data_partition`                 | Data Partition                 |                |
-|             | `/dev/swap_partition`                 | Swap                           |                |
 
 BIOS/GPT layout:
 
@@ -62,10 +58,6 @@ BIOS/GPT layout:
 | ----------- | --------------------- | ------------------- | -------------- |
 |             |                       | BIOS boot partition | 1 MiB          |
 | `/mnt`      | `/dev/root_partition` | Root Partition      |                |
-| `/mnt/var`  | `/dev/var_partition`  | Var Partition       | >= 12 GiB      |
-| `/mnt/home` | `/dev/home_partition` | Home Partition      |                |
-| `/mnt/data` | `/dev/data_partition` | Data Partition      |                |
-|             | `/dev/swap_partition` | Swap                |                |
 
 Format:
 
@@ -79,21 +71,6 @@ mkfs.fat -F32 /dev/extended_boot_loader_partition
 # root
 mkfs.ext4 -L ROOT /dev/root_partition
 mkfs.btrfs -L ROOT /dev/root_partition
-
-# var
-mkfs.ext4 -L VAR /dev/var_partition
-mkfs.btrfs -L VAR /dev/var_partition
-
-# home
-mkfs.ext4 -L HOME /dev/home_partition
-mkfs.btrfs -L HOME /dev/home_partition
-
-# data
-mkfs.ext4 -L DATA /dev/data_partition
-mkfs.btrfs -L DATA /dev/data_partition
-
-# swap
-mkswap /dev/swap_partition
 ```
 
 Mount:
@@ -111,27 +88,6 @@ mount /dev/efi_system_partition /mnt/efi
 # boot
 mkdir /mnt/boot
 mount /dev/extended_boot_loader_partition /mnt/boot
-
-# var
-mkdir /mnt/var
-mount /dev/var_partition /mnt/var
-# btrfs
-mount -o compress=zstd /dev/var_partition /mnt/var
-
-# home
-mkdir /mnt/home
-mount /dev/home_partition /mnt/home
-# btrfs
-mount -o compress=zstd /dev/home_partition /mnt/home
-
-# data
-mkdir /mnt/data
-mount /dev/data_partition /mnt/data
-# btrfs
-mount -o compress=zstd /dev/data_partition /mnt/data
-
-# swap
-swapon /dev/swap_partition
 ```
 
 ### Installation
