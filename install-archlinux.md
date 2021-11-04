@@ -316,6 +316,8 @@ https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM
 
 https://wiki.archlinux.org/index.php/Silent_boot
 
+https://wiki.archlinux.org/title/Improving_performance#Watchdogs
+
 https://wiki.archlinux.org/title/Reflector
 
 https://wiki.archlinux.org/title/TLP
