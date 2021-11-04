@@ -215,14 +215,6 @@ Edit `/etc/hostname`:
 myhostname
 ```
 
-Edit `/etc/hosts`:
-
-```txt
-127.0.0.1 localhost
-::1 localhost
-127.0.1.1 myhostname.localdomain myhostname
-```
-
 #### Root password
 
 ```sh
@@ -337,6 +329,8 @@ https://wiki.archlinux.org/index.php/Solid_state_drive#Periodic_TRIM
 https://wiki.archlinux.org/index.php/Silent_boot
 
 https://wiki.archlinux.org/title/Reflector
+
+https://wiki.archlinux.org/title/TLP
 
 ## In the end
 
