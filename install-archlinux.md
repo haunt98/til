@@ -59,6 +59,19 @@ BIOS/GPT layout:
 |             |                       | BIOS boot partition | 1 MiB          |
 | `/mnt`      | `/dev/root_partition` | Root Partition      |                |
 
+LVM:
+
+```sh
+# Create physical volumes
+pvcreate /dev/sdaX
+
+# Create volume groups
+vgcreate RootGroup /dev/sdaX /dev/sdaY
+
+# Create logical volumes
+lvcreate -l +100%FREE RootGroup -n rootvol
+```
+
 Format:
 
 ```sh
@@ -70,7 +83,12 @@ mkfs.fat -F32 /dev/extended_boot_loader_partition
 
 # root
 mkfs.ext4 -L ROOT /dev/root_partition
+
+# root with btrfs
 mkfs.btrfs -L ROOT /dev/root_partition
+
+# root on lvm
+mkfs.ext4 /dev/RootGroup/rootvol
 ```
 
 Mount:
@@ -78,7 +96,8 @@ Mount:
 ```sh
 # root
 mount /dev/root_partition /mnt
-# btrfs
+
+# root with btrfs
 mount -o compress=zstd /dev/root_partition /mnt
 
 # efi
@@ -95,12 +114,6 @@ mount /dev/extended_boot_loader_partition /mnt/boot
 ```sh
 pacstrap /mnt base linux linux-firmware
 
-# LTS
-pacstrap /mnt linux-lts
-
-# Performance
-pacstrap /mnt linux-zen
-
 # AMD
 pacstrap /mnt amd-ucode
 
@@ -110,11 +123,11 @@ pacstrap /mnt intel-ucode
 # Btrfs
 pacstrap /mnt btrfs-progs
 
+# LVM
+pacstrap /mnt lvm2
+
 # Text editor
 pacstrap /mnt neovim
-
-# Development
-pacstrap /mnt base-devel
 ```
 
 ### Configure
@@ -124,10 +137,6 @@ pacstrap /mnt base-devel
 ```sh
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
-
-https://wiki.archlinux.org/index.php/Fstab#Automount_with_systemd
-
-https://wiki.archlinux.org/index.php/Btrfs#Compression
 
 #### Chroot
 
@@ -169,6 +178,19 @@ Edit `/etc/hostname`:
 
 ```txt
 myhostname
+```
+
+#### Initramfs
+
+Edit `/etc/mkinitcpio.conf`:
+
+```txt
+# https://wiki.archlinux.org/title/Install_Arch_Linux_on_LVM#Adding_mkinitcpio_hooks
+HOOKS=(base udev ... block lvm2 filesystems)
+```
+
+```sh
+mkinitcpio -P
 ```
 
 #### Root password

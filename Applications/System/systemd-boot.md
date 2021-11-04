@@ -29,12 +29,22 @@ Edit `/boot/loader/entries/archlinux.conf`:
 title Arch Linux
 linux /vmlinuz-linux
 
-# Using Intel
+# Intel
 initrd /intel-ucode.img
 
-# Using AMD
+# AMD
 initrd /amd-ucode.img
 
 initrd /initramfs-linux.img
+
+# Kernel parameters
+#
+# Acer Nitro AN515-45
+# https://wiki.archlinux.org/title/backlight#Kernel_command-line_options
+# acpi_backlight=vendor
+#
+# NVIDIA
+# https://wiki.archlinux.org/title/NVIDIA#DRM_kernel_mode_setting
+# nvidia-drm.modeset=1
 options root="LABEL=ROOT" rw
 ```
