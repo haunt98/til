@@ -241,6 +241,10 @@ EDITOR=nvim visudo
 systemctl enable systemd-homed.service
 
 homectl create joker --real-name="The Joker" --member-of=wheel
+
+# Using zsh
+pacman -Syu zsh
+homectl update joker --shell=/usr/bin/zsh
 ```
 
 **Note**:
