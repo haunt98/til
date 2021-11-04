@@ -100,6 +100,9 @@ mount /dev/root_partition /mnt
 # root with btrfs
 mount -o compress=zstd /dev/root_partition /mnt
 
+# root on lvm
+mount /dev/RootGroup/rootvol /mnt
+
 # efi
 mkdir /mnt/efi
 mount /dev/efi_system_partition /mnt/efi
