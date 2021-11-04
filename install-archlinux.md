@@ -190,6 +190,9 @@ Edit `/etc/mkinitcpio.conf`:
 ```txt
 # https://wiki.archlinux.org/title/Install_Arch_Linux_on_LVM#Adding_mkinitcpio_hooks
 HOOKS=(base udev ... block lvm2 filesystems)
+
+# https://wiki.archlinux.org/title/mkinitcpio#Common_hooks
+# Replace udev with systemd
 ```
 
 ```sh
