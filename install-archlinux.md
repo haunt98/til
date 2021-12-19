@@ -239,6 +239,15 @@ pacman -Syu sudo
 
 EDITOR=nvim visudo
 # Uncomment group wheel
+
+# Add user if don't want to use systemd-homed
+useradd -m -G wheel -c "The Joker" joker
+
+# Or using zsh
+useradd -m -G wheel -s /usr/bin/zsh -c "The Joker" joker
+
+# Set password
+passwd joker
 ```
 
 [systemd-homed](https://wiki.archlinux.org/index.php/Systemd-homed):
@@ -249,7 +258,6 @@ systemctl enable systemd-homed.service
 homectl create joker --real-name="The Joker" --member-of=wheel
 
 # Using zsh
-pacman -Syu zsh
 homectl update joker --shell=/usr/bin/zsh
 ```
 
