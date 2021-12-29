@@ -328,8 +328,6 @@ https://wiki.archlinux.org/title/Improving_performance#Watchdogs
 
 https://wiki.archlinux.org/title/Reflector
 
-https://wiki.archlinux.org/title/TLP
-
 ## In the end
 
 This guide is updated regularly I promise.
