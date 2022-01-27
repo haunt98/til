@@ -6,7 +6,13 @@ Install using XBOOTLDR:
 bootctl --esp-path=/efi --boot-path=/boot install
 ```
 
-Update everytime systemd is updated:
+Automatic update:
+
+```sh
+systemctl enable systemd-boot-update.service
+```
+
+Manual update:
 
 ```sh
 bootctl --esp-path=/efi --boot-path=/boot update
