@@ -41,6 +41,13 @@ Set default branch to `main`:
 git config --global init.defaultBranch main
 ```
 
+Sign:
+
+```sh
+git config --global commit.gpgsign true
+git config --global tag.gpgSign true
+```
+
 ## Commands
 
 Prefer rebase when pull:
