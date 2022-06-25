@@ -5,6 +5,7 @@
 List fonts:
 
 ```sh
+# Linux
 fc-list
 ```
 
@@ -64,3 +65,7 @@ fc-list
 | ------------ | ------------------------- |
 | Arch Linux   | `ttf-fantasque-sans-mono` |
 | Ubuntu       | `fonts-fantasque-sans`    |
+
+[agave](https://github.com/blobject/agave)
+
+[APL385 Unicode](https://apl385.com/fonts/index.htm)
