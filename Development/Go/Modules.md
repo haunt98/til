@@ -22,28 +22,10 @@ go mod tidy
 go mod vendor
 ```
 
-Outside modules:
-
-```sh
-GOMODULE11=on go get example.com/foo/bar
-```
-
 Update go version:
 
 ```sh
 go mod edit -go=1.XY
-```
-
-Replace module path and version pair:
-
-```sh
-go mod edit -replace old[@v]=new[@v]
-```
-
-Drop replace module path:
-
-```sh
-go mod edit -dropreplace old[@v]
 ```
 
 In world of corporation, we work with private repository, add to `~/.bashrc`, `~/.zshrc`:
