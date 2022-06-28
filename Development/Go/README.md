@@ -1,5 +1,3 @@
-# [Go](https://golang.org/)
-
 | Distribution | Package          |
 | ------------ | ---------------- |
 | Arch Linux   | `go`, `go-tools` |
@@ -13,20 +11,19 @@ export PATH="$PATH:$GOPATH/bin"
 
 ## Guideline
 
+[Effective Go](https://go.dev/doc/effective_go)
+
 [CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes)
 
 [CodeReviewComments](https://github.com/golang/go/wiki/CodeReviewComments)
 
 [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md)
 
-[Thanos Coding Style Guide](https://thanos.io/contributing/coding-style-guide.md/)
+## Helpful libraries
 
-## Helpful
-
-[gomock](https://github.com/golang/mock)
-
-[goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports)
-
-[GolangCI-Lint](https://github.com/golangci/golangci-lint)
-
-[vim-go](https://github.com/fatih/vim-go)
+- https://github.com/matryer/moq
+- https://github.com/golang/mock
+- https://github.com/stretchr/testify
+- https://github.com/mvdan/gofumpt
+- https://github.com/golangci/golangci-lint
+- https://github.com/fatih/vim-go
