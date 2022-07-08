@@ -326,6 +326,8 @@ https://wiki.archlinux.org/index.php/Silent_boot
 
 https://wiki.archlinux.org/title/Improving_performance#Watchdogs
 
+https://wiki.archlinux.org/title/PRIME
+
 ## In the end
 
 This guide is updated regularly I promise.
