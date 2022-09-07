@@ -77,3 +77,11 @@ fc-list
 [Victor Mono](https://github.com/rubjo/victor-mono)
 
 [Martian Mono](https://github.com/evilmartians/mono)
+
+[Monocraft](https://github.com/IdreesInc/Monocraft)
+
+## Wallpapers
+
+[elementary Wallpapers](https://github.com/elementary/wallpapers)
+
+[System76](https://system76.com/merch/desktop-wallpapers)
