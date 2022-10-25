@@ -55,10 +55,6 @@ fc-list
 
 [Iosevka](https://github.com/be5invis/Iosevka)
 
-| Distribution | Package       |
-| ------------ | ------------- |
-| Arch Linux   | `ttc-iosevka` |
-
 [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
 
 | Distribution | Package                   |
@@ -70,6 +66,10 @@ fc-list
 
 [agave](https://github.com/blobject/agave)
 
+| Distribution | Package       |
+| ------------ | ------------- |
+| Ubuntu       | `fonts-agave` |
+
 [APL385 Unicode](https://apl385.com/fonts/index.htm)
 
 [Cozette](https://github.com/slavfox/Cozette)
@@ -78,7 +78,11 @@ fc-list
 
 [Martian Mono](https://github.com/evilmartians/mono)
 
-[Monocraft](https://github.com/IdreesInc/Monocraft)
+[mononoki](https://github.com/madmalik/mononoki)
+
+| Distribution | Package          |
+| ------------ | ---------------- |
+| Ubuntu       | `fonts-mononoki` |
 
 ## Wallpapers
 
