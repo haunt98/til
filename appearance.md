@@ -80,6 +80,8 @@ fc-list
 
 [mononoki](https://github.com/madmalik/mononoki)
 
+[Hermit](https://github.com/pcaro90/hermit)
+
 | Distribution | Package          |
 | ------------ | ---------------- |
 | Ubuntu       | `fonts-mononoki` |
