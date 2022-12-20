@@ -26,13 +26,7 @@ ls /sys/firmware/efi/efivars
 
 #### Connect to the internet
 
-Use [iwd](https://wiki.archlinux.org/index.php/Iwd).
-
-#### Update the system clock
-
-```sh
-timedatectl set-ntp true
-```
+For wifi, use [iwd](https://wiki.archlinux.org/index.php/Iwd).
 
 #### Partition the disks
 
@@ -104,33 +98,31 @@ mount -o compress=zstd /dev/root_partition /mnt
 mount /dev/RootGroup/rootvol /mnt
 
 # efi
-mkdir /mnt/efi
-mount /dev/efi_system_partition /mnt/efi
+mount --mkdir /dev/efi_system_partition /mnt/efi
 
 # boot
-mkdir /mnt/boot
-mount /dev/extended_boot_loader_partition /mnt/boot
+mount --mkdir /dev/extended_boot_loader_partition /mnt/boot
 ```
 
 ### Installation
 
 ```sh
-pacstrap /mnt base linux linux-firmware
+pacstrap -K /mnt base linux linux-firmware
 
 # AMD
-pacstrap /mnt amd-ucode
+pacstrap -K /mnt amd-ucode
 
 # Intel
-pacstrap /mnt intel-ucode
+pacstrap -K /mnt intel-ucode
 
 # Btrfs
-pacstrap /mnt btrfs-progs
+pacstrap -K /mnt btrfs-progs
 
 # LVM
-pacstrap /mnt lvm2
+pacstrap -K /mnt lvm2
 
 # Text editor
-pacstrap /mnt neovim
+pacstrap -K /mnt neovim
 ```
 
 ### Configure
@@ -188,6 +180,7 @@ myhostname
 Edit `/etc/mkinitcpio.conf`:
 
 ```txt
+# LVM
 # https://wiki.archlinux.org/title/Install_Arch_Linux_on_LVM#Adding_mkinitcpio_hooks
 HOOKS=(base udev ... block lvm2 filesystems)
 
@@ -250,7 +243,7 @@ useradd -m -G wheel -s /usr/bin/zsh -c "The Joker" joker
 passwd joker
 ```
 
-[systemd-homed](https://wiki.archlinux.org/index.php/Systemd-homed):
+[systemd-homed (WIP)](https://wiki.archlinux.org/index.php/Systemd-homed):
 
 ```sh
 systemctl enable systemd-homed.service
@@ -278,16 +271,16 @@ pacman -Syu xorg-server
 ```sh
 pacman -Syu gnome-shell \
 	gnome-control-center gnome-system-monitor \
-	gnome-terminal gnome-backgrounds gnome-screenshot gnome-keyring \
-	nautilus xdg-user-dirs-gtk file-roller \
-	evince eog
+	gnome-tweaks gnome-backgrounds gnome-screenshot gnome-keyring gnome-logs \
+	gnome-console gnome-text-editor \
+	nautilus xdg-user-dirs-gtk file-roller evince eog
 
 # Login manager
 pacman -Syu gdm
 systemctl enable gdm.service
 ```
 
-#### [KDE](https://wiki.archlinux.org/title/KDE)
+#### [KDE (WIP)](https://wiki.archlinux.org/title/KDE)
 
 ```sh
 pacman -Syu plasma-meta \
