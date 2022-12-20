@@ -303,6 +303,20 @@ Color
 ParallelDownloads
 ```
 
+### [Pipewire (WIP)](https://wiki.archlinux.org/title/PipeWire)
+
+```sh
+pacman -Syu pipewire wireplumber \
+	pipewire-alsa pipewire-pulse \
+	gst-plugin-pipewire pipewire-v4l2
+```
+
+### [Flatpak (WIP)](https://wiki.archlinux.org/title/Flatpak)
+
+```sh
+pacman -Syu flatpak
+```
+
 ## [Improving performance](https://wiki.archlinux.org/index.php/improving_performance)
 
 https://wiki.archlinux.org/index.php/swap#Swap_file
