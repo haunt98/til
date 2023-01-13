@@ -86,8 +86,12 @@ fc-list
 | ------------ | ---------------- |
 | Ubuntu       | `fonts-mononoki` |
 
+[Input](https://input.djr.com/)
+
 ## Wallpapers
 
 [elementary Wallpapers](https://github.com/elementary/wallpapers)
 
 [System76](https://system76.com/merch/desktop-wallpapers)
+
+[Fedora](https://github.com/fedoradesign/backgrounds)
