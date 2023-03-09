@@ -80,13 +80,17 @@ fc-list
 
 [mononoki](https://github.com/madmalik/mononoki)
 
-[Hermit](https://github.com/pcaro90/hermit)
-
 | Distribution | Package          |
 | ------------ | ---------------- |
 | Ubuntu       | `fonts-mononoki` |
 
+[Hermit](https://github.com/pcaro90/hermit)
+
+[JuliaMono](https://github.com/cormullion/juliamono)
+
 [Input](https://input.djr.com/)
+
+[Monoid](https://github.com/larsenwork/monoid)
 
 ## Wallpapers
 
